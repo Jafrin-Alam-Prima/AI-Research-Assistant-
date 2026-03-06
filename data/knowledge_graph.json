@@ -1,0 +1,5667 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "node_type": "paper",
+      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
+      "year": 2023,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2306.14753v1"
+    },
+    {
+      "node_type": "topic",
+      "name": "neural",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_0eb79c26"
+    },
+    {
+      "node_type": "topic",
+      "name": "danns",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_292c5e2e"
+    },
+    {
+      "node_type": "topic",
+      "name": "dann",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_10e7b30d"
+    },
+    {
+      "node_type": "topic",
+      "name": "chaos",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_e9228983"
+    },
+    {
+      "node_type": "topic",
+      "name": "polynomial",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_89693d33"
+    },
+    {
+      "node_type": "topic",
+      "name": "learning",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_25a9ac40"
+    },
+    {
+      "node_type": "topic",
+      "name": "deep",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_6627415e"
+    },
+    {
+      "node_type": "topic",
+      "name": "multi",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ea8f243d"
+    },
+    {
+      "node_type": "topic",
+      "name": "signal",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_521345a9"
+    },
+    {
+      "node_type": "topic",
+      "name": "node",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_36c45369"
+    },
+    {
+      "node_type": "topic",
+      "name": "neural signal",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_c321e833"
+    },
+    {
+      "node_type": "topic",
+      "name": "polynomial chaos",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_8e99ef86"
+    },
+    {
+      "node_type": "topic",
+      "name": "neural signals",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_3b49e4bb"
+    },
+    {
+      "node_type": "topic",
+      "name": "approaches based",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_7bdf9814"
+    },
+    {
+      "node_type": "topic",
+      "name": "neural networks",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_7c191876"
+    },
+    {
+      "node_type": "author",
+      "name": "Sergey Oladyshkin",
+      "id": "author_aa49878b"
+    },
+    {
+      "node_type": "author",
+      "name": "Timothy Praditia",
+      "id": "author_b3310e05"
+    },
+    {
+      "node_type": "author",
+      "name": "Ilja Kr\u00f6ker",
+      "id": "author_aa0c9b79"
+    },
+    {
+      "node_type": "author",
+      "name": "Farid Mohammadi",
+      "id": "author_6716b691"
+    },
+    {
+      "node_type": "author",
+      "name": "Wolfgang Nowak",
+      "id": "author_98af1f64"
+    },
+    {
+      "node_type": "author",
+      "name": "Sebastian Otte",
+      "id": "author_b8011429"
+    },
+    {
+      "node_type": "paper",
+      "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
+      "year": 2023,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2307.05639v2"
+    },
+    {
+      "node_type": "topic",
+      "name": "model",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_20f35e63"
+    },
+    {
+      "node_type": "topic",
+      "name": "performance",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_c05f6c23"
+    },
+    {
+      "node_type": "topic",
+      "name": "interpretable",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_3cf2521e"
+    },
+    {
+      "node_type": "topic",
+      "name": "machine",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_14754f13"
+    },
+    {
+      "node_type": "topic",
+      "name": "precision",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_e2794d8f"
+    },
+    {
+      "node_type": "topic",
+      "name": "matrix",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_21b72c0b"
+    },
+    {
+      "node_type": "topic",
+      "name": "eigenvectors",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ac71a34d"
+    },
+    {
+      "node_type": "topic",
+      "name": "applications",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_b5fba9ff"
+    },
+    {
+      "node_type": "topic",
+      "name": "input",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_a43c1b0a"
+    },
+    {
+      "node_type": "topic",
+      "name": "machine learning",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_e04d1bce"
+    },
+    {
+      "node_type": "topic",
+      "name": "precision matrix",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_54285f86"
+    },
+    {
+      "node_type": "topic",
+      "name": "feature selection",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_f7a79d84"
+    },
+    {
+      "node_type": "topic",
+      "name": "strong predictive",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_52bfed09"
+    },
+    {
+      "node_type": "topic",
+      "name": "predictive performance",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_9221014d"
+    },
+    {
+      "node_type": "method",
+      "name": "of the model",
+      "description": "",
+      "confidence": 0.75,
+      "id": "method_79435ad9"
+    },
+    {
+      "node_type": "method",
+      "name": "a modification of the radial basis function neural network",
+      "description": "",
+      "confidence": 0.75,
+      "id": "method_f02f33bc"
+    },
+    {
+      "node_type": "author",
+      "name": "Danny D'Agostino",
+      "id": "author_bec74062"
+    },
+    {
+      "node_type": "author",
+      "name": "Ilija Ilievski",
+      "id": "author_9c7e3a39"
+    },
+    {
+      "node_type": "author",
+      "name": "Christine Annette Shoemaker",
+      "id": "author_2e03b2b4"
+    },
+    {
+      "node_type": "paper",
+      "title": "Graph Neural Networks: A Review of Methods and Applications",
+      "year": 2018,
+      "citation_count": 6623,
+      "source": "semantic_scholar",
+      "venue": "AI Open",
+      "id": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693"
+    },
+    {
+      "node_type": "topic",
+      "name": "graph",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_f8b0b924"
+    },
+    {
+      "node_type": "topic",
+      "name": "network",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_91e02cd2"
+    },
+    {
+      "node_type": "topic",
+      "name": "networks",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_3e11ca22"
+    },
+    {
+      "node_type": "topic",
+      "name": "models",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ac5552fd"
+    },
+    {
+      "node_type": "topic",
+      "name": "tasks",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_2cb1ad4f"
+    },
+    {
+      "node_type": "topic",
+      "name": "require",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_f0ffd3b7"
+    },
+    {
+      "node_type": "topic",
+      "name": "data",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_8d777f38"
+    },
+    {
+      "node_type": "topic",
+      "name": "information",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_bb3ccd58"
+    },
+    {
+      "node_type": "topic",
+      "name": "graph neural",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_86a48934"
+    },
+    {
+      "node_type": "topic",
+      "name": "neural network",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_510bf928"
+    },
+    {
+      "node_type": "topic",
+      "name": "learning tasks",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_948e20f2"
+    },
+    {
+      "node_type": "topic",
+      "name": "tasks require",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_284ff368"
+    },
+    {
+      "node_type": "method",
+      "name": "attention network",
+      "description": "",
+      "confidence": 0.75,
+      "id": "method_00f3e67f"
+    },
+    {
+      "node_type": "method",
+      "name": "graph neural networks",
+      "description": "",
+      "confidence": 0.75,
+      "id": "method_ee5de883"
+    },
+    {
+      "node_type": "method",
+      "name": "graph neural network",
+      "description": "",
+      "confidence": 0.75,
+      "id": "method_05e56c60"
+    },
+    {
+      "node_type": "method",
+      "name": "gnns",
+      "description": "",
+      "confidence": 0.75,
+      "id": "method_fe21a3a5"
+    },
+    {
+      "node_type": "method",
+      "name": "convolutional network",
+      "description": "",
+      "confidence": 0.75,
+      "id": "method_b4c115a5"
+    },
+    {
+      "id": "0a69c8815536a657668e089e3281ff2e963d947a"
+    },
+    {
+      "id": "a7dbaa06dc6948847b44fde69cc1f53b00bea328"
+    },
+    {
+      "id": "f0bfcda65e04d481767dba40eade6c7001ee908d"
+    },
+    {
+      "id": "7d4dcee4628745f79f5e352859172817fece3e83"
+    },
+    {
+      "id": "df02209677b32692b90e4831d4e5c1c14c13cff8"
+    },
+    {
+      "id": "240f61bbf4cafebb305660c05cc11eb317506d3d"
+    },
+    {
+      "id": "04faf433934486c41d082e8d75ccfe5dc2f69fef"
+    },
+    {
+      "id": "91fb815361fdbf80ff15ce4d783a41846bd99232"
+    },
+    {
+      "id": "26e7c671b37a65f6680815ad4c1e093a2e5a253c"
+    },
+    {
+      "id": "1f3c381eedfe8914b81e93070bfdb00cf86ac943"
+    },
+    {
+      "id": "34b9e5c498bb1212c777c9ad183c439a6d71fde7"
+    },
+    {
+      "id": "83e89d56d0d0e1dfd8b52213e6cc2e191aaaf34b"
+    },
+    {
+      "id": "91b770234ed2ccc3cd25e2bf78c0948c0f2f98d6"
+    },
+    {
+      "id": "597bd2e45427563cdf025e53a3239006aa364cfc"
+    },
+    {
+      "id": "993377a3fc8334558463b82053904e3d684f29c0"
+    },
+    {
+      "id": "e58f17860450b51b3d74ef4e24545c2d9b81cda5"
+    },
+    {
+      "id": "3cf68c49d5745cdcbdefe6f637be0c407cbad019"
+    },
+    {
+      "id": "2decfdfa62ef86013219ee281c75f38158e8cf73"
+    },
+    {
+      "id": "0ca7d8c3250d43d14fdde46bf6fc299654d861ef"
+    },
+    {
+      "id": "c397fdc468eb878db233dc80bf65a35a5b87a80e"
+    },
+    {
+      "id": "3a5af4545ee3ac3f413841c10c7605a1cefeb9e5"
+    },
+    {
+      "id": "c7fd29fdd2e0b50a571db4f607eab138e9ecb644"
+    },
+    {
+      "id": "036d743c7ca1e513adf0a91594fc8111e03dc30c"
+    },
+    {
+      "id": "78542c2be9bb853a4e04642f2d315cfb0c6d94b3"
+    },
+    {
+      "id": "3db5fcb595492dcd64663c00d56f004dfafa689c"
+    },
+    {
+      "id": "9dccd22276aaad5b6ec24e68bb7d29d954226a54"
+    },
+    {
+      "id": "fc41d75288a81dd7e30087480f51821fc6572d95"
+    },
+    {
+      "id": "d474bf3cac3f3824778dbc494bd2e89f6f8e57dc"
+    },
+    {
+      "id": "aa63ac11aa9dcaa9edd4c88db18bec87e0834328"
+    },
+    {
+      "id": "74871ba4d804cc61a69d02555592569321640978"
+    },
+    {
+      "id": "9eda533cf0badf8dbed5c8240bb828b622328183"
+    },
+    {
+      "id": "28a49bea48fdd9e95d921ec2c25c7b17e196e2a5"
+    },
+    {
+      "id": "834fb308ca1a0177d303691d6003e3b0fded021e"
+    },
+    {
+      "id": "94194703e83b5447f519fd8bcbb903916e05aaf9"
+    },
+    {
+      "id": "fd075bcdf2d7e13d23f7c249a8eded343d5bbe3b"
+    },
+    {
+      "id": "4640af8e4b167fff1bf5c861df8268538570e792"
+    },
+    {
+      "id": "c2c27c1001b7cb320bf80ef3c71c4cf87b852334"
+    },
+    {
+      "id": "a4dee3178e89f8ad5cdbc0e41c2c5e35a7ae3220"
+    },
+    {
+      "id": "5f95f0834932d7046d061b854a3114cd3255200f"
+    },
+    {
+      "id": "2fb59ebe271d6b007bb0429c1701fd1004782d1b"
+    },
+    {
+      "id": "c22ecb56b1b3d54acb8793df1ae6a526cf621449"
+    },
+    {
+      "id": "64e87487a87532778352a358209935fef48300d7"
+    },
+    {
+      "id": "e3d662bbd0e5539fe22a85f3518f960595b9914e"
+    },
+    {
+      "id": "f5252075bb34666863cd01cc82c2d941d4ffe6c6"
+    },
+    {
+      "id": "c3715947bbbf648dcf29a1aa4b35cfb68044f919"
+    },
+    {
+      "id": "36cf500079b82e3adf4a3afe3356c1c03426bdcd"
+    },
+    {
+      "id": "15748c0437c3be2e464dfb6aa42d2ff5dbd5d7f7"
+    },
+    {
+      "id": "fc3e99ebc07b3014f6736a6a7b077edf2f1634c0"
+    },
+    {
+      "id": "7f42da4abfadf9d5a464affe22d0bd4bf21c0edb"
+    },
+    {
+      "id": "03097420a1c4b2500cec6f29740f9d3c2164168f"
+    },
+    {
+      "id": "012e01b18192c2b825aa62daf93a9a2340db710a"
+    },
+    {
+      "id": "789a7069d1a2d02d784e4821685b216cc63e6ec8"
+    },
+    {
+      "id": "54e6a214c9dca4ba6bb8c5d52e5b219c5ea50e12"
+    },
+    {
+      "id": "4ce9c20642dce5eb7930966053a1e3da4ef617f2"
+    },
+    {
+      "id": "44842bba66366522de782f537d9bc61d8868bf08"
+    },
+    {
+      "id": "6d54a70d06fcd2cc34f3d99163c5fc7194106027"
+    },
+    {
+      "id": "05c4eb154ad9512a69569c18d68bc4428ee8bb83"
+    },
+    {
+      "id": "df2ce576eca0b3db177c83bc6cf0f9fe2c7714f0"
+    },
+    {
+      "id": "5728919676a85553b3c3063626c220fe7a5634e4"
+    },
+    {
+      "id": "d52961a91f03061c6732a69e292bd1e403e7f8b8"
+    },
+    {
+      "id": "f1964cc1b343f907462cd7fbfaf88c2679d61f59"
+    },
+    {
+      "id": "eb70684b4878c2669e43609a01e66fd731948d4e"
+    },
+    {
+      "id": "c7fdb033ff15771e9bcea4336135eec171a595f3"
+    },
+    {
+      "id": "3b7d05fc6e1e0a622f9a8772f4557a166f811698"
+    },
+    {
+      "id": "8fb202cdcfec3b0e7ba0e3f88949d6d923b48b2d"
+    },
+    {
+      "id": "01cf1d83b7a4983001a50ec274043f53783ee94e"
+    },
+    {
+      "id": "a48bf0c4239c7db0d36bed98cd4f062f521fe01f"
+    },
+    {
+      "id": "ca2e484103e2a9a2dae2fd7dd0519a9324ae876d"
+    },
+    {
+      "id": "8ccbd4898fd7cecac6823e7caa15c74fca670fbe"
+    },
+    {
+      "id": "b85c74900ff716119f51852146de7a3d7d43230e"
+    },
+    {
+      "id": "ee8b1603c79a4f9c3bdc0d6633b595aa93ff3a0f"
+    },
+    {
+      "id": "9f91568d8ec72c417d9146a551b61e69ccf1f848"
+    },
+    {
+      "id": "4e7dd1e79f0f13650b2612325e6ba8d206dc04fb"
+    },
+    {
+      "id": "03ed44b85886a7a95d1533fb1d1a142e60ae292c"
+    },
+    {
+      "id": "00b7efbf14a54cced4b9f19e663b70ffbd01324b"
+    },
+    {
+      "id": "63a513832f56addb67be81a2fa399b233f3030fc"
+    },
+    {
+      "id": "798fb46c42578b1fce470161f86e07a7d1d389d7"
+    },
+    {
+      "id": "362e416c5f55b056a6c5930d55d8e3588efce9b9"
+    },
+    {
+      "id": "70f7cd54b5918aed60c3d8c3a8e4aa7e8d634c41"
+    },
+    {
+      "id": "7e71eedb078181873a56f2adcfef9dddaeb95602"
+    },
+    {
+      "id": "398d6f4432e6aa7acf21c0bbaaebac48998faad3"
+    },
+    {
+      "id": "b7a6b7adafd01e939c9266083dfba9edea88846c"
+    },
+    {
+      "id": "53bc1dd1dbfa61bcb5bba6fcaee3f2c2323a0f49"
+    },
+    {
+      "id": "8532da1509610d5770c01f5180ba8788d21f4745"
+    },
+    {
+      "id": "30b38ca8151bbd5a5ff45bce94297d1248ff58b5"
+    },
+    {
+      "id": "80d65eda89a4e5472f95e5a304604c80866d8748"
+    },
+    {
+      "id": "c2d40522eaa5523d67a0de5e4098e7031fdccb3d"
+    },
+    {
+      "id": "bf830a601432a6cbfd53b473a5ce80cebc9a5a42"
+    },
+    {
+      "id": "ad08da5951437c117551a63c2f8b943bee2029ce"
+    },
+    {
+      "id": "36011ae319059d9da156aa42f3f03391992bdda8"
+    },
+    {
+      "id": "d77c0e84972c256a8922b952b04330e369f65f09"
+    },
+    {
+      "id": "7751291fa0760de5548b58689e69e20b5005ebbd"
+    },
+    {
+      "id": "6ea57a2aea08ce0628c93f77bdc24c2f3e9cc6da"
+    },
+    {
+      "id": "62ed9bf1d83c8db1f9cbf92ea2f57ea90ef683d9"
+    },
+    {
+      "id": "6541afa4b4061a7d5c8387514bedea9dc249fd80"
+    },
+    {
+      "id": "ac225094aab9e7b629bc5b3343e026dea0200c70"
+    },
+    {
+      "id": "967a21a111757d6af7f7a25ca7ea2bdf6d505098"
+    },
+    {
+      "id": "4930de1aff4b1948157a15ac9cdb02364bee97bb"
+    },
+    {
+      "id": "510d98681e5e85fb1265513728f16e2543ae1b4b"
+    },
+    {
+      "id": "6f0637f44ac481905d732be7a2e15d8f699aeeb3"
+    },
+    {
+      "id": "340e8aaf9b83a29072b9485e7f99d4a9e80a574b"
+    },
+    {
+      "id": "6017e81c5ede6c38b306a3df9738aeb04baa7619"
+    },
+    {
+      "id": "49916b6b10a81eb4316161f9b18005080311da10"
+    },
+    {
+      "id": "68030c396dc2c02ffe1232f4cb177b9da93662d1"
+    },
+    {
+      "id": "50900bc8faf0e57b65c85dd3e9e95fe3f53623a3"
+    },
+    {
+      "id": "abfa95058fa50c55a0b923a6c35830f470c125ad"
+    },
+    {
+      "id": "730132a18b01ac56b17e4afc452cd00612b22799"
+    },
+    {
+      "id": "749c00144b6a005f0fbe3ee8cc07e0090a45f7b8"
+    },
+    {
+      "id": "4ce19e59b6c99b960df645d753fd29d2ccd9b7b4"
+    },
+    {
+      "id": "9801763d1acb87fd7e421adaa7ff7a00527c8d6c"
+    },
+    {
+      "id": "c8865b6184877fce2873a448d32c1bfd5ba685f2"
+    },
+    {
+      "id": "a79ee3eeb567a1758a081b6965013bca0de5acfc"
+    },
+    {
+      "id": "fe4f2e1d5fa6b634b039066307b756295dda580f"
+    },
+    {
+      "id": "cc23c580b7d8063415fb6eb512053d1079b849de"
+    },
+    {
+      "id": "d5aefe86b1ba8c773a6bd0e84812ace161b8c0db"
+    },
+    {
+      "id": "dbf125bfe07856a63d4aab612c0063fc8c7b6484"
+    },
+    {
+      "id": "e9e0f9477f0bafb5016d7af525515724e71509a0"
+    },
+    {
+      "id": "0132b27e3681ce910ae74643e33a53b74bd5f5c7"
+    },
+    {
+      "id": "c30862bbfcf7f37a7c2c8054a31d5044e2ba898a"
+    },
+    {
+      "id": "0ab4435cb34988c9a31aadf4546d1d475ba3c42e"
+    },
+    {
+      "id": "f11198dc277af1c5547ab3ae8d562fc8c16a7c70"
+    },
+    {
+      "id": "d18b48f77eb5c517a6d2c1fa434d2952a1b0a825"
+    },
+    {
+      "id": "5aea95e1ae78a66474051a330ded374e199b658c"
+    },
+    {
+      "id": "d9f836a2062864e4808e12224e2286a353498202"
+    },
+    {
+      "id": "6c96c2d4a3fbd572fef2d59cb856521ee1746789"
+    },
+    {
+      "id": "7f77058976e2fe75e98280371962c43d98c98321"
+    },
+    {
+      "id": "3a58efcc4558727cc5c131c44923635da4524f33"
+    },
+    {
+      "id": "4a18affba68096f53a8a884e4a9ebd34e65d305f"
+    },
+    {
+      "id": "43879cf527f4918955fd55128baa6745174d8555"
+    },
+    {
+      "id": "fd77bd8601a743a4705863010129345f1b15379f"
+    },
+    {
+      "id": "6ac33d3dcecbed17580509a34bccdff2425f7ed8"
+    },
+    {
+      "id": "def1049b5aae96c8e1eab0ca58d77ac9c2f0e3e9"
+    },
+    {
+      "id": "8f61c28cd63372e03e303714f3cb726ad79a6d62"
+    },
+    {
+      "id": "6c44f8e62d824bcda4f291c679a5518bbd4225f6"
+    },
+    {
+      "id": "b4812702a7c1c47e2af34d8752b2103505089fc2"
+    },
+    {
+      "id": "3e79a574d776c46bbe6d34f41b1e83b5d0f698f2"
+    },
+    {
+      "id": "d81fc968196e06ccafd7ea4c008b13e1cad1be64"
+    },
+    {
+      "id": "af0cf9da53bf3e1e6d349faed14cb68ad71aa2a4"
+    },
+    {
+      "id": "6411da05a0e6f3e38bcac0ce57c28038ff08081c"
+    },
+    {
+      "id": "4fbb6d1090bfdcf1535b4a4ba1f883f1e121704d"
+    },
+    {
+      "id": "a1a197449aeca81a39cb2213b41cef4831d6983e"
+    },
+    {
+      "id": "b075c4d8f0f5c89f4d48c42cd74dcff6c7fe6c50"
+    },
+    {
+      "id": "d0b66e82f9386c16c489fb5e4bb5fa01a2da754b"
+    },
+    {
+      "id": "57c36f13b188816051a27478e2f56bb284f4fb13"
+    },
+    {
+      "id": "eaf5b3a28606da5014d5c3d106b2fc4306933808"
+    },
+    {
+      "id": "ce4f001c1d8ddb9a95cf54e14240ef02c44bd329"
+    },
+    {
+      "id": "0a69a34408555a6fcdb0491e9bf82af8675876ae"
+    },
+    {
+      "id": "ff65e3bf34e892ef75d91c5e3d7294e0b64d867d"
+    },
+    {
+      "id": "c097be22f1e87a846385047346b73610d91fea4e"
+    },
+    {
+      "id": "2fed2886d6de407ce4883294058726fa591d3153"
+    },
+    {
+      "id": "dcd5b17b26c028b574cfcadd0d4e47b8d169ce5c"
+    },
+    {
+      "id": "e1cef464322243feb12ac3f81873c912e071a1a6"
+    },
+    {
+      "id": "83b44a37ddf121e660c873e207c2909b79f23469"
+    },
+    {
+      "id": "f32f16ca3c27ff945198c6551a5d35fae3b1a660"
+    },
+    {
+      "id": "249408527106d7595d45dd761dd53c83e5a02613"
+    },
+    {
+      "id": "fe257027193ea4a74fdab99d7509ce4002ad7de6"
+    },
+    {
+      "id": "046c4276b72e21731150c0655519ec717d8f5bad"
+    },
+    {
+      "id": "e156edf6d11dc19580c2e70940645fb107893817"
+    },
+    {
+      "id": "2503dff90685857ce7295e37d0045e2eef41c8b8"
+    },
+    {
+      "id": "e1799aaf23c12af6932dc0ef3dfb1638f01413d1"
+    },
+    {
+      "id": "efeaa6e3114d6d6ae5c3041b66ac9a9ae9bf52bf"
+    },
+    {
+      "id": "36652428740cd30d245d55889f01a7fb04a91c93"
+    },
+    {
+      "id": "51a2bc2e8fb8ed47a085df33dd965e57335080a0"
+    },
+    {
+      "id": "62a90fbb0dc2f4c2cb777aa43dce2ae872fede2c"
+    },
+    {
+      "id": "6a0aaefce8a27a8727d896fa444ba27558b2d381"
+    },
+    {
+      "id": "7a2e527b6d51071a54aac7a8bdb56ca735a1f78b"
+    },
+    {
+      "id": "ce840188f3395815201b7da49f9bb40d24fc046a"
+    },
+    {
+      "id": "8899094797e82c5c185a0893896320ef77f60e64"
+    },
+    {
+      "id": "34273979fd2a62fd7b49ee6d14a925864ff94e74"
+    },
+    {
+      "id": "17a8dd804ff254662cea2450c25dfa0bb7adceb2"
+    },
+    {
+      "id": "9eb4fde851c69a35c2010ecae9d529ae4c495626"
+    },
+    {
+      "id": "c751ab01aedc2888a7fe6e8b4f77ab1afa94072f"
+    },
+    {
+      "id": "572a1f77306e160c3893299c18f3ed862fb5f6d9"
+    },
+    {
+      "id": "e6ea85add58fb25448042edb9af16f0d955c17da"
+    },
+    {
+      "id": "5f1d429ba574581ac14effe3ebab654a57dc0e39"
+    },
+    {
+      "id": "33998aff64ce51df8dee45989cdca4b6b1329ec4"
+    },
+    {
+      "id": "a60c69c2fae27ebbb73c87f7f2a4765556bd7f9f"
+    },
+    {
+      "id": "4ebf5a9c35f40d3343a2376d0b75d8d7a3126d8d"
+    },
+    {
+      "id": "006906b6bbe5c1f378cde9fd86de1ce9e6b131da"
+    },
+    {
+      "id": "ecf6c42d84351f34e1625a6a2e4cc6526da45c74"
+    },
+    {
+      "id": "72edcb3788f9c141a3ed28e6d36f75ca4977d27e"
+    },
+    {
+      "id": "b7c4570d7d97f327e7f82fe28100172ec5e94cac"
+    },
+    {
+      "id": "9ba0186ed40656329c421f55ada7313293e13f17"
+    },
+    {
+      "id": "9697d32ed0a16da167f2bdba05ef96d0da066eb5"
+    },
+    {
+      "id": "5808f5285bc60a73bc240621ad0fce606867ebc1"
+    },
+    {
+      "id": "a625dee1fb23d1c842a961bc354c0aef3a20c132"
+    },
+    {
+      "id": "204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+    },
+    {
+      "id": "6b7d6e6416343b2a122f8416e69059ce919026ef"
+    },
+    {
+      "id": "414ab203d8fc3ecfbf40d004960d3a4774830b48"
+    },
+    {
+      "id": "007112213ece771be72cbecfd59f048209facabd"
+    },
+    {
+      "id": "44220ec088d4fa1e368c7f50ebf2074b2e48efef"
+    },
+    {
+      "id": "374b4409f6a1d2d853af31e329f025da239d375f"
+    },
+    {
+      "id": "8e137af544ad94feabf7bc3cc43c9980c6ed3d92"
+    },
+    {
+      "id": "2784000e1a3554374662f4d18cb5ad52f59c8de6"
+    },
+    {
+      "id": "1a39bb2caa151d15efd6718f3a80d9f4bff95af2"
+    },
+    {
+      "id": "0a5c8afbd905e286bf7a3abb09b71cb765660d25"
+    },
+    {
+      "id": "54b8aadb7c2576665ce26caf59464b6449ac9ccf"
+    },
+    {
+      "id": "1e819f533ef2bf5ca50a6b2008d96eaea2a2706e"
+    },
+    {
+      "id": "e24cdf73b3e7e590c2fe5ecac9ae8aa983801367"
+    },
+    {
+      "id": "cd8a9914d50b0ac63315872530274d158d6aff09"
+    },
+    {
+      "id": "c3a3c163f25b9181f1fb7e71a32482a7393d2088"
+    },
+    {
+      "id": "a456265138c088a894301c0433dae938705a9bec"
+    },
+    {
+      "id": "8919982c5f0b03249b16df09e376b5075da30007"
+    },
+    {
+      "id": "40f2560357d19e3b862a685c05cd5b48f3cb3961"
+    },
+    {
+      "id": "15f91ae7590b88c4a533daeefa4b6fa7c0c277e5"
+    },
+    {
+      "id": "79baf8cf6be6510f69be8c515516136138678cf5"
+    },
+    {
+      "id": "d997beefc0922d97202789d2ac307c55c2c52fba"
+    },
+    {
+      "id": "ae42c0cff384495683192b06bd985cdd7a54632a"
+    },
+    {
+      "id": "d7878c2044fb699e0ce0cad83e411824b1499dc8"
+    },
+    {
+      "id": "f09f7888aa5aeaf88a2a44aea768d9a8747e97d2"
+    },
+    {
+      "id": "0e779fd59353a7f1f5b559b9d65fa4bfe367890c"
+    },
+    {
+      "id": "54906484f42e871f7c47bbfe784a358b1448231f"
+    },
+    {
+      "id": "f958d4921951e394057a1c4ec33bad9a34e5dad1"
+    },
+    {
+      "id": "a1786540a4e15f0757e1b84a02f98ed436a969e0"
+    },
+    {
+      "id": "28f7cc049f3f4a4db81f0d0a608a4f57636cc35b"
+    },
+    {
+      "id": "c7d007ba376faddf0046930ea7375ed59600cee9"
+    },
+    {
+      "id": "97f7ef7a5332218e0e9ce75ad5cf77048466ca83"
+    },
+    {
+      "id": "36eff562f65125511b5dfab68ce7f7a943c27478"
+    },
+    {
+      "id": "5694e46284460a648fe29117cbc55f6c9be3fa3c"
+    },
+    {
+      "id": "d0b7c8828f0fca4dd901674e8fb5bd464a187664"
+    },
+    {
+      "id": "7dba53e72c182e25e98e8f73a99d75ff69dda0c2"
+    },
+    {
+      "id": "36ee2c8bd605afd48035d15fdc6b8c8842363376"
+    },
+    {
+      "id": "c41eb895616e453dcba1a70c9b942c5063cc656c"
+    },
+    {
+      "id": "50295c19e177480ba3599300de1ab837cc62b08c"
+    },
+    {
+      "id": "ba8d37f2e98d70f917d0d3a49c387cef6867e65e"
+    },
+    {
+      "id": "7c6de5a9e02a779e24504619050c6118f4eac181"
+    },
+    {
+      "id": "3d846cb01f6a975554035d2210b578ca61344b22"
+    },
+    {
+      "id": "3cea26512e9fd8bcb4081af44286d395004a5433"
+    },
+    {
+      "id": "322cf9bcde458a45eaeca989a1eec92f7c6db984"
+    },
+    {
+      "id": "77f0a39b8e02686fd85b01971f8feb7f60971f80"
+    },
+    {
+      "id": "561c3fa53d36405186da9cab02bd68635c3738aa"
+    },
+    {
+      "id": "1a37f07606d60df365d74752857e8ce909f700b3"
+    },
+    {
+      "id": "13fe71da009484f240c46f14d9330e932f8de210"
+    },
+    {
+      "id": "3899f87a2031f3434f89beb68c11a1ca6428328a"
+    },
+    {
+      "id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "id": "d01379ebb53c66a4ccf5f4959d904dcf9e161e41"
+    },
+    {
+      "id": "492f57ee9ceb61fb5a47ad7aebfec1121887a175"
+    },
+    {
+      "id": "44e1ee7a63a01a76371d7070c132361a5ddd54a0"
+    },
+    {
+      "id": "18b47b83a373f33d6b902a3615f42c10f7600d72"
+    },
+    {
+      "id": "5d1bfeed240709725c78bc72ea40e55410b373dc"
+    },
+    {
+      "id": "fce14c6aa64e888456256ac6796744683165a0ff"
+    },
+    {
+      "id": "e49ff72d420c8d72e62a9353e3abc053445e59bd"
+    },
+    {
+      "id": "9653d5c2c7844347343d073bbedd96e05d52f69b"
+    },
+    {
+      "id": "0834e74304b547c9354b6d7da6fa78ef47a48fa8"
+    },
+    {
+      "id": "32de44f01a96d4473d21099d15e25bc2b9f08e2f"
+    },
+    {
+      "id": "a743115795375666593919cbd48590213c229ae9"
+    },
+    {
+      "id": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5"
+    },
+    {
+      "id": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd"
+    },
+    {
+      "id": "0b544dfe355a5070b60986319a3f51fb45d1348e"
+    },
+    {
+      "id": "fff114cbba4f3ba900f33da574283e3de7f26c83"
+    },
+    {
+      "id": "5e925a9f1e20df61d1e860a7aa71894b35a1c186"
+    },
+    {
+      "id": "50d53cc562225549457cbc782546bfbe1ac6f0cf"
+    },
+    {
+      "id": "2582ab7c70c9e7fcb84545944eba8f3a7f253248"
+    },
+    {
+      "id": "f6b51c8753a871dc94ff32152c00c01e94f90f09"
+    },
+    {
+      "id": "abd1c342495432171beb7ca8fd9551ef13cbd0ff"
+    },
+    {
+      "id": "39e223e6b5a6f8727e9f60b8b7c7720dc40a5dbc"
+    },
+    {
+      "id": "e7af1047d643ca833a7561dea750ead7a336ff27"
+    },
+    {
+      "id": "3a758adba701dc81020e4d2858b1298044db71b5"
+    },
+    {
+      "id": "8e8152d46c8ff1070805096c214df7f389c57b80"
+    },
+    {
+      "id": "ec2b2569b3a0d70a5b45d48b041dec9060d85eb7"
+    },
+    {
+      "id": "bc6dff14a130c57a91d5a21339c23471faf1d46f"
+    },
+    {
+      "id": "f020b61789112fe7241b871907268f0bdc5c84fa"
+    },
+    {
+      "id": "34795caa356317f2c662bd4553cd7608e0aeb657"
+    },
+    {
+      "id": "0b7e7da8149733462998992aad3254abadd3c97c"
+    },
+    {
+      "id": "e12c07178f0dc2fcccee21c96ed26f142dc1e08f"
+    },
+    {
+      "id": "9c842b2926fd60b9e6ff80fee28c65e7c1ae5f1d"
+    },
+    {
+      "id": "443077eb859540108d3adb5f2fa42b394ddf2a06"
+    },
+    {
+      "id": "69da44a0c76e99aa1fbfe8fb501f5e68774d772a"
+    },
+    {
+      "id": "c2815f76c690ec2ca6523b1faacf9b6a401bdff1"
+    },
+    {
+      "id": "508fbfbfb09768c92d35e5fae10ce8fa7e8753d2"
+    },
+    {
+      "id": "46cb7584ba5838c67368fbb98748a662bd3b427e"
+    },
+    {
+      "id": "a5eb96540ef53b49eac2246d6b13635fe6e54451"
+    },
+    {
+      "id": "bfeaf424a2ea6ca4702d545c6e959e2caeb68e9b"
+    },
+    {
+      "id": "2e9d221c206e9503ceb452302d68d10e293f2a10"
+    },
+    {
+      "id": "3e33eca03933caaec671e20692e79d1acc9527e1"
+    },
+    {
+      "id": "75d82765de0900fed1a7a073415d8f7c625f79e8"
+    },
+    {
+      "id": "ef77a8b0db638c675d032bd05dc3a012a2899da4"
+    },
+    {
+      "node_type": "paper",
+      "title": "A Comprehensive Survey on Graph Neural Networks",
+      "year": 2019,
+      "citation_count": 10581,
+      "source": "semantic_scholar",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "id": "81a4fd3004df0eb05d6c1cef96ad33d5407820df"
+    },
+    {
+      "id": "df2b0e26d0599ce3e70df8a9da02e51594e0e992"
+    },
+    {
+      "id": "6a7c6e9feab24ccf51ee9e53cbc0b42b9b421a7d"
+    },
+    {
+      "id": "89b1766a77f7a34aadd67861123d5cf3cd3ece52"
+    },
+    {
+      "id": "233540909745db307bb1c0053788829976fb8d20"
+    },
+    {
+      "id": "89c650ccb646bdcce886e96e837db3767855c6d2"
+    },
+    {
+      "id": "c6339be44267b8b864b9fb8b35314ba6a1fc167c"
+    },
+    {
+      "id": "fdc708aaa0d18c791f878ff2214201410fa52439"
+    },
+    {
+      "id": "4f8d648c52edf74e41b0996128aa536e13cc7e82"
+    },
+    {
+      "id": "7e928ef936c2815d7522c5176163d6ab7309a8b7"
+    },
+    {
+      "id": "104c4017c200f434dc7ecfbef143b5f135497abc"
+    },
+    {
+      "id": "3efd851140aa28e95221b55fcc5659eea97b172d"
+    },
+    {
+      "id": "ba640c0682b242cb480bb4eb5b934ee6db949269"
+    },
+    {
+      "id": "8430c0b9afa478ae660398704b11dca1221ccf22"
+    },
+    {
+      "id": "ba39c4237646e49e3aa0b6549a61e7b0d94b83c4"
+    },
+    {
+      "id": "162d958ff885f1462aeda91cd72582323fd6a1f4"
+    },
+    {
+      "id": "c53acdacb1e4131a996b0deee882b345e835e23c"
+    },
+    {
+      "id": "97efafdb4a3942ab3efba53ded7413199f79c054"
+    },
+    {
+      "id": "73f36ff3a6d340606e09d2d0091da27a13af7a6f"
+    },
+    {
+      "node_type": "author",
+      "name": "Jie Zhou",
+      "id": "author_857839de"
+    },
+    {
+      "node_type": "author",
+      "name": "Ganqu Cui",
+      "id": "author_1ab852a9"
+    },
+    {
+      "node_type": "author",
+      "name": "Zhengyan Zhang",
+      "id": "author_f3919531"
+    },
+    {
+      "node_type": "author",
+      "name": "Cheng Yang",
+      "id": "author_c9921333"
+    },
+    {
+      "node_type": "author",
+      "name": "Zhiyuan Liu",
+      "id": "author_76bcc47b"
+    },
+    {
+      "node_type": "author",
+      "name": "Maosong Sun",
+      "id": "author_70ca992d"
+    },
+    {
+      "node_type": "topic",
+      "name": "gnns",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_fe21a3a5"
+    },
+    {
+      "node_type": "topic",
+      "name": "many",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_8cd283d8"
+    },
+    {
+      "node_type": "topic",
+      "name": "represented",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_9f4a576b"
+    },
+    {
+      "node_type": "topic",
+      "name": "euclidean",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_1edfa114"
+    },
+    {
+      "node_type": "topic",
+      "name": "deep learning",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_de0fe238"
+    },
+    {
+      "node_type": "topic",
+      "name": "graph data",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_5a3cd2a3"
+    },
+    {
+      "node_type": "topic",
+      "name": "revolutionized many",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_bb9c2e1f"
+    },
+    {
+      "node_type": "topic",
+      "name": "many machine",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_de4f9c9c"
+    },
+    {
+      "node_type": "dataset",
+      "name": "data",
+      "description": "",
+      "confidence": 0.7,
+      "id": "dataset_8d777f38"
+    },
+    {
+      "id": "40f8ec2b554c501d5044b3e83bd40bdb7e5a2d8a"
+    },
+    {
+      "id": "fae129338c0899576524506008427f64477d3967"
+    },
+    {
+      "id": "57e5f168536b536d3f2e84a8b5b7f9c112c90b43"
+    },
+    {
+      "id": "88b1f417c9581d9ddb8083e591c2310fb4e24796"
+    },
+    {
+      "id": "4a751d520534771593d359069f99d7c4621a861a"
+    },
+    {
+      "id": "e7f5929d261af9f525461c879a3a2827a838befd"
+    },
+    {
+      "id": "afbf13acbc28549ff57cdf0b89506785f494c346"
+    },
+    {
+      "id": "dfa2fe00291a69d5fe982a6d980f35a8e58b0de6"
+    },
+    {
+      "id": "a7b5b9eaf519d9374428a0aeb4b659615884718a"
+    },
+    {
+      "id": "1fad7fe0a7a90a8470a0688ad26bab6ceb8a85b7"
+    },
+    {
+      "id": "59d502851cd20f28af03eef1d15dc83d3a7bb300"
+    },
+    {
+      "id": "9fa3e53b5937a0ec92499ed415e339ede6c92010"
+    },
+    {
+      "id": "4d26762fe26da6e06919a3b66e0f29429867d9f0"
+    },
+    {
+      "id": "a5697fc927d15640954485ba2e7bb747a637405a"
+    },
+    {
+      "id": "acfe5b5c99be70fa3120d410e7be55b9fe299f40"
+    },
+    {
+      "id": "04ecc68f27f8adcd986cf86b89861d0766c3feb1"
+    },
+    {
+      "id": "a0a79f30fcd29a6e3094f03cdde4eac8c995ff80"
+    },
+    {
+      "id": "f421bc84f36028d2c1e31ae03ef9e6dc53841734"
+    },
+    {
+      "id": "1a8ee9382e79b92986f9d780a929fc2d2be2f47b"
+    },
+    {
+      "id": "46b5d408d950287637dd21ce04772d9b2bacfd14"
+    },
+    {
+      "id": "e4715a13f6364b1c81e64f247651c3d9e80b6808"
+    },
+    {
+      "id": "2afa9966c37b7747d954a4dcd61e986247783683"
+    },
+    {
+      "id": "839c4dd710ae7a234424aeda2f1423e0ce61bd5e"
+    },
+    {
+      "id": "7dd434b3799a6c8c346a1d7ee77d37980a4ef5b9"
+    },
+    {
+      "id": "d16fc73b803f8ba8d95ba2212a8fc77ea028e358"
+    },
+    {
+      "id": "8913c23081e46a41cc7ced3c2ff379d9cd7afcde"
+    },
+    {
+      "id": "127af6effc74f073ac2442f6d82c944f562e2c0f"
+    },
+    {
+      "id": "a73531abe4cafbccd5b3e949e84410a50016bd33"
+    },
+    {
+      "id": "f7b1453416d3d95af19ff465104e78968920354d"
+    },
+    {
+      "id": "49a5b5e65078eff512083d9de413d49a8aadc064"
+    },
+    {
+      "id": "15d739e2c184a6844bdbd9a2550d007de6ddb085"
+    },
+    {
+      "id": "b5007972c6f5a2294f83357c73e12664dd7c85b3"
+    },
+    {
+      "id": "ace1059fd85bbb8b41874a47a029bba7899124a5"
+    },
+    {
+      "id": "edf73ab12595c6709f646f542a0d2b33eb20a3f4"
+    },
+    {
+      "id": "222928303a72d1389b0add8032a31abccbba41b3"
+    },
+    {
+      "id": "835be507fd8a9203f1e16ce8427f91d4a2a5e9a1"
+    },
+    {
+      "id": "c29bd654bb198305934e3e2a721edecafbc003e9"
+    },
+    {
+      "id": "ec6d5e9f959aa2c10dff89faf97f1240610464b6"
+    },
+    {
+      "id": "2f85b7376769473d2bed56f855f115e23d727094"
+    },
+    {
+      "id": "34b73c1aa158b892bbe41705b4ae5bf01ecaea86"
+    },
+    {
+      "id": "6b1793ece5993523855ce67c646de408318d1b12"
+    },
+    {
+      "id": "ade1b1bfe2abefbcfe324499aa284db2b8fc50a6"
+    },
+    {
+      "id": "0cb9e3d02a4236ab003d07c81f65b1db8c865fb6"
+    },
+    {
+      "id": "edbc873a248768a626ef2bc57b3d1eff30de0e11"
+    },
+    {
+      "id": "88427d2143d4cff357c3b393ae7580a7b6e19940"
+    },
+    {
+      "id": "c6850869aa5e78a107c378d2e8bfa39633158c0c"
+    },
+    {
+      "id": "8ba7631515d5e7e0c451af1c4772507f41540a5e"
+    },
+    {
+      "id": "24b37f0e0187ee8492dc33cc8945e2793277ecde"
+    },
+    {
+      "id": "fcf6783fb749f9579f69fa56d0283e633fa5ffd8"
+    },
+    {
+      "id": "59849193ab596ee981f362e618a6f24b4d4289c3"
+    },
+    {
+      "id": "df943b8b6d6f19edd5f3d096a1cecfdf04394c54"
+    },
+    {
+      "id": "93499a7c7f699b6630a86fad964536f9423bb6d0"
+    },
+    {
+      "id": "f8e79ac0ea341056ef20f2616628b3e964764cfd"
+    },
+    {
+      "id": "424561d8585ff8ebce7d5d07de8dbf7aae5e7270"
+    },
+    {
+      "id": "fd6432fa2b032dd5f246d26460bf3353c43c257a"
+    },
+    {
+      "id": "cea967b59209c6be22829699f05b8b1ac4dc092d"
+    },
+    {
+      "id": "89655dc3c3a794cb25e055aed79424c66301d70f"
+    },
+    {
+      "id": "8e641ea510c06485f33a61ea65555cf791efad2d"
+    },
+    {
+      "id": "31868290adf1c000c611dfc966b514d5a34e8d23"
+    },
+    {
+      "id": "4dc1c7699b98cea7af2c457bb5647c497e7d0c03"
+    },
+    {
+      "id": "7e1874986cf6433fabf96fff93ef42b60bdc49f8"
+    },
+    {
+      "id": "9b44a53069dcf4dc10c34e456bf3a5ff160d3ede"
+    },
+    {
+      "id": "ddf0f2226cc837750eb1eb57c43d8192ef0fc2b3"
+    },
+    {
+      "id": "e2b7f37cd97a7907b1b8a41138721ed06a0b76cd"
+    },
+    {
+      "id": "a505e4c2bf30cd88afe483f7541409e2ba5ab3d4"
+    },
+    {
+      "id": "43d2ed5c3c55c1100450cd74dc1031afa24d37b2"
+    },
+    {
+      "id": "843959ffdccf31c6694d135fad07425924f785b1"
+    },
+    {
+      "id": "d6fe05d447c3a379b81c4760f10838a370054c8e"
+    },
+    {
+      "id": "23f0423ff5a986a695d629fa2ffc6e094d122416"
+    },
+    {
+      "id": "fe1363ba2097a2285ffe8592ac12666a0ad2d273"
+    },
+    {
+      "id": "a2b71865c63bde756a3a8a76f34c391236189942"
+    },
+    {
+      "id": "563e821bb5ea825efb56b77484f5287f08cf3753"
+    },
+    {
+      "id": "094fc15bc058b0d62a661a1460885a9490bdb1bd"
+    },
+    {
+      "id": "8be3f21ab796bd9811382b560507c1c679fae37f"
+    },
+    {
+      "id": "f22f6972e66bdd2e769fa64b0df0a13063c0c101"
+    },
+    {
+      "id": "6602985bd326d9996c68627b56ed389e2c90fd08"
+    },
+    {
+      "id": "014b026254474f47a4987294272d65d5186a8482"
+    },
+    {
+      "id": "c68796f833a7151f0a63d1d1608dc902b4fdc9b6"
+    },
+    {
+      "id": "583a2e12576ff99f3f4d3f2248420618b0f64489"
+    },
+    {
+      "id": "34fa051905349f584238a54c2cc10154c9256742"
+    },
+    {
+      "id": "b6b26564df790262abbe48fa18079d9610189b29"
+    },
+    {
+      "node_type": "author",
+      "name": "Zonghan Wu",
+      "id": "author_f7df2d47"
+    },
+    {
+      "node_type": "author",
+      "name": "Shirui Pan",
+      "id": "author_df003240"
+    },
+    {
+      "node_type": "author",
+      "name": "Fengwen Chen",
+      "id": "author_b3c48f57"
+    },
+    {
+      "node_type": "author",
+      "name": "Guodong Long",
+      "id": "author_2de3f216"
+    },
+    {
+      "node_type": "author",
+      "name": "Chengqi Zhang",
+      "id": "author_340cd4de"
+    },
+    {
+      "node_type": "author",
+      "name": "Philip S. Yu",
+      "id": "author_5bd82f12"
+    }
+  ],
+  "edges": [
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2306.14753v1",
+      "target": "topic_0eb79c26"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2306.14753v1",
+      "target": "topic_292c5e2e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2306.14753v1",
+      "target": "topic_10e7b30d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2306.14753v1",
+      "target": "topic_e9228983"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2306.14753v1",
+      "target": "topic_89693d33"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2306.14753v1",
+      "target": "topic_25a9ac40"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2306.14753v1",
+      "target": "topic_6627415e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2306.14753v1",
+      "target": "topic_ea8f243d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2306.14753v1",
+      "target": "topic_521345a9"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2306.14753v1",
+      "target": "topic_36c45369"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2306.14753v1",
+      "target": "topic_c321e833"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2306.14753v1",
+      "target": "topic_8e99ef86"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2306.14753v1",
+      "target": "topic_3b49e4bb"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2306.14753v1",
+      "target": "topic_7bdf9814"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2306.14753v1",
+      "target": "topic_7c191876"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2306.14753v1",
+      "target": "author_aa49878b"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2306.14753v1",
+      "target": "author_b3310e05"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2306.14753v1",
+      "target": "author_aa0c9b79"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2306.14753v1",
+      "target": "author_6716b691"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2306.14753v1",
+      "target": "author_98af1f64"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2306.14753v1",
+      "target": "author_b8011429"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2307.05639v2",
+      "target": "topic_20f35e63"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2307.05639v2",
+      "target": "topic_25a9ac40"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2307.05639v2",
+      "target": "topic_c05f6c23"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2307.05639v2",
+      "target": "topic_3cf2521e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2307.05639v2",
+      "target": "topic_14754f13"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2307.05639v2",
+      "target": "topic_e2794d8f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2307.05639v2",
+      "target": "topic_21b72c0b"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2307.05639v2",
+      "target": "topic_ac71a34d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2307.05639v2",
+      "target": "topic_b5fba9ff"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2307.05639v2",
+      "target": "topic_a43c1b0a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2307.05639v2",
+      "target": "topic_e04d1bce"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2307.05639v2",
+      "target": "topic_54285f86"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2307.05639v2",
+      "target": "topic_f7a79d84"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2307.05639v2",
+      "target": "topic_52bfed09"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2307.05639v2",
+      "target": "topic_9221014d"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "2307.05639v2",
+      "target": "method_79435ad9"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "2307.05639v2",
+      "target": "method_f02f33bc"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2307.05639v2",
+      "target": "author_bec74062"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2307.05639v2",
+      "target": "author_9c7e3a39"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2307.05639v2",
+      "target": "author_2e03b2b4"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_f8b0b924"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_0eb79c26"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_91e02cd2"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_25a9ac40"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_3e11ca22"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_ac5552fd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_2cb1ad4f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_f0ffd3b7"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_8d777f38"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_bb3ccd58"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_86a48934"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_7c191876"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_510bf928"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_948e20f2"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "topic_284ff368"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "method_00f3e67f"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "method_ee5de883"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "method_05e56c60"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "method_fe21a3a5"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "method_b4c115a5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "0a69c8815536a657668e089e3281ff2e963d947a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a7dbaa06dc6948847b44fde69cc1f53b00bea328"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "f0bfcda65e04d481767dba40eade6c7001ee908d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "7d4dcee4628745f79f5e352859172817fece3e83"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "df02209677b32692b90e4831d4e5c1c14c13cff8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "240f61bbf4cafebb305660c05cc11eb317506d3d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "04faf433934486c41d082e8d75ccfe5dc2f69fef"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "91fb815361fdbf80ff15ce4d783a41846bd99232"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "26e7c671b37a65f6680815ad4c1e093a2e5a253c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "1f3c381eedfe8914b81e93070bfdb00cf86ac943"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "34b9e5c498bb1212c777c9ad183c439a6d71fde7"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "83e89d56d0d0e1dfd8b52213e6cc2e191aaaf34b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "91b770234ed2ccc3cd25e2bf78c0948c0f2f98d6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "597bd2e45427563cdf025e53a3239006aa364cfc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "993377a3fc8334558463b82053904e3d684f29c0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e58f17860450b51b3d74ef4e24545c2d9b81cda5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3cf68c49d5745cdcbdefe6f637be0c407cbad019"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "2decfdfa62ef86013219ee281c75f38158e8cf73"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "0ca7d8c3250d43d14fdde46bf6fc299654d861ef"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c397fdc468eb878db233dc80bf65a35a5b87a80e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3a5af4545ee3ac3f413841c10c7605a1cefeb9e5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c7fd29fdd2e0b50a571db4f607eab138e9ecb644"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "036d743c7ca1e513adf0a91594fc8111e03dc30c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "78542c2be9bb853a4e04642f2d315cfb0c6d94b3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3db5fcb595492dcd64663c00d56f004dfafa689c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "9dccd22276aaad5b6ec24e68bb7d29d954226a54"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "fc41d75288a81dd7e30087480f51821fc6572d95"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d474bf3cac3f3824778dbc494bd2e89f6f8e57dc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "aa63ac11aa9dcaa9edd4c88db18bec87e0834328"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "74871ba4d804cc61a69d02555592569321640978"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "9eda533cf0badf8dbed5c8240bb828b622328183"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "28a49bea48fdd9e95d921ec2c25c7b17e196e2a5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "834fb308ca1a0177d303691d6003e3b0fded021e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "94194703e83b5447f519fd8bcbb903916e05aaf9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "fd075bcdf2d7e13d23f7c249a8eded343d5bbe3b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "4640af8e4b167fff1bf5c861df8268538570e792"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c2c27c1001b7cb320bf80ef3c71c4cf87b852334"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a4dee3178e89f8ad5cdbc0e41c2c5e35a7ae3220"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "5f95f0834932d7046d061b854a3114cd3255200f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "2fb59ebe271d6b007bb0429c1701fd1004782d1b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c22ecb56b1b3d54acb8793df1ae6a526cf621449"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "64e87487a87532778352a358209935fef48300d7"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e3d662bbd0e5539fe22a85f3518f960595b9914e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "f5252075bb34666863cd01cc82c2d941d4ffe6c6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c3715947bbbf648dcf29a1aa4b35cfb68044f919"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "36cf500079b82e3adf4a3afe3356c1c03426bdcd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "15748c0437c3be2e464dfb6aa42d2ff5dbd5d7f7"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "fc3e99ebc07b3014f6736a6a7b077edf2f1634c0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "7f42da4abfadf9d5a464affe22d0bd4bf21c0edb"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "03097420a1c4b2500cec6f29740f9d3c2164168f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "012e01b18192c2b825aa62daf93a9a2340db710a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "789a7069d1a2d02d784e4821685b216cc63e6ec8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "54e6a214c9dca4ba6bb8c5d52e5b219c5ea50e12"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "4ce9c20642dce5eb7930966053a1e3da4ef617f2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "44842bba66366522de782f537d9bc61d8868bf08"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6d54a70d06fcd2cc34f3d99163c5fc7194106027"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "05c4eb154ad9512a69569c18d68bc4428ee8bb83"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "df2ce576eca0b3db177c83bc6cf0f9fe2c7714f0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "5728919676a85553b3c3063626c220fe7a5634e4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d52961a91f03061c6732a69e292bd1e403e7f8b8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "f1964cc1b343f907462cd7fbfaf88c2679d61f59"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "eb70684b4878c2669e43609a01e66fd731948d4e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c7fdb033ff15771e9bcea4336135eec171a595f3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3b7d05fc6e1e0a622f9a8772f4557a166f811698"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "8fb202cdcfec3b0e7ba0e3f88949d6d923b48b2d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "01cf1d83b7a4983001a50ec274043f53783ee94e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a48bf0c4239c7db0d36bed98cd4f062f521fe01f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ca2e484103e2a9a2dae2fd7dd0519a9324ae876d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "8ccbd4898fd7cecac6823e7caa15c74fca670fbe"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "b85c74900ff716119f51852146de7a3d7d43230e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ee8b1603c79a4f9c3bdc0d6633b595aa93ff3a0f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "9f91568d8ec72c417d9146a551b61e69ccf1f848"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "4e7dd1e79f0f13650b2612325e6ba8d206dc04fb"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "03ed44b85886a7a95d1533fb1d1a142e60ae292c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "00b7efbf14a54cced4b9f19e663b70ffbd01324b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "63a513832f56addb67be81a2fa399b233f3030fc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "798fb46c42578b1fce470161f86e07a7d1d389d7"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "362e416c5f55b056a6c5930d55d8e3588efce9b9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "70f7cd54b5918aed60c3d8c3a8e4aa7e8d634c41"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "7e71eedb078181873a56f2adcfef9dddaeb95602"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "398d6f4432e6aa7acf21c0bbaaebac48998faad3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "b7a6b7adafd01e939c9266083dfba9edea88846c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "53bc1dd1dbfa61bcb5bba6fcaee3f2c2323a0f49"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "8532da1509610d5770c01f5180ba8788d21f4745"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "30b38ca8151bbd5a5ff45bce94297d1248ff58b5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "80d65eda89a4e5472f95e5a304604c80866d8748"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c2d40522eaa5523d67a0de5e4098e7031fdccb3d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "bf830a601432a6cbfd53b473a5ce80cebc9a5a42"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ad08da5951437c117551a63c2f8b943bee2029ce"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "36011ae319059d9da156aa42f3f03391992bdda8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d77c0e84972c256a8922b952b04330e369f65f09"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "7751291fa0760de5548b58689e69e20b5005ebbd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6ea57a2aea08ce0628c93f77bdc24c2f3e9cc6da"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "62ed9bf1d83c8db1f9cbf92ea2f57ea90ef683d9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6541afa4b4061a7d5c8387514bedea9dc249fd80"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ac225094aab9e7b629bc5b3343e026dea0200c70"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "967a21a111757d6af7f7a25ca7ea2bdf6d505098"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "4930de1aff4b1948157a15ac9cdb02364bee97bb"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "510d98681e5e85fb1265513728f16e2543ae1b4b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6f0637f44ac481905d732be7a2e15d8f699aeeb3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "340e8aaf9b83a29072b9485e7f99d4a9e80a574b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6017e81c5ede6c38b306a3df9738aeb04baa7619"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "49916b6b10a81eb4316161f9b18005080311da10"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "68030c396dc2c02ffe1232f4cb177b9da93662d1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "50900bc8faf0e57b65c85dd3e9e95fe3f53623a3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "abfa95058fa50c55a0b923a6c35830f470c125ad"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "730132a18b01ac56b17e4afc452cd00612b22799"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "749c00144b6a005f0fbe3ee8cc07e0090a45f7b8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "4ce19e59b6c99b960df645d753fd29d2ccd9b7b4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "9801763d1acb87fd7e421adaa7ff7a00527c8d6c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c8865b6184877fce2873a448d32c1bfd5ba685f2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a79ee3eeb567a1758a081b6965013bca0de5acfc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "fe4f2e1d5fa6b634b039066307b756295dda580f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "cc23c580b7d8063415fb6eb512053d1079b849de"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d5aefe86b1ba8c773a6bd0e84812ace161b8c0db"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "dbf125bfe07856a63d4aab612c0063fc8c7b6484"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e9e0f9477f0bafb5016d7af525515724e71509a0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "0132b27e3681ce910ae74643e33a53b74bd5f5c7"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c30862bbfcf7f37a7c2c8054a31d5044e2ba898a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "0ab4435cb34988c9a31aadf4546d1d475ba3c42e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "f11198dc277af1c5547ab3ae8d562fc8c16a7c70"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d18b48f77eb5c517a6d2c1fa434d2952a1b0a825"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "5aea95e1ae78a66474051a330ded374e199b658c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d9f836a2062864e4808e12224e2286a353498202"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6c96c2d4a3fbd572fef2d59cb856521ee1746789"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "7f77058976e2fe75e98280371962c43d98c98321"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3a58efcc4558727cc5c131c44923635da4524f33"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "4a18affba68096f53a8a884e4a9ebd34e65d305f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "43879cf527f4918955fd55128baa6745174d8555"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "fd77bd8601a743a4705863010129345f1b15379f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6ac33d3dcecbed17580509a34bccdff2425f7ed8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "def1049b5aae96c8e1eab0ca58d77ac9c2f0e3e9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "8f61c28cd63372e03e303714f3cb726ad79a6d62"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6c44f8e62d824bcda4f291c679a5518bbd4225f6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "b4812702a7c1c47e2af34d8752b2103505089fc2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3e79a574d776c46bbe6d34f41b1e83b5d0f698f2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d81fc968196e06ccafd7ea4c008b13e1cad1be64"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "af0cf9da53bf3e1e6d349faed14cb68ad71aa2a4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6411da05a0e6f3e38bcac0ce57c28038ff08081c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "4fbb6d1090bfdcf1535b4a4ba1f883f1e121704d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a1a197449aeca81a39cb2213b41cef4831d6983e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "b075c4d8f0f5c89f4d48c42cd74dcff6c7fe6c50"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d0b66e82f9386c16c489fb5e4bb5fa01a2da754b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "57c36f13b188816051a27478e2f56bb284f4fb13"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "eaf5b3a28606da5014d5c3d106b2fc4306933808"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ce4f001c1d8ddb9a95cf54e14240ef02c44bd329"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "0a69a34408555a6fcdb0491e9bf82af8675876ae"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ff65e3bf34e892ef75d91c5e3d7294e0b64d867d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c097be22f1e87a846385047346b73610d91fea4e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "2fed2886d6de407ce4883294058726fa591d3153"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "dcd5b17b26c028b574cfcadd0d4e47b8d169ce5c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e1cef464322243feb12ac3f81873c912e071a1a6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "83b44a37ddf121e660c873e207c2909b79f23469"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "f32f16ca3c27ff945198c6551a5d35fae3b1a660"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "249408527106d7595d45dd761dd53c83e5a02613"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "fe257027193ea4a74fdab99d7509ce4002ad7de6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "046c4276b72e21731150c0655519ec717d8f5bad"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e156edf6d11dc19580c2e70940645fb107893817"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "2503dff90685857ce7295e37d0045e2eef41c8b8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e1799aaf23c12af6932dc0ef3dfb1638f01413d1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "efeaa6e3114d6d6ae5c3041b66ac9a9ae9bf52bf"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "36652428740cd30d245d55889f01a7fb04a91c93"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "51a2bc2e8fb8ed47a085df33dd965e57335080a0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "62a90fbb0dc2f4c2cb777aa43dce2ae872fede2c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6a0aaefce8a27a8727d896fa444ba27558b2d381"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "7a2e527b6d51071a54aac7a8bdb56ca735a1f78b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ce840188f3395815201b7da49f9bb40d24fc046a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "8899094797e82c5c185a0893896320ef77f60e64"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "34273979fd2a62fd7b49ee6d14a925864ff94e74"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "17a8dd804ff254662cea2450c25dfa0bb7adceb2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "9eb4fde851c69a35c2010ecae9d529ae4c495626"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c751ab01aedc2888a7fe6e8b4f77ab1afa94072f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "572a1f77306e160c3893299c18f3ed862fb5f6d9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e6ea85add58fb25448042edb9af16f0d955c17da"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "5f1d429ba574581ac14effe3ebab654a57dc0e39"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "33998aff64ce51df8dee45989cdca4b6b1329ec4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a60c69c2fae27ebbb73c87f7f2a4765556bd7f9f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "4ebf5a9c35f40d3343a2376d0b75d8d7a3126d8d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "006906b6bbe5c1f378cde9fd86de1ce9e6b131da"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ecf6c42d84351f34e1625a6a2e4cc6526da45c74"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "72edcb3788f9c141a3ed28e6d36f75ca4977d27e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "b7c4570d7d97f327e7f82fe28100172ec5e94cac"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "9ba0186ed40656329c421f55ada7313293e13f17"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "9697d32ed0a16da167f2bdba05ef96d0da066eb5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "5808f5285bc60a73bc240621ad0fce606867ebc1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a625dee1fb23d1c842a961bc354c0aef3a20c132"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6b7d6e6416343b2a122f8416e69059ce919026ef"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "414ab203d8fc3ecfbf40d004960d3a4774830b48"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "007112213ece771be72cbecfd59f048209facabd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "44220ec088d4fa1e368c7f50ebf2074b2e48efef"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "374b4409f6a1d2d853af31e329f025da239d375f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "8e137af544ad94feabf7bc3cc43c9980c6ed3d92"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "2784000e1a3554374662f4d18cb5ad52f59c8de6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "1a39bb2caa151d15efd6718f3a80d9f4bff95af2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "0a5c8afbd905e286bf7a3abb09b71cb765660d25"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "54b8aadb7c2576665ce26caf59464b6449ac9ccf"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "1e819f533ef2bf5ca50a6b2008d96eaea2a2706e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e24cdf73b3e7e590c2fe5ecac9ae8aa983801367"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "cd8a9914d50b0ac63315872530274d158d6aff09"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c3a3c163f25b9181f1fb7e71a32482a7393d2088"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a456265138c088a894301c0433dae938705a9bec"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "8919982c5f0b03249b16df09e376b5075da30007"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "40f2560357d19e3b862a685c05cd5b48f3cb3961"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "15f91ae7590b88c4a533daeefa4b6fa7c0c277e5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "79baf8cf6be6510f69be8c515516136138678cf5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d997beefc0922d97202789d2ac307c55c2c52fba"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ae42c0cff384495683192b06bd985cdd7a54632a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d7878c2044fb699e0ce0cad83e411824b1499dc8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "f09f7888aa5aeaf88a2a44aea768d9a8747e97d2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "0e779fd59353a7f1f5b559b9d65fa4bfe367890c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "54906484f42e871f7c47bbfe784a358b1448231f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "f958d4921951e394057a1c4ec33bad9a34e5dad1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a1786540a4e15f0757e1b84a02f98ed436a969e0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "28f7cc049f3f4a4db81f0d0a608a4f57636cc35b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c7d007ba376faddf0046930ea7375ed59600cee9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "97f7ef7a5332218e0e9ce75ad5cf77048466ca83"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "36eff562f65125511b5dfab68ce7f7a943c27478"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "5694e46284460a648fe29117cbc55f6c9be3fa3c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d0b7c8828f0fca4dd901674e8fb5bd464a187664"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "7dba53e72c182e25e98e8f73a99d75ff69dda0c2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "36ee2c8bd605afd48035d15fdc6b8c8842363376"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c41eb895616e453dcba1a70c9b942c5063cc656c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "50295c19e177480ba3599300de1ab837cc62b08c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ba8d37f2e98d70f917d0d3a49c387cef6867e65e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "7c6de5a9e02a779e24504619050c6118f4eac181"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3d846cb01f6a975554035d2210b578ca61344b22"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3cea26512e9fd8bcb4081af44286d395004a5433"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "322cf9bcde458a45eaeca989a1eec92f7c6db984"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "77f0a39b8e02686fd85b01971f8feb7f60971f80"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "561c3fa53d36405186da9cab02bd68635c3738aa"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "1a37f07606d60df365d74752857e8ce909f700b3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "13fe71da009484f240c46f14d9330e932f8de210"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3899f87a2031f3434f89beb68c11a1ca6428328a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "d01379ebb53c66a4ccf5f4959d904dcf9e161e41"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "492f57ee9ceb61fb5a47ad7aebfec1121887a175"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "44e1ee7a63a01a76371d7070c132361a5ddd54a0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "18b47b83a373f33d6b902a3615f42c10f7600d72"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "5d1bfeed240709725c78bc72ea40e55410b373dc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "fce14c6aa64e888456256ac6796744683165a0ff"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e49ff72d420c8d72e62a9353e3abc053445e59bd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "9653d5c2c7844347343d073bbedd96e05d52f69b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "0834e74304b547c9354b6d7da6fa78ef47a48fa8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "32de44f01a96d4473d21099d15e25bc2b9f08e2f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a743115795375666593919cbd48590213c229ae9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "fa72afa9b2cbc8f0d7b05d52548906610ffbb9c5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "0b544dfe355a5070b60986319a3f51fb45d1348e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "fff114cbba4f3ba900f33da574283e3de7f26c83"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "5e925a9f1e20df61d1e860a7aa71894b35a1c186"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "50d53cc562225549457cbc782546bfbe1ac6f0cf"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "2582ab7c70c9e7fcb84545944eba8f3a7f253248"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "f6b51c8753a871dc94ff32152c00c01e94f90f09"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "abd1c342495432171beb7ca8fd9551ef13cbd0ff"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "39e223e6b5a6f8727e9f60b8b7c7720dc40a5dbc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e7af1047d643ca833a7561dea750ead7a336ff27"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3a758adba701dc81020e4d2858b1298044db71b5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "8e8152d46c8ff1070805096c214df7f389c57b80"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ec2b2569b3a0d70a5b45d48b041dec9060d85eb7"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "bc6dff14a130c57a91d5a21339c23471faf1d46f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "f020b61789112fe7241b871907268f0bdc5c84fa"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "34795caa356317f2c662bd4553cd7608e0aeb657"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "0b7e7da8149733462998992aad3254abadd3c97c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "e12c07178f0dc2fcccee21c96ed26f142dc1e08f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "9c842b2926fd60b9e6ff80fee28c65e7c1ae5f1d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "443077eb859540108d3adb5f2fa42b394ddf2a06"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "69da44a0c76e99aa1fbfe8fb501f5e68774d772a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c2815f76c690ec2ca6523b1faacf9b6a401bdff1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "508fbfbfb09768c92d35e5fae10ce8fa7e8753d2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "46cb7584ba5838c67368fbb98748a662bd3b427e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "a5eb96540ef53b49eac2246d6b13635fe6e54451"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "bfeaf424a2ea6ca4702d545c6e959e2caeb68e9b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "2e9d221c206e9503ceb452302d68d10e293f2a10"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3e33eca03933caaec671e20692e79d1acc9527e1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "75d82765de0900fed1a7a073415d8f7c625f79e8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ef77a8b0db638c675d032bd05dc3a012a2899da4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "81a4fd3004df0eb05d6c1cef96ad33d5407820df"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "df2b0e26d0599ce3e70df8a9da02e51594e0e992"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "6a7c6e9feab24ccf51ee9e53cbc0b42b9b421a7d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "89b1766a77f7a34aadd67861123d5cf3cd3ece52"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "233540909745db307bb1c0053788829976fb8d20"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "89c650ccb646bdcce886e96e837db3767855c6d2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c6339be44267b8b864b9fb8b35314ba6a1fc167c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "fdc708aaa0d18c791f878ff2214201410fa52439"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "4f8d648c52edf74e41b0996128aa536e13cc7e82"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "7e928ef936c2815d7522c5176163d6ab7309a8b7"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "104c4017c200f434dc7ecfbef143b5f135497abc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "3efd851140aa28e95221b55fcc5659eea97b172d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ba640c0682b242cb480bb4eb5b934ee6db949269"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "8430c0b9afa478ae660398704b11dca1221ccf22"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "ba39c4237646e49e3aa0b6549a61e7b0d94b83c4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "162d958ff885f1462aeda91cd72582323fd6a1f4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "c53acdacb1e4131a996b0deee882b345e835e23c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "97efafdb4a3942ab3efba53ded7413199f79c054"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2018,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "73f36ff3a6d340606e09d2d0091da27a13af7a6f"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "author_857839de"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "author_1ab852a9"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "author_f3919531"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "author_c9921333"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "author_76bcc47b"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "ea5dd6a3d8f210d05e53a7b6fa5e16f1b115f693",
+      "target": "author_70ca992d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_fe21a3a5"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_8d777f38"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_25a9ac40"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_f8b0b924"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_14754f13"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_6627415e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_8cd283d8"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_2cb1ad4f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_9f4a576b"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_1edfa114"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_e04d1bce"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_de0fe238"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_5a3cd2a3"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_bb9c2e1f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "topic_de4f9c9c"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "method_fe21a3a5"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "method_ee5de883"
+    },
+    {
+      "relation_type": "uses_dataset",
+      "weight": 0.7,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "dataset_8d777f38"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "3db5fcb595492dcd64663c00d56f004dfafa689c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "fd075bcdf2d7e13d23f7c249a8eded343d5bbe3b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "36cf500079b82e3adf4a3afe3356c1c03426bdcd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "40f8ec2b554c501d5044b3e83bd40bdb7e5a2d8a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "fae129338c0899576524506008427f64477d3967"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "05c4eb154ad9512a69569c18d68bc4428ee8bb83"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "57e5f168536b536d3f2e84a8b5b7f9c112c90b43"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ee8b1603c79a4f9c3bdc0d6633b595aa93ff3a0f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "88b1f417c9581d9ddb8083e591c2310fb4e24796"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "00b7efbf14a54cced4b9f19e663b70ffbd01324b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "4a751d520534771593d359069f99d7c4621a861a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "30b38ca8151bbd5a5ff45bce94297d1248ff58b5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "80d65eda89a4e5472f95e5a304604c80866d8748"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "c2d40522eaa5523d67a0de5e4098e7031fdccb3d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "e7f5929d261af9f525461c879a3a2827a838befd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "afbf13acbc28549ff57cdf0b89506785f494c346"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ad08da5951437c117551a63c2f8b943bee2029ce"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "36011ae319059d9da156aa42f3f03391992bdda8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "d77c0e84972c256a8922b952b04330e369f65f09"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "dfa2fe00291a69d5fe982a6d980f35a8e58b0de6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "62ed9bf1d83c8db1f9cbf92ea2f57ea90ef683d9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "967a21a111757d6af7f7a25ca7ea2bdf6d505098"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "6541afa4b4061a7d5c8387514bedea9dc249fd80"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "a7b5b9eaf519d9374428a0aeb4b659615884718a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "68030c396dc2c02ffe1232f4cb177b9da93662d1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "abfa95058fa50c55a0b923a6c35830f470c125ad"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "4ce19e59b6c99b960df645d753fd29d2ccd9b7b4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "c8865b6184877fce2873a448d32c1bfd5ba685f2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "9801763d1acb87fd7e421adaa7ff7a00527c8d6c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "a79ee3eeb567a1758a081b6965013bca0de5acfc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "1fad7fe0a7a90a8470a0688ad26bab6ceb8a85b7"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "cc23c580b7d8063415fb6eb512053d1079b849de"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "dbf125bfe07856a63d4aab612c0063fc8c7b6484"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "59d502851cd20f28af03eef1d15dc83d3a7bb300"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "d5aefe86b1ba8c773a6bd0e84812ace161b8c0db"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "e9e0f9477f0bafb5016d7af525515724e71509a0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "9fa3e53b5937a0ec92499ed415e339ede6c92010"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "0132b27e3681ce910ae74643e33a53b74bd5f5c7"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "4d26762fe26da6e06919a3b66e0f29429867d9f0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "a5697fc927d15640954485ba2e7bb747a637405a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "acfe5b5c99be70fa3120d410e7be55b9fe299f40"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "f11198dc277af1c5547ab3ae8d562fc8c16a7c70"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "d18b48f77eb5c517a6d2c1fa434d2952a1b0a825"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "04ecc68f27f8adcd986cf86b89861d0766c3feb1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "d9f836a2062864e4808e12224e2286a353498202"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "6c96c2d4a3fbd572fef2d59cb856521ee1746789"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "3a58efcc4558727cc5c131c44923635da4524f33"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "def1049b5aae96c8e1eab0ca58d77ac9c2f0e3e9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "a0a79f30fcd29a6e3094f03cdde4eac8c995ff80"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "f421bc84f36028d2c1e31ae03ef9e6dc53841734"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "1a8ee9382e79b92986f9d780a929fc2d2be2f47b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "6c44f8e62d824bcda4f291c679a5518bbd4225f6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "b4812702a7c1c47e2af34d8752b2103505089fc2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "d81fc968196e06ccafd7ea4c008b13e1cad1be64"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "af0cf9da53bf3e1e6d349faed14cb68ad71aa2a4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "6411da05a0e6f3e38bcac0ce57c28038ff08081c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "d0b66e82f9386c16c489fb5e4bb5fa01a2da754b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "46b5d408d950287637dd21ce04772d9b2bacfd14"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "57c36f13b188816051a27478e2f56bb284f4fb13"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "c097be22f1e87a846385047346b73610d91fea4e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "dcd5b17b26c028b574cfcadd0d4e47b8d169ce5c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "e4715a13f6364b1c81e64f247651c3d9e80b6808"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "2afa9966c37b7747d954a4dcd61e986247783683"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "839c4dd710ae7a234424aeda2f1423e0ce61bd5e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "83b44a37ddf121e660c873e207c2909b79f23469"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "f32f16ca3c27ff945198c6551a5d35fae3b1a660"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "7dd434b3799a6c8c346a1d7ee77d37980a4ef5b9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "d16fc73b803f8ba8d95ba2212a8fc77ea028e358"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "8913c23081e46a41cc7ced3c2ff379d9cd7afcde"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "127af6effc74f073ac2442f6d82c944f562e2c0f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "e156edf6d11dc19580c2e70940645fb107893817"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "2503dff90685857ce7295e37d0045e2eef41c8b8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "e1799aaf23c12af6932dc0ef3dfb1638f01413d1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "efeaa6e3114d6d6ae5c3041b66ac9a9ae9bf52bf"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "36652428740cd30d245d55889f01a7fb04a91c93"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "51a2bc2e8fb8ed47a085df33dd965e57335080a0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "62a90fbb0dc2f4c2cb777aa43dce2ae872fede2c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "7a2e527b6d51071a54aac7a8bdb56ca735a1f78b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "a73531abe4cafbccd5b3e949e84410a50016bd33"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ce840188f3395815201b7da49f9bb40d24fc046a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "f7b1453416d3d95af19ff465104e78968920354d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "c751ab01aedc2888a7fe6e8b4f77ab1afa94072f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "572a1f77306e160c3893299c18f3ed862fb5f6d9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "e6ea85add58fb25448042edb9af16f0d955c17da"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "5f1d429ba574581ac14effe3ebab654a57dc0e39"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "33998aff64ce51df8dee45989cdca4b6b1329ec4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "a60c69c2fae27ebbb73c87f7f2a4765556bd7f9f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "49a5b5e65078eff512083d9de413d49a8aadc064"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "4ebf5a9c35f40d3343a2376d0b75d8d7a3126d8d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "006906b6bbe5c1f378cde9fd86de1ce9e6b131da"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ecf6c42d84351f34e1625a6a2e4cc6526da45c74"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "72edcb3788f9c141a3ed28e6d36f75ca4977d27e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "b7c4570d7d97f327e7f82fe28100172ec5e94cac"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "9ba0186ed40656329c421f55ada7313293e13f17"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "204e3073870fae3d05bcbc2f6a8e263d9b72e776"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "6b7d6e6416343b2a122f8416e69059ce919026ef"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "15d739e2c184a6844bdbd9a2550d007de6ddb085"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "b5007972c6f5a2294f83357c73e12664dd7c85b3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "374b4409f6a1d2d853af31e329f025da239d375f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "2784000e1a3554374662f4d18cb5ad52f59c8de6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "1a39bb2caa151d15efd6718f3a80d9f4bff95af2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "e24cdf73b3e7e590c2fe5ecac9ae8aa983801367"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ace1059fd85bbb8b41874a47a029bba7899124a5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "edf73ab12595c6709f646f542a0d2b33eb20a3f4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "cd8a9914d50b0ac63315872530274d158d6aff09"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "c3a3c163f25b9181f1fb7e71a32482a7393d2088"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "222928303a72d1389b0add8032a31abccbba41b3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "835be507fd8a9203f1e16ce8427f91d4a2a5e9a1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "c29bd654bb198305934e3e2a721edecafbc003e9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ec6d5e9f959aa2c10dff89faf97f1240610464b6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "2f85b7376769473d2bed56f855f115e23d727094"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "34b73c1aa158b892bbe41705b4ae5bf01ecaea86"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "6b1793ece5993523855ce67c646de408318d1b12"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ade1b1bfe2abefbcfe324499aa284db2b8fc50a6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "f09f7888aa5aeaf88a2a44aea768d9a8747e97d2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "0e779fd59353a7f1f5b559b9d65fa4bfe367890c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "0cb9e3d02a4236ab003d07c81f65b1db8c865fb6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "54906484f42e871f7c47bbfe784a358b1448231f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "edbc873a248768a626ef2bc57b3d1eff30de0e11"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "88427d2143d4cff357c3b393ae7580a7b6e19940"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "28f7cc049f3f4a4db81f0d0a608a4f57636cc35b"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "c6850869aa5e78a107c378d2e8bfa39633158c0c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "97f7ef7a5332218e0e9ce75ad5cf77048466ca83"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "36eff562f65125511b5dfab68ce7f7a943c27478"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "d0b7c8828f0fca4dd901674e8fb5bd464a187664"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "8ba7631515d5e7e0c451af1c4772507f41540a5e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "c41eb895616e453dcba1a70c9b942c5063cc656c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ba8d37f2e98d70f917d0d3a49c387cef6867e65e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "7c6de5a9e02a779e24504619050c6118f4eac181"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "24b37f0e0187ee8492dc33cc8945e2793277ecde"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "561c3fa53d36405186da9cab02bd68635c3738aa"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "fcf6783fb749f9579f69fa56d0283e633fa5ffd8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "1a37f07606d60df365d74752857e8ce909f700b3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "d01379ebb53c66a4ccf5f4959d904dcf9e161e41"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "44e1ee7a63a01a76371d7070c132361a5ddd54a0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "492f57ee9ceb61fb5a47ad7aebfec1121887a175"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "18b47b83a373f33d6b902a3615f42c10f7600d72"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "59849193ab596ee981f362e618a6f24b4d4289c3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "5d1bfeed240709725c78bc72ea40e55410b373dc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "df943b8b6d6f19edd5f3d096a1cecfdf04394c54"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "93499a7c7f699b6630a86fad964536f9423bb6d0"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "e49ff72d420c8d72e62a9353e3abc053445e59bd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "f8e79ac0ea341056ef20f2616628b3e964764cfd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "424561d8585ff8ebce7d5d07de8dbf7aae5e7270"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "0834e74304b547c9354b6d7da6fa78ef47a48fa8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "fd6432fa2b032dd5f246d26460bf3353c43c257a"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "a743115795375666593919cbd48590213c229ae9"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "cea967b59209c6be22829699f05b8b1ac4dc092d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "89655dc3c3a794cb25e055aed79424c66301d70f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "8e641ea510c06485f33a61ea65555cf791efad2d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "0b544dfe355a5070b60986319a3f51fb45d1348e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "fff114cbba4f3ba900f33da574283e3de7f26c83"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "5e925a9f1e20df61d1e860a7aa71894b35a1c186"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "39e223e6b5a6f8727e9f60b8b7c7720dc40a5dbc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "31868290adf1c000c611dfc966b514d5a34e8d23"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "4dc1c7699b98cea7af2c457bb5647c497e7d0c03"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "7e1874986cf6433fabf96fff93ef42b60bdc49f8"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "9b44a53069dcf4dc10c34e456bf3a5ff160d3ede"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "3a758adba701dc81020e4d2858b1298044db71b5"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ddf0f2226cc837750eb1eb57c43d8192ef0fc2b3"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "e2b7f37cd97a7907b1b8a41138721ed06a0b76cd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "a505e4c2bf30cd88afe483f7541409e2ba5ab3d4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ec2b2569b3a0d70a5b45d48b041dec9060d85eb7"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "43d2ed5c3c55c1100450cd74dc1031afa24d37b2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "f020b61789112fe7241b871907268f0bdc5c84fa"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "843959ffdccf31c6694d135fad07425924f785b1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "d6fe05d447c3a379b81c4760f10838a370054c8e"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "34795caa356317f2c662bd4553cd7608e0aeb657"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "0b7e7da8149733462998992aad3254abadd3c97c"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "e12c07178f0dc2fcccee21c96ed26f142dc1e08f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "23f0423ff5a986a695d629fa2ffc6e094d122416"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "443077eb859540108d3adb5f2fa42b394ddf2a06"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "fe1363ba2097a2285ffe8592ac12666a0ad2d273"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "c2815f76c690ec2ca6523b1faacf9b6a401bdff1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "508fbfbfb09768c92d35e5fae10ce8fa7e8753d2"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "a2b71865c63bde756a3a8a76f34c391236189942"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "563e821bb5ea825efb56b77484f5287f08cf3753"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "2e9d221c206e9503ceb452302d68d10e293f2a10"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "094fc15bc058b0d62a661a1460885a9490bdb1bd"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "3e33eca03933caaec671e20692e79d1acc9527e1"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ef77a8b0db638c675d032bd05dc3a012a2899da4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "8be3f21ab796bd9811382b560507c1c679fae37f"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "f22f6972e66bdd2e769fa64b0df0a13063c0c101"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "6602985bd326d9996c68627b56ed389e2c90fd08"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "014b026254474f47a4987294272d65d5186a8482"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "c68796f833a7151f0a63d1d1608dc902b4fdc9b6"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "583a2e12576ff99f3f4d3f2248420618b0f64489"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "fdc708aaa0d18c791f878ff2214201410fa52439"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "34fa051905349f584238a54c2cc10154c9256742"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "3efd851140aa28e95221b55fcc5659eea97b172d"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "104c4017c200f434dc7ecfbef143b5f135497abc"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "b6b26564df790262abbe48fa18079d9610189b29"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ba640c0682b242cb480bb4eb5b934ee6db949269"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "ba39c4237646e49e3aa0b6549a61e7b0d94b83c4"
+    },
+    {
+      "relation_type": "cites",
+      "weight": 1.0,
+      "year": 2019,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "162d958ff885f1462aeda91cd72582323fd6a1f4"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "author_f7df2d47"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "author_df003240"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "author_b3c48f57"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "author_2de3f216"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "author_340cd4de"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "81a4fd3004df0eb05d6c1cef96ad33d5407820df",
+      "target": "author_5bd82f12"
+    }
+  ]
+}

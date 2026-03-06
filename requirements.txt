@@ -1,0 +1,40 @@
+# ResearchAI - Multi-Agent Research Assistant
+# All dependencies are free and open-source
+
+# === Core Framework ===
+langchain>=0.1.0
+langchain-community>=0.0.10
+
+# === NLP & AI (Free/Open Models) ===
+transformers>=4.36.0
+torch>=2.1.0
+sentence-transformers>=2.2.2       # all-MiniLM-L6-v2 for embeddings
+
+# === Vector Store ===
+chromadb>=0.4.22
+
+# === Knowledge Graph ===
+networkx>=3.2
+
+# === Paper Sources (Free APIs) ===
+arxiv>=2.1.0                        # arXiv API wrapper
+requests>=2.31.0                    # Semantic Scholar & PubMed REST
+beautifulsoup4>=4.12.0              # HTML parsing
+PyPDF2>=3.0.0                       # PDF text extraction
+
+# === Data Models ===
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# === Dashboard ===
+streamlit>=1.29.0
+plotly>=5.18.0
+pyvis>=0.3.2                        # Interactive graph visualization
+
+# === Database ===
+# sqlite3 is included in Python stdlib
+
+# === Testing ===
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
