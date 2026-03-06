@@ -1,6 +1,6 @@
 """
-ResearchAI - Interactive Dashboard
-Streamlit multi-page app for exploring research analysis results.
+ResearchAI - Premium AI Research Assistant
+Streamlit multi-page app redesigned for a modern, minimalistic SaaS aesthetic.
 """
 
 import sys
@@ -12,181 +12,214 @@ if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
 import streamlit as st
+from streamlit_extras.add_vertical_space import add_vertical_space
 
 # ── Page Configuration ───────────────────────────────────────────
 st.set_page_config(
-    page_title="ResearchAI - Multi-Agent Research Assistant",
-    page_icon="🔬",
+    page_title="ResearchAI | Autonomous Assistant",
+    page_icon="✨",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-# ── Custom CSS ───────────────────────────────────────────────────
+# ── Custom CSS for Premium Notion/Perplexity Aesthetic ──────────
 st.markdown("""
 <style>
-    /* Dark theme overrides with Animated Gradient Background */
+    /* Google Fonts Import */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+    /* Global Variables */
+    :root {
+        --bg-color: #0a0a0f;
+        --card-bg: rgba(255, 255, 255, 0.03);
+        --card-border: rgba(255, 255, 255, 0.08);
+        --accent: #5e6ad2;
+        --accent-glow: rgba(94, 106, 210, 0.4);
+        --text-primary: #ffffff;
+        --text-secondary: #9ca3af;
+    }
+
+    /* Core Layout & Font */
+    html, body, [class*="css"]  {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+        background-color: var(--bg-color) !important;
+        color: var(--text-primary) !important;
+    }
+
+    /* Animated Dynamic Gradient Background */
     @keyframes gradientBG {
         0% { background-position: 0% 50%; }
         50% { background-position: 100% 50%; }
         100% { background-position: 0% 50%; }
     }
-
+    
     .stApp {
-        background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #1a1a2e);
-        background-size: 400% 400%;
-        animation: gradientBG 15s ease infinite;
-        color: #ffffff !important;
+        background: radial-gradient(circle at 15% 50%, rgba(30, 20, 50, 0.8), transparent 30%),
+                    radial-gradient(circle at 85% 30%, rgba(20, 30, 60, 0.8), transparent 30%),
+                    #0a0a0f !important;
+        background-size: 200% 200%;
+        animation: gradientBG 20s ease infinite;
     }
 
-    /* Headings */
-    h1, h2, h3, h4, h5, h6, .stMarkdown p {
-        color: #ffffff !important;
-    }
-
-    /* Main Title Animation */
-    @keyframes pulseGlow {
-        0% { text-shadow: 0 0 10px rgba(102,126,234,0.5); }
-        50% { text-shadow: 0 0 20px rgba(118,75,162,0.8), 0 0 30px rgba(102,126,234,0.6); }
-        100% { text-shadow: 0 0 10px rgba(102,126,234,0.5); }
-    }
-
-    .main-header {
-        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-size: 3rem;
-        font-weight: 900;
-        margin-bottom: 0px;
-        animation: pulseGlow 3s infinite alternate;
-    }
-
-    .sub-header {
-        color: #e2e8f0 !important;
-        font-size: 1.2rem;
-        margin-top: -5px;
-        font-weight: 300;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-    }
-
-    /* Glassmorphism Cards with Hover Effects */
-    .metric-card, div[data-testid="stExpander"] {
-        background: rgba(20, 20, 40, 0.6) !important;
-        border: 1px solid rgba(255, 255, 255, 0.15) !important;
-        border-radius: 16px !important;
-        padding: 15px;
-        backdrop-filter: blur(12px);
-        -webkit-backdrop-filter: blur(12px);
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
-        transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
-    }
-    
-    div[data-testid="stExpander"]:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 12px 40px 0 rgba(102, 126, 234, 0.4);
-        border-color: rgba(255, 255, 255, 0.3) !important;
-    }
-
-    /* Fix Expander Text Visibility */
-    div[data-testid="stExpander"] p, div[data-testid="stExpander"] div, div[data-testid="stExpander"] span {
-        color: #f8fafc !important;
-    }
-
-    /* Metrics Visibility */
-    div[data-testid="stMetricValue"] {
-        color: #61dafb !important;
-        text-shadow: 0 0 10px rgba(97, 218, 251, 0.3);
-        font-weight: bold;
-    }
-    div[data-testid="stMetricLabel"] {
-        color: #cbd5e1 !important;
-        font-weight: 500;
-    }
-
-    /* Animated Badges */
-    .agent-badge {
-        display: inline-block;
-        padding: 6px 16px;
-        border-radius: 30px;
-        font-size: 0.85rem;
-        font-weight: 700;
-        margin: 4px;
-        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-        cursor: default;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        border: 1px solid rgba(255,255,255,0.1);
-    }
-    
-    .agent-badge:hover {
-        transform: scale(1.1) translateY(-2px);
-        filter: brightness(1.2);
-    }
-
-    .badge-retrieval { background: rgba(102, 126, 234, 0.25); color: #a3bffa; border-color: #667eea; box-shadow: 0 0 10px rgba(102, 126, 234, 0.4); }
-    .badge-extraction { background: rgba(118, 75, 162, 0.25); color: #d6bcfa; border-color: #764ba2; box-shadow: 0 0 10px rgba(118, 75, 162, 0.4); }
-    .badge-gap { background: rgba(236, 72, 153, 0.25); color: #fbcfe8; border-color: #ec4899; box-shadow: 0 0 10px rgba(236, 72, 153, 0.4); }
-    .badge-experiment { background: rgba(16, 185, 129, 0.25); color: #a7f3d0; border-color: #10b981; box-shadow: 0 0 10px rgba(16, 185, 129, 0.4); }
-    .badge-summary { background: rgba(245, 158, 11, 0.25); color: #fde68a; border-color: #f59e0b; box-shadow: 0 0 10px rgba(245, 158, 11, 0.4); }
-    .badge-trend { background: rgba(59, 130, 246, 0.25); color: #bfdbfe; border-color: #3b82f6; box-shadow: 0 0 10px rgba(59, 130, 246, 0.4); }
-
-    /* Elegant Sidebar */
-    div[data-testid="stSidebar"] {
-        background: rgba(15, 12, 41, 0.85) !important;
+    /* Glassmorphism Cards */
+    .glass-card {
+        background: var(--card-bg);
+        border: 1px solid var(--card-border);
+        border-radius: 16px;
+        padding: 24px;
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
-        border-right: 1px solid rgba(255,255,255,0.05);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+                    box-shadow 0.3s ease, border-color 0.3s ease;
+        margin-bottom: 20px;
+    }
+    .glass-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 40px var(--accent-glow);
+        border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    /* Typography */
+    .hero-title {
+        font-size: 4.5rem;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 1.1;
+        background: linear-gradient(135deg, #ffffff 0%, #a5b4fc 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 0.5rem;
+        text-align: center;
     }
     
-    /* Input Fields and Buttons */
-    .stTextInput > div > div > input, .stSelectbox > div > div > div {
-        background-color: rgba(30, 30, 50, 0.7) !important;
+    .hero-subtitle {
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: var(--text-secondary);
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto 3rem auto;
+        line-height: 1.6;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-bottom: 1px solid var(--card-border);
+        padding-bottom: 10px;
+    }
+
+    /* Inputs - Search Bar like Perplexity */
+    input[type="text"] {
+        background-color: rgba(255, 255, 255, 0.05) !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        border-radius: 12px !important;
         color: white !important;
-        border: 1px solid rgba(255,255,255,0.2) !important;
-        border-radius: 8px;
+        font-size: 1.1rem !important;
+        padding: 16px 20px !important;
+        transition: all 0.3s ease !important;
     }
-    .stTextInput > div > div > input:focus {
-        border-color: #667eea !important;
-        box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.5) !important;
+    input[type="text"]:focus {
+        background-color: rgba(255, 255, 255, 0.08) !important;
+        border-color: var(--accent) !important;
+        box-shadow: 0 0 0 4px var(--accent-glow) !important;
+    }
+
+    /* Primary Button Style */
+    div.stButton > button {
+        background: var(--accent) !important;
+        color: white !important;
+        border: none !important;
+        border-radius: 10px !important;
+        padding: 0.75rem 1.5rem !important;
+        font-weight: 600 !important;
+        letter-spacing: 0.5px !important;
+        transition: all 0.3s ease !important;
+        width: 100%;
+    }
+    div.stButton > button:hover {
+        background: #6b77e8 !important;
+        transform: translateY(-2px) !important;
+        box-shadow: 0 10px 25px var(--accent-glow) !important;
+    }
+
+    /* Sidebar Tweaks */
+    section[data-testid="stSidebar"] {
+        background-color: rgba(10, 10, 15, 0.8) !important;
+        backdrop-filter: blur(40px) !important;
+        border-right: 1px solid var(--card-border) !important;
+    }
+    .css-17lntkn {
+        color: var(--text-secondary);
     }
     
-    /* Buttons */
-    .stButton > button {
-        border-radius: 12px;
-        font-weight: bold;
-        transition: all 0.3s ease;
+    /* Expanders (used for papers/results) */
+    div[data-testid="stExpander"] {
+        background-color: rgba(255, 255, 255, 0.02) !important;
+        border: 1px solid var(--card-border) !important;
+        border-radius: 12px !important;
+        margin-bottom: 1rem !important;
+    }
+    div[data-testid="stExpander"] > summary {
+        background-color: transparent !important;
+        color: white !important;
+        font-weight: 600 !important;
+    }
+
+    /* Metric Containers */
+    div[data-testid="stMetricValue"] {
+        font-size: 2rem !important;
+        font-weight: 700 !important;
+        color: #ffffff !important;
+    }
+    div[data-testid="stMetricLabel"] {
+        font-size: 0.9rem !important;
+        color: var(--text-secondary) !important;
         text-transform: uppercase;
         letter-spacing: 1px;
     }
-    .stButton > button[data-baseweb="button"] {
-        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-        border: none;
-        color: white;
-        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    
+    /* Badges */
+    .status-badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        background: rgba(94, 106, 210, 0.15);
+        color: #a5b4fc;
+        border: 1px solid rgba(94, 106, 210, 0.3);
     }
-    .stButton > button[data-baseweb="button"]:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 8px 25px rgba(118, 75, 162, 0.6);
-        background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+    
+    /* Footer */
+    .footer {
+        text-align: center;
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+        margin-top: 5rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--card-border);
     }
-
+    
+    hr {
+        border-color: var(--card-border) !important;
+        margin: 2rem 0 !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
 
-# ── Sidebar Navigation ──────────────────────────────────────────
-st.sidebar.markdown("## 🔬 ResearchAI")
-st.sidebar.markdown("---")
+# ── Internal State & Logic ─────────────────────────────────────────
 
-page = st.sidebar.radio(
-    "Navigation",
-    ["🏠 Home", "📄 Paper Explorer", "🕸️ Knowledge Graph",
-     "🔍 Gap Analysis", "🧪 Experiment Lab", "📈 Trend Forecast"],
-    label_visibility="collapsed",
-)
-
-st.sidebar.markdown("---")
-st.sidebar.markdown("### System Status")
-
-# Initialize session state
 if "orchestrator" not in st.session_state:
     st.session_state.orchestrator = None
 if "results" not in st.session_state:
@@ -194,68 +227,87 @@ if "results" not in st.session_state:
 if "papers" not in st.session_state:
     st.session_state.papers = []
 
-# ── Helper: Load Orchestrator ────────────────────────────────────
 @st.cache_resource
 def get_orchestrator():
     from src.orchestrator.agent_orchestrator import AgentOrchestrator
     return AgentOrchestrator()
 
 
-# ── Page: Home ───────────────────────────────────────────────────
-if page == "🏠 Home":
-    st.markdown('<p class="main-header">ResearchAI</p>', unsafe_allow_html=True)
+# ── Sidebar Navigation ──────────────────────────────────────────
+with st.sidebar:
+    st.markdown("### ✨ AI Research Assistant")
+    add_vertical_space(2)
+    
+    page = st.radio(
+        "NAVIGATION",
+        ["🔍 Deep Search", "📖 Corpus Explorer", "🕸️ Knowledge Graph",
+         "🎯 Gap Analysis", "🧪 Hypotheses Lab", "🔮 Trend Matrix"],
+        label_visibility="collapsed",
+    )
+    
+    add_vertical_space(4)
+    st.markdown("<hr/>", unsafe_allow_html=True)
+    
+    orchestrator = get_orchestrator()
+    stats = orchestrator.get_graph_stats()
+    
+    st.markdown("#### 🧠 Brain Capacity")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.metric("Nodes", stats.get('total_nodes', 0))
+    with col2:
+        st.metric("Edges", stats.get('total_edges', 0))
+        
+    add_vertical_space(3)
+    st.caption("Powered by locally-orchestrated intelligent agents.")
+
+
+# ── Page Routing ─────────────────────────────────────────────────
+
+if page == "🔍 Deep Search":
+    # ── Hero Section ─────────────────────────────────────────────
+    add_vertical_space(3)
+    st.markdown('<div class="hero-title">AI Research Assistant</div>', unsafe_allow_html=True)
     st.markdown(
-        '<p class="sub-header">'
-        'Autonomous Multi-Agent Research Assistant with Trend Prediction'
-        '</p>',
+        '<div class="hero-subtitle">Enter a topic. Our autonomous agents will retrieve relevant papers, synthesize knowledge graphs, discover literature gaps, and forecast future trends.</div>',
         unsafe_allow_html=True,
     )
-    st.markdown("---")
-
-    # Agent showcase
-    st.markdown("### 🤖 Agent Pipeline")
-    cols = st.columns(6)
-    agents = [
-        ("📄", "Paper Retrieval", "badge-retrieval", "Fetch from arXiv, Semantic Scholar, PubMed"),
-        ("🧠", "Knowledge Extraction", "badge-extraction", "Extract entities, build knowledge graph"),
-        ("🔍", "Gap Detection", "badge-gap", "Find underexplored areas & contradictions"),
-        ("🧪", "Experiment Suggestion", "badge-experiment", "Propose experiments for gaps"),
-        ("📝", "Summarization", "badge-summary", "Summarize papers with BART-CNN"),
-        ("📈", "Trend Prediction", "badge-trend", "Predict emerging topics (5-10 years)"),
-    ]
-    for col, (icon, name, badge, desc) in zip(cols, agents):
-        with col:
-            st.markdown(f"#### {icon}")
-            st.markdown(f'<span class="agent-badge {badge}">{name}</span>', unsafe_allow_html=True)
-            st.caption(desc)
-
-    st.markdown("---")
-
-    # Quick Start
-    st.markdown("### 🚀 Quick Start")
-    query = st.text_input(
-        "Enter a research topic to analyze:",
-        placeholder="e.g., Graph Neural Networks for Social Networks",
-        key="home_query",
-    )
-
-    col1, col2, col3 = st.columns([2, 1, 1])
-    with col1:
-        max_papers = st.slider("Max papers to retrieve", 5, 50, 20)
+    
+    # ── Search Input (Centered Container) ────────────────────────
+    col1, col2, col3 = st.columns([1, 4, 1])
     with col2:
-        year_from = st.number_input("From year", 2015, 2025, 2019)
-    with col3:
-        year_to = st.number_input("To year", 2015, 2025, 2025)
+        query = st.text_input(
+            "Topic", 
+            placeholder="Ask anything... e.g., 'Advancements in Graph Neural Networks'", 
+            label_visibility="collapsed"
+        )
+        
+        # Advanced settings hidden in an expander
+        with st.expander("⚙️ Search Parameters"):
+            sc1, sc2, sc3 = st.columns(3)
+            with sc1:
+                max_papers = st.slider("Scope (Papers)", 5, 50, 15)
+            with sc2:
+                year_from = st.number_input("Since", 2010, 2026, 2020)
+            with sc3:
+                year_to = st.number_input("Until", 2010, 2026, 2026)
+        
+        add_vertical_space(1)
+        submit = st.button("Synthesize Knowledge ▸", use_container_width=True)
+        
+    add_vertical_space(2)
 
-    if st.button("🔬 Run Full Analysis Pipeline", type="primary", use_container_width=True):
+    # ── Execution Logic ──────────────────────────────────────────
+    if submit:
         if not query:
-            st.warning("Please enter a research topic.")
+            st.toast("Please enter a research topic first.", icon="⚠️")
         else:
-            orchestrator = get_orchestrator()
-            with st.spinner("Running multi-agent pipeline... This may take a minute."):
-                progress = st.progress(0, text="Initializing agents...")
-                progress.progress(10, text="📄 Fetching papers...")
-
+            with st.status(f"🧠 Synthesizing knowledge for: '{query}'...", expanded=True) as status:
+                orchestrator = get_orchestrator()
+                
+                st.write("📡 Initializing external paper retrieval...")
+                # The orchestrator is already capturing logs, but we'll show a nice UI loader
+                
                 try:
                     results = orchestrator.run_full_pipeline(
                         query=query,
@@ -263,424 +315,284 @@ if page == "🏠 Home":
                         year_from=year_from,
                         year_to=year_to,
                     )
-                    progress.progress(100, text="✅ Pipeline complete!")
                     st.session_state.results = results
-                    st.success(f"Analysis complete! Navigate to other pages to explore results.")
+                    status.update(label="Synthesis Complete!", state="complete", expanded=False)
+                    st.toast("Analysis finished!", icon="✅")
                 except Exception as e:
-                    st.error(f"Pipeline failed: {e}")
+                    status.update(label=f"Synthesis Failed: {e}", state="error")
+                    st.error(f"Pipeline encountered an error: {e}")
 
-    # Demo mode
-    st.markdown("---")
-    st.markdown("### 📦 Demo Mode")
-    st.info("Load sample data to explore the dashboard without running the full pipeline.")
-
-    if st.button("Load Sample Data", use_container_width=True):
-        import json
-        data_dir = Path(project_root) / "data"
-        with open(data_dir / "sample_papers.json", "r") as f:
-            sample_papers = json.load(f)
-        with open(data_dir / "sample_citations.json", "r") as f:
-            sample_citations = json.load(f)
-
-        # Build a demo graph
-        orchestrator = get_orchestrator()
-        from src.models.data_models import Paper, Author
-
-        papers = []
-        for p in sample_papers:
-            paper = Paper(
-                paper_id=p["paper_id"],
-                title=p["title"],
-                abstract=p.get("abstract", ""),
-                authors=[Author(**a) for a in p.get("authors", [])],
-                year=p.get("year"),
-                venue=p.get("venue", ""),
-                citation_count=p.get("citation_count", 0),
-                source=p.get("source", ""),
-                keywords=p.get("keywords", []),
-            )
-            papers.append(paper)
-
-        st.session_state.papers = papers
-
-        # Run knowledge extraction on sample data
-        with st.spinner("Processing sample data..."):
-            orchestrator.knowledge_agent.process(papers=papers)
-
-            # Add citations
-            for cite in sample_citations:
-                orchestrator.kg.add_citation(cite["citing"], cite["cited"], cite.get("year", 0))
-
-            orchestrator.kg.save()
-
-        st.success(f"Loaded {len(papers)} papers and {len(sample_citations)} citations!")
-        stats = orchestrator.get_graph_stats()
-        st.json(stats)
+    # ── Display Last Results Overview ────────────────────────────
+    if st.session_state.results:
+        add_vertical_space(2)
+        res = st.session_state.results
+        
+        st.markdown(f"### <span style='font-weight:400; color:var(--text-secondary);'>Results for</span> {res['query']}", unsafe_allow_html=True)
+        
+        # Overview Cards
+        overview_c1, overview_c2, overview_c3, overview_c4 = st.columns(4)
+        
+        papers_retrieved = len(res["stages"].get("paper_retrieval", {}).get("result", []))
+        gaps_found = len(res["stages"].get("gap_detection", {}).get("result", []))
+        exps_suggested = len(res["stages"].get("experiment_suggestion", {}).get("result", []))
+        trends_pred = len(res["stages"].get("trend_prediction", {}).get("result", []))
+        
+        with overview_c1:
+            st.markdown(f'<div class="glass-card"><h4>📄 Papers</h4><h2>{papers_retrieved}</h2><span class="status-badge">Retrieved</span></div>', unsafe_allow_html=True)
+        with overview_c2:
+            st.markdown(f'<div class="glass-card"><h4>🎯 Gaps</h4><h2>{gaps_found}</h2><span class="status-badge">Identified</span></div>', unsafe_allow_html=True)
+        with overview_c3:
+            st.markdown(f'<div class="glass-card"><h4>🧪 Hypotheses</h4><h2>{exps_suggested}</h2><span class="status-badge">Suggested</span></div>', unsafe_allow_html=True)
+        with overview_c4:
+            st.markdown(f'<div class="glass-card"><h4>🔮 Trends</h4><h2>{trends_pred}</h2><span class="status-badge">Predicted</span></div>', unsafe_allow_html=True)
+            
+        st.info("💡 Navigation tip: Use the left sidebar to dive deep into the specific results like the Knowledge Graph or Gap Analysis.")
 
 
-# ── Page: Paper Explorer ─────────────────────────────────────────
-elif page == "📄 Paper Explorer":
-    st.markdown("## 📄 Paper Explorer")
-    st.markdown("Search, filter, and summarize academic papers.")
-    st.markdown("---")
+    # ── Demo Mode ────────────────────────────────────────────────
+    st.markdown("<hr/>", unsafe_allow_html=True)
+    colA, colB, colC = st.columns([1,2,1])
+    with colB:
+        st.markdown('<div style="text-align:center; color:gray; font-size:0.9rem;">Want to see how it works without waiting for live APIs?</div>', unsafe_allow_html=True)
+        if st.button("Load Pre-computed Demo Dataset 📦"):
+            import json
+            data_dir = Path(project_root) / "data"
+            with open(data_dir / "sample_papers.json", "r") as f:
+                sample_papers = json.load(f)
+            with open(data_dir / "sample_citations.json", "r") as f:
+                sample_citations = json.load(f)
 
-    search_query = st.text_input("Search for papers:", placeholder="e.g., transformers, GNN, reinforcement learning")
-
-    col1, col2 = st.columns(2)
-    with col1:
-        source_filter = st.multiselect("Sources", ["arxiv", "semantic_scholar", "pubmed"], default=["arxiv", "semantic_scholar"])
-    with col2:
-        sort_by = st.selectbox("Sort by", ["Relevance", "Year (newest)", "Citations"])
-
-    if st.button("🔎 Search Papers", type="primary"):
-        if search_query:
             orchestrator = get_orchestrator()
-            with st.spinner("Fetching papers..."):
-                papers = orchestrator.paper_agent.process(
-                    query=search_query,
-                    max_results=20,
-                    sources=source_filter,
+            from src.models.data_models import Paper, Author
+
+            papers = []
+            for p in sample_papers:
+                paper = Paper(
+                    paper_id=p["paper_id"], title=p["title"], abstract=p.get("abstract", ""),
+                    authors=[Author(**a) for a in p.get("authors", [])], year=p.get("year"),
+                    venue=p.get("venue", ""), citation_count=p.get("citation_count", 0),
+                    source=p.get("source", ""), keywords=p.get("keywords", []),
                 )
-                st.session_state.papers = papers
+                papers.append(paper)
 
-    # Display papers
+            st.session_state.papers = papers
+            with st.spinner("Injecting demo knowledge graph..."):
+                orchestrator.knowledge_agent.process(papers=papers)
+                for cite in sample_citations:
+                    orchestrator.kg.add_citation(cite["citing"], cite["cited"], cite.get("year", 0))
+                orchestrator.kg.save()
+            st.success("Demo environment loaded. Check the sidebar tabs!")
+
+
+elif page == "📖 Corpus Explorer":
+    st.markdown('<div class="section-title">✨ Corpus Explorer</div>', unsafe_allow_html=True)
+    st.markdown("<p style='color:var(--text-secondary);'>Search, filter, and summarize academic papers from your active session.</p>", unsafe_allow_html=True)
+    
     papers = st.session_state.get("papers", [])
-    if papers:
-        st.markdown(f"### Found {len(papers)} papers")
-
-        if sort_by == "Year (newest)":
-            papers = sorted(papers, key=lambda p: p.year or 0, reverse=True)
-        elif sort_by == "Citations":
-            papers = sorted(papers, key=lambda p: p.citation_count, reverse=True)
-
-        for i, paper in enumerate(papers):
-            with st.expander(f"📄 {paper.title}", expanded=(i < 3)):
-                cols = st.columns([3, 1, 1])
-                with cols[0]:
-                    authors_str = ", ".join(a.name for a in paper.authors[:5])
-                    st.markdown(f"**Authors:** {authors_str}")
-                with cols[1]:
-                    st.metric("Year", paper.year or "N/A")
-                with cols[2]:
-                    st.metric("Citations", paper.citation_count)
-
-                if paper.abstract:
-                    st.markdown(f"**Abstract:** {paper.abstract[:500]}...")
-                if paper.venue:
-                    st.markdown(f"**Venue:** {paper.venue}")
-                if paper.url:
-                    st.markdown(f"[🔗 View Paper]({paper.url})")
-
-                # Summarize button
-                if st.button(f"📝 Summarize", key=f"sum_{i}"):
-                    orchestrator = get_orchestrator()
-                    with st.spinner("Generating summary..."):
-                        summaries = orchestrator.summary_agent.process(papers=[paper])
-                        if summaries:
-                            st.success("**Summary:**")
-                            st.write(summaries[0].summary_text)
-                            if summaries[0].key_contributions:
-                                st.markdown("**Key Contributions:**")
-                                for c in summaries[0].key_contributions:
-                                    st.markdown(f"- {c}")
+    if not papers:
+        # Check orchestrator state as fallback
+        papers = get_orchestrator().paper_agent.cache if hasattr(get_orchestrator(), 'paper_agent') else []
+        
+    if not papers:
+        st.info("No papers currently in context. Run a Deep Search first.")
     else:
-        st.info("Enter a search query or load sample data from the Home page.")
+        # Toolbar
+        search_query = st.text_input("Local Search:", placeholder="Filter by title or abstract keywords...")
+        
+        # Display papers
+        filtered_papers = [p for p in papers if search_query.lower() in p.title.lower() or (p.abstract and search_query.lower() in p.abstract.lower())]
+        
+        st.markdown(f"**Showing {len(filtered_papers)} of {len(papers)} papers**")
+        
+        for i, paper in enumerate(filtered_papers):
+            with st.expander(f"📄 {paper.title}"):
+                c1, c2, c3 = st.columns([3, 1, 1])
+                with c1:
+                    st.markdown(f"**Authors:** {', '.join(a.name for a in paper.authors[:5])}")
+                with c2:
+                    st.markdown(f"**Year:** {paper.year or 'N/A'}")
+                with c3:
+                    st.markdown(f"**Citations:** {paper.citation_count}")
+                
+                if paper.abstract:
+                    st.markdown(f"<div style='background:rgba(255,255,255,0.03); padding:15px; border-radius:8px; font-size:0.95rem; line-height:1.6; color:#cbd5e1;'><strong>Abstract:</strong><br/>{paper.abstract}</div>", unsafe_allow_html=True)
+                
+                add_vertical_space(1)
+                bt_col1, bt_col2 = st.columns([1, 4])
+                with bt_col1:
+                    if st.button("📝 Summarize", key=f"sum_{paper.paper_id}"):
+                        with st.spinner("Abstracting..."):
+                            orchestrator = get_orchestrator()
+                            summaries = orchestrator.summary_agent.process(papers=[paper])
+                            if summaries:
+                                st.markdown("#### ✨ AI Summary")
+                                st.success(summaries[0].summary_text)
 
 
-# ── Page: Knowledge Graph ────────────────────────────────────────
 elif page == "🕸️ Knowledge Graph":
-    st.markdown("## 🕸️ Knowledge Graph")
-    st.markdown("Explore the research knowledge graph — papers, topics, methods, and connections.")
-    st.markdown("---")
-
+    st.markdown('<div class="section-title">🕸️ Global Knowledge Graph</div>', unsafe_allow_html=True)
+    
     orchestrator = get_orchestrator()
     stats = orchestrator.get_graph_stats()
-
-    # Stats overview
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        st.metric("Total Nodes", stats.get("total_nodes", 0))
-    with col2:
-        st.metric("Total Edges", stats.get("total_edges", 0))
-    with col3:
-        node_types = stats.get("node_types", {})
-        st.metric("Papers", node_types.get("paper", 0))
-    with col4:
-        st.metric("Topics", node_types.get("topic", 0))
-
-    st.markdown("---")
-
+    
     if stats.get("total_nodes", 0) > 0:
-        # Node type filter
-        filter_type = st.selectbox(
-            "Filter by node type",
-            ["All", "paper", "topic", "method", "dataset", "author"],
-        )
+        col1, col2 = st.columns([1,3])
+        with col1:
+            st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+            st.markdown("### Topology")
+            filter_type = st.selectbox("Focus Entity", ["All", "paper", "topic", "method", "dataset", "author"])
+            st.markdown("---")
+            st.markdown("#### Top Central Nodes")
+            top_nodes = orchestrator.kg.get_centrality(top_n=5)
+            for rank, (nid, score) in enumerate(top_nodes, 1):
+                node = orchestrator.kg.get_node(nid)
+                name = node.get("name", node.get("title", nid)) if node else nid
+                st.markdown(f"<small>{rank}. {name}</small>", unsafe_allow_html=True)
+            st.markdown('</div>', unsafe_allow_html=True)
+            
+        with col2:
+            st.markdown('<div class="glass-card" style="padding:0; overflow:hidden;">', unsafe_allow_html=True)
+            try:
+                from pyvis.network import Network
+                import tempfile
+                import os
 
-        # Graph visualization with PyVis
-        try:
-            from pyvis.network import Network
-            import tempfile
-            import os
+                net = Network(height="600px", width="100%", bgcolor="#0a0a0f", font_color="#e2e8f0")
+                net.barnes_hut(gravity=-2000, central_gravity=0.3, spring_length=150)
 
-            net = Network(height="600px", width="100%", bgcolor="#0f0c29", font_color="white")
-            net.barnes_hut(gravity=-3000, central_gravity=0.3, spring_length=100)
+                color_map = {"paper": "#5e6ad2", "topic": "#ec4899", "method": "#10b981", "dataset": "#f59e0b", "author": "#6366f1"}
 
-            color_map = {
-                "paper": "#667eea",
-                "topic": "#ec4899",
-                "method": "#10b981",
-                "dataset": "#f59e0b",
-                "author": "#764ba2",
-            }
+                for node_id, data in orchestrator.kg.graph.nodes(data=True):
+                    ntype = data.get("node_type", "unknown")
+                    if filter_type != "All" and ntype != filter_type: continue
+                    label = (data.get("name", data.get("title", node_id)))[:25] + "..."
+                    net.add_node(node_id, label=label, color=color_map.get(ntype, "#475569"), size=20 if ntype=="paper" else 15)
 
-            # Add nodes
-            for node_id, data in orchestrator.kg.graph.nodes(data=True):
-                node_type = data.get("node_type", "unknown")
-                if filter_type != "All" and node_type != filter_type:
-                    continue
+                for u, v, data in orchestrator.kg.graph.edges(data=True):
+                    if filter_type != "All":
+                        ut = orchestrator.kg.graph.nodes.get(u, {}).get("node_type", "")
+                        vt = orchestrator.kg.graph.nodes.get(v, {}).get("node_type", "")
+                        if filter_type not in [ut, vt]: continue
+                    net.add_edge(u, v, title=data.get("relation_type", ""), color="rgba(255,255,255,0.1)")
 
-                label = data.get("name", data.get("title", node_id))
-                if len(label) > 30:
-                    label = label[:27] + "..."
-
-                color = color_map.get(node_type, "#718096")
-                size = 20 if node_type == "paper" else 12
-
-                net.add_node(node_id, label=label, color=color, size=size, title=f"{node_type}: {label}")
-
-            # Add edges
-            for u, v, data in orchestrator.kg.graph.edges(data=True):
-                if filter_type != "All":
-                    u_type = orchestrator.kg.graph.nodes.get(u, {}).get("node_type", "")
-                    v_type = orchestrator.kg.graph.nodes.get(v, {}).get("node_type", "")
-                    if filter_type not in [u_type, v_type]:
-                        continue
-
-                rel = data.get("relation_type", "")
-                net.add_edge(u, v, title=rel, color="rgba(255,255,255,0.2)")
-
-            # Save and display
-            with tempfile.NamedTemporaryFile(delete=False, suffix=".html", mode="w") as f:
-                net.save_graph(f.name)
-                with open(f.name, "r", encoding="utf-8") as html_file:
-                    html_content = html_file.read()
-                st.components.v1.html(html_content, height=620)
-                os.unlink(f.name)
-
-        except ImportError:
-            st.warning("PyVis not installed. Install with: pip install pyvis")
-
-        # Centrality analysis
-        st.markdown("### 📊 Top Nodes by Centrality (PageRank)")
-        top_nodes = orchestrator.kg.get_centrality(top_n=10)
-        if top_nodes:
-            for rank, (node_id, score) in enumerate(top_nodes, 1):
-                node = orchestrator.kg.get_node(node_id)
-                name = node.get("name", node.get("title", node_id)) if node else node_id
-                ntype = node.get("node_type", "?") if node else "?"
-                st.markdown(f"**{rank}.** {name} ({ntype}) — PageRank: {score:.4f}")
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".html", mode="w") as f:
+                    net.save_graph(f.name)
+                    with open(f.name, "r", encoding="utf-8") as html_file:
+                        st.components.v1.html(html_file.read(), height=600)
+                    os.unlink(f.name)
+            except ImportError:
+                st.warning("PyVis required for rendering.")
+            st.markdown('</div>', unsafe_allow_html=True)
     else:
-        st.info("Knowledge graph is empty. Run the analysis pipeline or load sample data from Home.")
+        st.info("Knowledge Graph is empty. Run a Deep Search first.")
 
 
-# ── Page: Gap Analysis ───────────────────────────────────────────
-elif page == "🔍 Gap Analysis":
-    st.markdown("## 🔍 Research Gap Analysis")
-    st.markdown("Discover underexplored areas, contradictions, and missing methodologies.")
-    st.markdown("---")
-
-    orchestrator = get_orchestrator()
-
-    if orchestrator.kg.graph.number_of_nodes() > 0:
-        top_n = st.slider("Number of gaps to detect", 3, 20, 10)
-
-        if st.button("🔍 Detect Research Gaps", type="primary", use_container_width=True):
-            with st.spinner("Analyzing knowledge graph for research gaps..."):
-                gaps = orchestrator.gap_agent.process(top_n=top_n)
-                st.session_state.gaps = gaps
-
-        gaps = st.session_state.get("gaps", [])
-        if gaps:
-            st.markdown(f"### Found {len(gaps)} Research Gaps")
-
-            for gap in gaps:
-                novelty_color = "🔴" if gap.novelty_score > 0.7 else "🟡" if gap.novelty_score > 0.4 else "🟢"
-
-                with st.expander(f"{novelty_color} #{gap.priority_rank}: {gap.topic}", expanded=(gap.priority_rank <= 3)):
-                    col1, col2, col3 = st.columns(3)
-                    with col1:
-                        st.metric("Novelty Score", f"{gap.novelty_score:.2f}")
-                    with col2:
-                        st.metric("Gap Type", gap.gap_type.replace("_", " ").title())
-                    with col3:
-                        st.metric("Evidence Papers", len(gap.evidence_papers))
-
-                    st.markdown(f"**Description:** {gap.description}")
-
-                    if gap.evidence_papers:
-                        st.markdown("**Supporting Papers:**")
-                        for pid in gap.evidence_papers[:5]:
-                            node = orchestrator.kg.get_node(pid)
-                            if node:
-                                st.markdown(f"- {node.get('title', pid)}")
-        else:
-            st.info("Click 'Detect Research Gaps' to run the analysis.")
-    else:
-        st.info("Knowledge graph is empty. Load data from the Home page first.")
-
-
-# ── Page: Experiment Lab ─────────────────────────────────────────
-elif page == "🧪 Experiment Lab":
-    st.markdown("## 🧪 Experiment Suggestion Lab")
-    st.markdown("Get concrete experiment proposals based on detected research gaps.")
-    st.markdown("---")
+elif page == "🎯 Gap Analysis":
+    st.markdown('<div class="section-title">🎯 Research Gap Detection</div>', unsafe_allow_html=True)
+    st.markdown("<p style='color:var(--text-secondary);'>Algorithmic identification of contradictions and underexplored intersections in literature.</p>", unsafe_allow_html=True)
 
     orchestrator = get_orchestrator()
     gaps = st.session_state.get("gaps", [])
-
+    
+    c1, c2 = st.columns([1, 4])
+    with c1:
+        if st.button("Recalculate Gaps", use_container_width=True):
+            if orchestrator.kg.graph.number_of_nodes() > 0:
+                with st.spinner("Analyzing graph topology..."):
+                    gaps = orchestrator.gap_agent.process(top_n=10)
+                    st.session_state.gaps = gaps
+            else:
+                st.error("Empty Knowledge Graph.")
+    
     if gaps:
-        st.markdown(f"### {len(gaps)} gaps available for experiment generation")
+        add_vertical_space(1)
+        for g in gaps:
+            badge_color = "🔴 High Novelty" if g.novelty_score > 0.7 else "🟡 Med Novelty"
+            with st.expander(f"{badge_color} — {g.topic}"):
+                st.markdown(f"**Description:** {g.description}")
+                gc1, gc2 = st.columns(2)
+                with gc1: st.metric("Gap Type", g.gap_type.replace('_', ' ').title())
+                with gc2: st.metric("Novelty Score", f"{g.novelty_score:.2f}")
 
-        selected_gaps = st.multiselect(
-            "Select gaps to generate experiments for:",
-            [f"#{g.priority_rank}: {g.topic}" for g in gaps],
-            default=[f"#{gaps[0].priority_rank}: {gaps[0].topic}"] if gaps else [],
-        )
 
-        if st.button("🧪 Generate Experiments", type="primary", use_container_width=True):
-            selected_indices = [
-                int(s.split(":")[0].replace("#", "").strip()) - 1
-                for s in selected_gaps
-            ]
-            selected_gap_objects = [gaps[i] for i in selected_indices if i < len(gaps)]
-
-            with st.spinner("Generating experiment suggestions..."):
-                experiments = orchestrator.experiment_agent.process(gaps=selected_gap_objects)
-                st.session_state.experiments = experiments
-
-        experiments = st.session_state.get("experiments", [])
+elif page == "🧪 Hypotheses Lab":
+    st.markdown('<div class="section-title">🧪 Experiment Generation</div>', unsafe_allow_html=True)
+    
+    orchestrator = get_orchestrator()
+    gaps = st.session_state.get("gaps", [])
+    experiments = st.session_state.get("experiments", [])
+    
+    if not gaps and not experiments:
+        st.info("Detect Research Gaps first before generating experiments.")
+    else:
+        if gaps:
+            selected_gap = st.selectbox("Select Target Gap", [g.topic for g in gaps])
+            if st.button("Generate Methodology"):
+                target = next((g for g in gaps if g.topic == selected_gap), None)
+                if target:
+                    with st.spinner("Using LLM to formulate hypothesis..."):
+                        new_exps = orchestrator.experiment_agent.process(gaps=[target])
+                        experiments.extend(new_exps)
+                        st.session_state.experiments = experiments
+        
         if experiments:
-            for exp in experiments:
-                with st.expander(f"🧪 {exp.title}", expanded=True):
-                    st.markdown(f"**Hypothesis:** {exp.hypothesis}")
-                    st.markdown(f"**Difficulty:** {'⭐' * {'easy': 1, 'medium': 2, 'hard': 3}.get(exp.difficulty, 2)}")
-
-                    st.markdown("---")
-                    st.markdown("**Methodology:**")
-                    st.text(exp.methodology)
-
-                    col1, col2 = st.columns(2)
-                    with col1:
-                        st.markdown("**Recommended Datasets:**")
-                        for ds in exp.recommended_datasets:
-                            st.markdown(f"- {ds}")
-                    with col2:
-                        st.markdown("**Variables to Measure:**")
-                        for var in exp.variables:
-                            st.markdown(f"- {var}")
-
-                    st.markdown(f"**Expected Outcomes:** {exp.expected_outcomes}")
-
-                    # Export button
-                    export_md = f"# {exp.title}\n\n"
-                    export_md += f"## Hypothesis\n{exp.hypothesis}\n\n"
-                    export_md += f"## Methodology\n{exp.methodology}\n\n"
-                    export_md += f"## Datasets\n" + "\n".join(f"- {d}" for d in exp.recommended_datasets) + "\n\n"
-                    export_md += f"## Variables\n" + "\n".join(f"- {v}" for v in exp.variables) + "\n\n"
-                    export_md += f"## Expected Outcomes\n{exp.expected_outcomes}\n"
-
-                    st.download_button(
-                        "📥 Export as Markdown",
-                        export_md,
-                        file_name=f"experiment_{exp.suggestion_id}.md",
-                        key=f"export_{exp.suggestion_id}",
-                    )
-    else:
-        st.info("Run Gap Analysis first to detect gaps, then generate experiment suggestions.")
+            st.markdown("### Generated Proposals")
+            for e in reversed(experiments):
+                st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+                st.markdown(f"#### ✨ {e.title}")
+                st.markdown(f"**Hypothesis:** {e.hypothesis}")
+                st.markdown("**Methodology:**")
+                st.markdown(f"<div style='background:rgba(0,0,0,0.3); padding:10px; border-radius:5px;'>{e.methodology}</div>", unsafe_allow_html=True)
+                
+                ec1, ec2 = st.columns(2)
+                with ec1:
+                    st.markdown("**Datasets:**")
+                    st.markdown("\n".join(f"- {d}" for d in e.recommended_datasets))
+                with ec2:
+                    st.markdown("**Outcomes:**")
+                    st.write(e.expected_outcomes)
+                st.markdown('</div>', unsafe_allow_html=True)
 
 
-# ── Page: Trend Forecast ─────────────────────────────────────────
-elif page == "📈 Trend Forecast":
-    st.markdown("## 📈 Research Trend Forecast")
-    st.markdown("Predict emerging research topics using citation network analysis.")
-    st.markdown("---")
-
+elif page == "🔮 Trend Matrix":
+    st.markdown('<div class="section-title">🔮 Future Trend Forecast</div>', unsafe_allow_html=True)
+    
     orchestrator = get_orchestrator()
-
-    if orchestrator.kg.graph.number_of_nodes() > 0:
-        col1, col2 = st.columns(2)
-        with col1:
-            time_horizon = st.selectbox("Prediction Horizon", ["5_years", "10_years"], format_func=lambda x: x.replace("_", " ").title())
-        with col2:
-            top_n = st.slider("Number of predictions", 3, 20, 10)
-
-        if st.button("📈 Predict Trends", type="primary", use_container_width=True):
-            with st.spinner("Analyzing citation patterns and computing predictions..."):
-                predictions = orchestrator.trend_agent.process(
-                    time_horizon=time_horizon,
-                    top_n=top_n,
-                )
-                st.session_state.predictions = predictions
-
-        predictions = st.session_state.get("predictions", [])
-        if predictions:
-            st.markdown(f"### 🔮 Predicted Emerging Topics ({time_horizon.replace('_', ' ').title()})")
-
-            # Summary chart
-            import plotly.graph_objects as go
-
-            fig = go.Figure()
-            topics = [p.topic[:25] + "..." if len(p.topic) > 25 else p.topic for p in predictions]
-            confidences = [p.confidence_score for p in predictions]
-            growth_rates = [max(0, p.growth_rate) for p in predictions]
-
-            fig.add_trace(go.Bar(
-                x=topics,
-                y=confidences,
-                name="Confidence Score",
-                marker_color="rgba(102, 126, 234, 0.8)",
-            ))
-
-            fig.update_layout(
-                title="Trend Prediction Confidence",
-                xaxis_title="Topic",
-                yaxis_title="Score",
-                template="plotly_dark",
-                paper_bgcolor="rgba(0,0,0,0)",
-                plot_bgcolor="rgba(0,0,0,0)",
-                height=400,
-            )
-            st.plotly_chart(fig, use_container_width=True)
-
-            # Detailed cards
-            for pred in predictions:
-                confidence_emoji = "🔥" if pred.confidence_score > 0.6 else "📈" if pred.confidence_score > 0.3 else "🌱"
-
-                with st.expander(f"{confidence_emoji} {pred.topic}", expanded=(pred.confidence_score > 0.5)):
-                    cols = st.columns(4)
-                    with cols[0]:
-                        st.metric("Confidence", f"{pred.confidence_score:.1%}")
-                    with cols[1]:
-                        st.metric("Growth Rate", f"{pred.growth_rate:+.2f} papers/yr")
-                    with cols[2]:
-                        st.metric("Citation Velocity", f"{pred.citation_velocity:+.2f}")
-                    with cols[3]:
-                        st.metric("Current Papers", pred.current_paper_count)
-
-                    st.markdown(f"**Analysis:** {pred.description}")
+    preds = st.session_state.get("predictions", [])
+    
+    if st.button("Run Time-Series Prediction"):
+        if orchestrator.kg.graph.number_of_nodes() > 0:
+            with st.spinner("Computing citation trajectories..."):
+                preds = orchestrator.trend_agent.process(time_horizon="5_years", top_n=8)
+                st.session_state.predictions = preds
         else:
-            st.info("Click 'Predict Trends' to run the analysis.")
-    else:
-        st.info("Knowledge graph is empty. Load data from the Home page first.")
+            st.error("Graph requires citation data to predict trends.")
+            
+    if preds:
+        import plotly.express as px
+        import pandas as pd
+        
+        # Build DataFrame for Plotly
+        df = pd.DataFrame([{
+            "Topic": p.topic[:30], 
+            "Confidence": p.confidence_score, 
+            "Growth Rate": p.growth_rate,
+            "Citations": p.citation_velocity
+        } for p in preds])
+        
+        st.markdown('<div class="glass-card">', unsafe_allow_html=True)
+        fig = px.scatter(df, x="Growth Rate", y="Confidence", size="Citations", 
+                         color="Confidence", hover_name="Topic", text="Topic",
+                         color_continuous_scale="Purp", title="Trend Trajectories")
+        fig.update_traces(textposition='top center')
+        fig.update_layout(template="plotly_dark", paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
+        st.plotly_chart(fig, use_container_width=True)
+        st.markdown('</div>', unsafe_allow_html=True)
 
-
-# ── Sidebar Status ───────────────────────────────────────────────
-with st.sidebar:
-    orchestrator = get_orchestrator()
-    stats = orchestrator.get_graph_stats()
-    st.markdown(f"**Nodes:** {stats.get('total_nodes', 0)}")
-    st.markdown(f"**Edges:** {stats.get('total_edges', 0)}")
-    st.markdown("---")
-    st.markdown("*Built with 🤖 free/open-source AI*")
-    st.markdown("*No paid APIs required*")
+# ── Global Footer ────────────────────────────────────────────────
+st.markdown("""
+<div class="footer">
+    Crafted by ResearchAI Logic • Multi-Agent System<br>
+    Powered by Python, LangChain, & Streamlit
+</div>
+""", unsafe_allow_html=True)
