@@ -24,54 +24,150 @@ st.set_page_config(
 # ── Custom CSS ───────────────────────────────────────────────────
 st.markdown("""
 <style>
-    /* Dark theme overrides */
+    /* Dark theme overrides with Animated Gradient Background */
+    @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
     .stApp {
-        background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+        background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #1a1a2e);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+        color: #ffffff !important;
+    }
+
+    /* Headings */
+    h1, h2, h3, h4, h5, h6, .stMarkdown p {
+        color: #ffffff !important;
+    }
+
+    /* Main Title Animation */
+    @keyframes pulseGlow {
+        0% { text-shadow: 0 0 10px rgba(102,126,234,0.5); }
+        50% { text-shadow: 0 0 20px rgba(118,75,162,0.8), 0 0 30px rgba(102,126,234,0.6); }
+        100% { text-shadow: 0 0 10px rgba(102,126,234,0.5); }
     }
 
     .main-header {
         background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 2.5rem;
-        font-weight: 800;
-        margin-bottom: 0;
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 0px;
+        animation: pulseGlow 3s infinite alternate;
     }
 
     .sub-header {
-        color: #a0aec0;
-        font-size: 1.1rem;
-        margin-top: -10px;
+        color: #e2e8f0 !important;
+        font-size: 1.2rem;
+        margin-top: -5px;
+        font-weight: 300;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
     }
 
-    .metric-card {
-        background: rgba(255,255,255,0.05);
-        border: 1px solid rgba(255,255,255,0.1);
-        border-radius: 16px;
-        padding: 20px;
-        backdrop-filter: blur(10px);
+    /* Glassmorphism Cards with Hover Effects */
+    .metric-card, div[data-testid="stExpander"] {
+        background: rgba(20, 20, 40, 0.6) !important;
+        border: 1px solid rgba(255, 255, 255, 0.15) !important;
+        border-radius: 16px !important;
+        padding: 15px;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+    
+    div[data-testid="stExpander"]:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 40px 0 rgba(102, 126, 234, 0.4);
+        border-color: rgba(255, 255, 255, 0.3) !important;
     }
 
+    /* Fix Expander Text Visibility */
+    div[data-testid="stExpander"] p, div[data-testid="stExpander"] div, div[data-testid="stExpander"] span {
+        color: #f8fafc !important;
+    }
+
+    /* Metrics Visibility */
+    div[data-testid="stMetricValue"] {
+        color: #61dafb !important;
+        text-shadow: 0 0 10px rgba(97, 218, 251, 0.3);
+        font-weight: bold;
+    }
+    div[data-testid="stMetricLabel"] {
+        color: #cbd5e1 !important;
+        font-weight: 500;
+    }
+
+    /* Animated Badges */
     .agent-badge {
         display: inline-block;
-        padding: 4px 12px;
-        border-radius: 20px;
-        font-size: 0.8rem;
-        font-weight: 600;
-        margin: 2px;
+        padding: 6px 16px;
+        border-radius: 30px;
+        font-size: 0.85rem;
+        font-weight: 700;
+        margin: 4px;
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+        cursor: default;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        border: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .agent-badge:hover {
+        transform: scale(1.1) translateY(-2px);
+        filter: brightness(1.2);
     }
 
-    .badge-retrieval { background: rgba(102, 126, 234, 0.2); color: #667eea; }
-    .badge-extraction { background: rgba(118, 75, 162, 0.2); color: #764ba2; }
-    .badge-gap { background: rgba(236, 72, 153, 0.2); color: #ec4899; }
-    .badge-experiment { background: rgba(16, 185, 129, 0.2); color: #10b981; }
-    .badge-summary { background: rgba(245, 158, 11, 0.2); color: #f59e0b; }
-    .badge-trend { background: rgba(59, 130, 246, 0.2); color: #3b82f6; }
+    .badge-retrieval { background: rgba(102, 126, 234, 0.25); color: #a3bffa; border-color: #667eea; box-shadow: 0 0 10px rgba(102, 126, 234, 0.4); }
+    .badge-extraction { background: rgba(118, 75, 162, 0.25); color: #d6bcfa; border-color: #764ba2; box-shadow: 0 0 10px rgba(118, 75, 162, 0.4); }
+    .badge-gap { background: rgba(236, 72, 153, 0.25); color: #fbcfe8; border-color: #ec4899; box-shadow: 0 0 10px rgba(236, 72, 153, 0.4); }
+    .badge-experiment { background: rgba(16, 185, 129, 0.25); color: #a7f3d0; border-color: #10b981; box-shadow: 0 0 10px rgba(16, 185, 129, 0.4); }
+    .badge-summary { background: rgba(245, 158, 11, 0.25); color: #fde68a; border-color: #f59e0b; box-shadow: 0 0 10px rgba(245, 158, 11, 0.4); }
+    .badge-trend { background: rgba(59, 130, 246, 0.25); color: #bfdbfe; border-color: #3b82f6; box-shadow: 0 0 10px rgba(59, 130, 246, 0.4); }
 
+    /* Elegant Sidebar */
     div[data-testid="stSidebar"] {
-        background: rgba(15, 12, 41, 0.95);
-        border-right: 1px solid rgba(255,255,255,0.1);
+        background: rgba(15, 12, 41, 0.85) !important;
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border-right: 1px solid rgba(255,255,255,0.05);
     }
+    
+    /* Input Fields and Buttons */
+    .stTextInput > div > div > input, .stSelectbox > div > div > div {
+        background-color: rgba(30, 30, 50, 0.7) !important;
+        color: white !important;
+        border: 1px solid rgba(255,255,255,0.2) !important;
+        border-radius: 8px;
+    }
+    .stTextInput > div > div > input:focus {
+        border-color: #667eea !important;
+        box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.5) !important;
+    }
+    
+    /* Buttons */
+    .stButton > button {
+        border-radius: 12px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .stButton > button[data-baseweb="button"] {
+        background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        border: none;
+        color: white;
+        box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    }
+    .stButton > button[data-baseweb="button"]:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(118, 75, 162, 0.6);
+        background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
