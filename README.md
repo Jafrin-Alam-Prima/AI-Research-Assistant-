@@ -155,6 +155,20 @@ AI Research Assistant/
 
 ---
 
+## 📤 Pushing to GitHub
+
+The project is initialized with git. To push to your GitHub repository:
+
+```bash
+# Update the remote URL with your repository
+git remote set-url origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+
+# Push to main
+git push -u origin main
+```
+
+---
+
 ## 🧪 Running Tests
 
 ```bash

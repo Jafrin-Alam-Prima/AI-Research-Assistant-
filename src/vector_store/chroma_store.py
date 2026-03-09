@@ -33,14 +33,24 @@ class VectorStoreManager:
             return
 
         import chromadb
-        from chromadb.utils import embedding_functions
+        import os
 
         Path(self._persist_dir).mkdir(parents=True, exist_ok=True)
         self._client = chromadb.PersistentClient(path=self._persist_dir)
-        self._embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-            model_name=self._embedding_model_name,
-        )
-        logger.info(f"ChromaDB initialized at {self._persist_dir} with {self._embedding_model_name}")
+        
+        if os.environ.get("DEMO_MODE") == "1":
+            from chromadb.api.types import Documents, EmbeddingFunction, Embeddings
+            class DummyEmbeddingFunction(EmbeddingFunction):
+                def __call__(self, input: Documents) -> Embeddings:
+                    return [[0.1] * 384 for _ in input]
+            self._embedding_fn = DummyEmbeddingFunction()
+            logger.info("ChromaDB initialized with DummyEmbeddingFunction for DEMO_MODE")
+        else:
+            from chromadb.utils import embedding_functions
+            self._embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
+                model_name=self._embedding_model_name,
+            )
+            logger.info(f"ChromaDB initialized at {self._persist_dir} with {self._embedding_model_name}")
 
     def get_or_create_collection(self, collection_name: str = "papers"):
         """Get or create a ChromaDB collection.

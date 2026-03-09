@@ -33,17 +33,12 @@ class KnowledgeExtractionAgent(BaseAgent):
         self._ner_pipeline = None
 
     def _get_ner_pipeline(self):
-        """Lazy-load a free HuggingFace NER pipeline."""
+        """Lazy-load the scispaCy NER pipeline."""
         if self._ner_pipeline is None:
             try:
-                from transformers import pipeline
-                self._ner_pipeline = pipeline(
-                    "token-classification",
-                    model="dslim/bert-base-NER",
-                    aggregation_strategy="simple",
-                    device=-1,  # CPU by default
-                )
-                self.logger.info("NER pipeline loaded (dslim/bert-base-NER)")
+                import spacy
+                self._ner_pipeline = spacy.load("en_core_sci_sm")
+                self.logger.info("NER pipeline loaded (scispaCy: en_core_sci_sm)")
             except Exception as e:
                 self.logger.warning(f"NER pipeline not available: {e}. Using keyword fallback.")
         return self._ner_pipeline
@@ -100,29 +95,52 @@ class KnowledgeExtractionAgent(BaseAgent):
         entities = []
         cleaned = clean_text(text)
 
-        # Extract topics via keywords and bigrams
-        keywords = extract_keywords(cleaned, top_n=10)
-        bigrams = extract_bigrams(cleaned, top_n=5)
+        nlp = self._get_ner_pipeline()
+        
+        if nlp:
+            # Use scispaCy to extract entities
+            # We process a chunk to avoid long processing times or limits
+            doc = nlp(cleaned[:20000])
+            topic_names = set()
+            
+            for ent in doc.ents:
+                ent_text = ent.text.strip()
+                if len(ent_text) > 3 and ent_text.lower() not in [t.lower() for t in topic_names]:
+                    topic_names.add(ent_text)
+            
+            for topic in list(topic_names)[:15]:
+                entity = KnowledgeEntity(
+                    entity_id=self._make_id("topic", topic),
+                    entity_type="topic", # scispaCy default entity type is ENTITY, we map it to topic
+                    name=topic,
+                    source_paper_id=paper.paper_id,
+                    confidence=0.85,
+                )
+                entities.append(entity)
+        else:
+            # Fallback: Extract topics via keywords and bigrams
+            keywords = extract_keywords(cleaned, top_n=10)
+            bigrams = extract_bigrams(cleaned, top_n=5)
 
-        for kw in keywords:
-            entity = KnowledgeEntity(
-                entity_id=self._make_id("topic", kw),
-                entity_type="topic",
-                name=kw,
-                source_paper_id=paper.paper_id,
-                confidence=0.8,
-            )
-            entities.append(entity)
+            for kw in keywords:
+                entity = KnowledgeEntity(
+                    entity_id=self._make_id("topic", kw),
+                    entity_type="topic",
+                    name=kw,
+                    source_paper_id=paper.paper_id,
+                    confidence=0.8,
+                )
+                entities.append(entity)
 
-        for bg in bigrams:
-            entity = KnowledgeEntity(
-                entity_id=self._make_id("topic", bg),
-                entity_type="topic",
-                name=bg,
-                source_paper_id=paper.paper_id,
-                confidence=0.9,
-            )
-            entities.append(entity)
+            for bg in bigrams:
+                entity = KnowledgeEntity(
+                    entity_id=self._make_id("topic", bg),
+                    entity_type="topic",
+                    name=bg,
+                    source_paper_id=paper.paper_id,
+                    confidence=0.9,
+                )
+                entities.append(entity)
 
         # Extract methods (heuristic patterns)
         methods = self._extract_methods(cleaned)

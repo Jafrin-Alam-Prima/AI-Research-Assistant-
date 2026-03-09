@@ -26,6 +26,10 @@ class ExperimentSuggestionAgent(BaseAgent):
 
     def _get_generator(self):
         """Lazy-load free text generation model for proposal writing."""
+        import os
+        if os.environ.get("DEMO_MODE") == "1":
+            return None
+            
         if self._generator is None:
             try:
                 from transformers import pipeline

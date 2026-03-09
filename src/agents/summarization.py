@@ -31,6 +31,10 @@ class SummarizationAgent(BaseAgent):
 
     def _get_summarizer(self):
         """Lazy-load the free summarization pipeline."""
+        import os
+        if os.environ.get("DEMO_MODE") == "1":
+            return None
+            
         if self._summarizer is None:
             try:
                 from transformers import pipeline

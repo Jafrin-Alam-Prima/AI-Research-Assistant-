@@ -1,3 +1,4 @@
+
 """
 ResearchAI - Premium AI Research Assistant
 Streamlit multi-page app redesigned for a modern, minimalistic SaaS aesthetic.
@@ -421,6 +422,9 @@ if page == "🔍 Deep Search":
         with colB:
             if st.button("📦 Load Demo Dataset", use_container_width=True):
                 import json
+                import os
+                os.environ["DEMO_MODE"] = "1"
+                
                 data_dir = Path(project_root) / "data"
                 with open(data_dir / "sample_papers.json", "r") as f:
                     sample_papers = json.load(f)
