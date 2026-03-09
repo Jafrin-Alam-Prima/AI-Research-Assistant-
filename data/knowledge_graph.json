@@ -5,61 +5,1361 @@
   "nodes": [
     {
       "node_type": "paper",
-      "title": "The Deep Arbitrary Polynomial Chaos Neural Network or how Deep Artificial Neural Networks could benefit from Data-Driven Homogeneous Chaos Theory",
-      "year": 2023,
+      "title": "DUET-VLM: Dual stage Unified Efficient Token reduction for VLM Training and Inference",
+      "year": 2026,
       "citation_count": 0,
       "source": "arxiv",
       "venue": "arXiv",
-      "id": "2306.14753v1"
+      "id": "2602.18846v1"
     },
     {
       "node_type": "topic",
-      "name": "neural",
+      "name": "accuracy",
       "description": "",
       "confidence": 0.8,
-      "id": "topic_0eb79c26"
+      "id": "topic_5d6db9a1"
     },
     {
       "node_type": "topic",
-      "name": "danns",
+      "name": "visual",
       "description": "",
       "confidence": 0.8,
-      "id": "topic_292c5e2e"
+      "id": "topic_1dfb6b98"
     },
     {
       "node_type": "topic",
-      "name": "dann",
+      "name": "tokens",
       "description": "",
       "confidence": 0.8,
-      "id": "topic_10e7b30d"
+      "id": "topic_25d7186f"
     },
     {
       "node_type": "topic",
-      "name": "chaos",
+      "name": "compression",
       "description": "",
       "confidence": 0.8,
-      "id": "topic_e9228983"
+      "id": "topic_07f5d2d5"
     },
     {
       "node_type": "topic",
-      "name": "polynomial",
+      "name": "vision",
       "description": "",
       "confidence": 0.8,
-      "id": "topic_89693d33"
+      "id": "topic_f4208705"
     },
     {
       "node_type": "topic",
-      "name": "learning",
+      "name": "language",
       "description": "",
       "confidence": 0.8,
-      "id": "topic_25a9ac40"
+      "id": "topic_8512ae7d"
     },
     {
       "node_type": "topic",
-      "name": "deep",
+      "name": "token",
       "description": "",
       "confidence": 0.8,
-      "id": "topic_6627415e"
+      "id": "topic_94a08da1"
+    },
+    {
+      "node_type": "topic",
+      "name": "reduction",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_9477e24c"
+    },
+    {
+      "node_type": "topic",
+      "name": "yet",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_b8284650"
+    },
+    {
+      "node_type": "topic",
+      "name": "progressively",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_2836bcec"
+    },
+    {
+      "node_type": "topic",
+      "name": "visual tokens",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_a38c1b79"
+    },
+    {
+      "node_type": "topic",
+      "name": "language backbone",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_ba954266"
+    },
+    {
+      "node_type": "topic",
+      "name": "duet vlm",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_5e3fc22b"
+    },
+    {
+      "node_type": "topic",
+      "name": "token reduction",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_6ce57948"
+    },
+    {
+      "node_type": "topic",
+      "name": "vision language",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_54b9c833"
+    },
+    {
+      "node_type": "author",
+      "name": "Aditya Kumar Singh",
+      "id": "author_9faab003"
+    },
+    {
+      "node_type": "author",
+      "name": "Hitesh Kandala",
+      "id": "author_7f451f44"
+    },
+    {
+      "node_type": "author",
+      "name": "Pratik Prabhanjan Brahma",
+      "id": "author_9ce0225b"
+    },
+    {
+      "node_type": "author",
+      "name": "Zicheng Liu",
+      "id": "author_144f64f3"
+    },
+    {
+      "node_type": "author",
+      "name": "Emad Barsoum",
+      "id": "author_86cb263c"
+    },
+    {
+      "node_type": "paper",
+      "title": "An Image Grid Can Be Worth a Video: Zero-shot Video Question Answering Using a VLM",
+      "year": 2024,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2403.18406v1"
+    },
+    {
+      "node_type": "topic",
+      "name": "video",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_421b47ff"
+    },
+    {
+      "node_type": "topic",
+      "name": "image",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_78805a22"
+    },
+    {
+      "node_type": "topic",
+      "name": "grid",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ff4a0084"
+    },
+    {
+      "node_type": "topic",
+      "name": "single",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_dd5c0703"
+    },
+    {
+      "node_type": "topic",
+      "name": "models",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ac5552fd"
+    },
+    {
+      "node_type": "topic",
+      "name": "llms",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_a54750ca"
+    },
+    {
+      "node_type": "topic",
+      "name": "strategy",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_c0089e65"
+    },
+    {
+      "node_type": "topic",
+      "name": "multiple",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ce495ab8"
+    },
+    {
+      "node_type": "topic",
+      "name": "image grid",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_661e24e0"
+    },
+    {
+      "node_type": "topic",
+      "name": "language models",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_db05b5c6"
+    },
+    {
+      "node_type": "topic",
+      "name": "video data",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_a1cbf54e"
+    },
+    {
+      "node_type": "topic",
+      "name": "language model",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_67fbfa4e"
+    },
+    {
+      "node_type": "method",
+      "name": "image grid vision language model",
+      "description": "",
+      "confidence": 0.75,
+      "id": "method_38a89f36"
+    },
+    {
+      "node_type": "method",
+      "name": "readily available foundation model",
+      "description": "",
+      "confidence": 0.75,
+      "id": "method_091ddc30"
+    },
+    {
+      "node_type": "author",
+      "name": "Wonkyun Kim",
+      "id": "author_5490f555"
+    },
+    {
+      "node_type": "author",
+      "name": "Changin Choi",
+      "id": "author_d9171400"
+    },
+    {
+      "node_type": "author",
+      "name": "Wonseok Lee",
+      "id": "author_59e0e15f"
+    },
+    {
+      "node_type": "author",
+      "name": "Wonjong Rhee",
+      "id": "author_c38c9621"
+    },
+    {
+      "node_type": "paper",
+      "title": "VLM-3R: Vision-Language Models Augmented with Instruction-Aligned 3D Reconstruction",
+      "year": 2025,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2505.20279v2"
+    },
+    {
+      "node_type": "topic",
+      "name": "spatial",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_cdb36c37"
+    },
+    {
+      "node_type": "topic",
+      "name": "vlm",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_6ad5b816"
+    },
+    {
+      "node_type": "topic",
+      "name": "understanding",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_224daf9b"
+    },
+    {
+      "node_type": "topic",
+      "name": "monocular",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_cb9888a3"
+    },
+    {
+      "node_type": "topic",
+      "name": "reasoning",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_4db0062a"
+    },
+    {
+      "node_type": "topic",
+      "name": "temporal",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ef6299c9"
+    },
+    {
+      "node_type": "topic",
+      "name": "human",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_99e9bae6"
+    },
+    {
+      "node_type": "topic",
+      "name": "intelligence",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_90b88493"
+    },
+    {
+      "node_type": "topic",
+      "name": "visual spatial",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_acea8c51"
+    },
+    {
+      "node_type": "topic",
+      "name": "spatial understanding",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_261b54d6"
+    },
+    {
+      "node_type": "topic",
+      "name": "monocular video",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_3515fc19"
+    },
+    {
+      "node_type": "topic",
+      "name": "reconstructive instruction",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_75d73461"
+    },
+    {
+      "node_type": "topic",
+      "name": "instruction tuning",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_5421556c"
+    },
+    {
+      "node_type": "author",
+      "name": "Zhiwen Fan",
+      "id": "author_7363c308"
+    },
+    {
+      "node_type": "author",
+      "name": "Jian Zhang",
+      "id": "author_8020855f"
+    },
+    {
+      "node_type": "author",
+      "name": "Renjie Li",
+      "id": "author_5d69cb98"
+    },
+    {
+      "node_type": "author",
+      "name": "Junge Zhang",
+      "id": "author_705a70b9"
+    },
+    {
+      "node_type": "author",
+      "name": "Runjin Chen",
+      "id": "author_bb4b1a43"
+    },
+    {
+      "node_type": "author",
+      "name": "Hezhen Hu",
+      "id": "author_07d7dae5"
+    },
+    {
+      "node_type": "author",
+      "name": "Kevin Wang",
+      "id": "author_5b1212e2"
+    },
+    {
+      "node_type": "author",
+      "name": "Huaizhi Qu",
+      "id": "author_66927ff5"
+    },
+    {
+      "node_type": "author",
+      "name": "Dilin Wang",
+      "id": "author_9d902102"
+    },
+    {
+      "node_type": "author",
+      "name": "Zhicheng Yan",
+      "id": "author_dc5f6ac2"
+    },
+    {
+      "node_type": "author",
+      "name": "Hongyu Xu",
+      "id": "author_7639e5de"
+    },
+    {
+      "node_type": "author",
+      "name": "Justin Theiss",
+      "id": "author_b574864f"
+    },
+    {
+      "node_type": "author",
+      "name": "Tianlong Chen",
+      "id": "author_3c733c9b"
+    },
+    {
+      "node_type": "author",
+      "name": "Jiachen Li",
+      "id": "author_733e376c"
+    },
+    {
+      "node_type": "author",
+      "name": "Zhengzhong Tu",
+      "id": "author_49f5ebc4"
+    },
+    {
+      "node_type": "author",
+      "name": "Zhangyang Wang",
+      "id": "author_31a384ae"
+    },
+    {
+      "node_type": "author",
+      "name": "Rakesh Ranjan",
+      "id": "author_29588794"
+    },
+    {
+      "node_type": "paper",
+      "title": "From Understanding to Engagement: Personalized pharmacy Video Clips via Vision Language Models (VLMs)",
+      "year": 2026,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2601.05059v1"
+    },
+    {
+      "node_type": "topic",
+      "name": "audio",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_a5ca0b58"
+    },
+    {
+      "node_type": "topic",
+      "name": "clip",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_f6d8b886"
+    },
+    {
+      "node_type": "topic",
+      "name": "vlms",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ddba0eee"
+    },
+    {
+      "node_type": "topic",
+      "name": "content",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_9a0364b9"
+    },
+    {
+      "node_type": "topic",
+      "name": "processing",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_4374990d"
+    },
+    {
+      "node_type": "topic",
+      "name": "data",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_8d777f38"
+    },
+    {
+      "node_type": "topic",
+      "name": "models vlms",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_5e3c2c02"
+    },
+    {
+      "node_type": "topic",
+      "name": "digital transformation",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_0004bc07"
+    },
+    {
+      "node_type": "topic",
+      "name": "pharmacyceutical industry",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_c0de2a7b"
+    },
+    {
+      "node_type": "author",
+      "name": "Suyash Mishra",
+      "id": "author_e02bf954"
+    },
+    {
+      "node_type": "author",
+      "name": "Qiang Li",
+      "id": "author_51c18323"
+    },
+    {
+      "node_type": "author",
+      "name": "Srikanth Patil",
+      "id": "author_f2163f20"
+    },
+    {
+      "node_type": "author",
+      "name": "Anubhav Girdhar",
+      "id": "author_f99a2bda"
+    },
+    {
+      "node_type": "paper",
+      "title": "Prismatic VLMs: Investigating the Design Space of Visually-Conditioned Language Models",
+      "year": 2024,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2402.07865v2"
+    },
+    {
+      "node_type": "topic",
+      "name": "evaluations",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_a116c012"
+    },
+    {
+      "node_type": "topic",
+      "name": "adoption",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_319495d3"
+    },
+    {
+      "node_type": "topic",
+      "name": "new",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_22af645d"
+    },
+    {
+      "node_type": "topic",
+      "name": "llava",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_5a4e76b3"
+    },
+    {
+      "node_type": "topic",
+      "name": "instructblip",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_0e871443"
+    },
+    {
+      "node_type": "topic",
+      "name": "key",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_3c6e0b8a"
+    },
+    {
+      "node_type": "topic",
+      "name": "key design",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_76c70352"
+    },
+    {
+      "node_type": "topic",
+      "name": "visually conditioned",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_d0e0c573"
+    },
+    {
+      "node_type": "topic",
+      "name": "conditioned language",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_bed27e94"
+    },
+    {
+      "node_type": "author",
+      "name": "Siddharth Karamcheti",
+      "id": "author_37937e0c"
+    },
+    {
+      "node_type": "author",
+      "name": "Suraj Nair",
+      "id": "author_df100dca"
+    },
+    {
+      "node_type": "author",
+      "name": "Ashwin Balakrishna",
+      "id": "author_5904122f"
+    },
+    {
+      "node_type": "author",
+      "name": "Percy Liang",
+      "id": "author_fa3f3526"
+    },
+    {
+      "node_type": "author",
+      "name": "Thomas Kollar",
+      "id": "author_3b6f435e"
+    },
+    {
+      "node_type": "author",
+      "name": "Dorsa Sadigh",
+      "id": "author_d6449aad"
+    },
+    {
+      "node_type": "paper",
+      "title": "From Behavioral Performance to Internal Competence: Interpreting Vision-Language Models with VLM-Lens",
+      "year": 2025,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2510.02292v1"
+    },
+    {
+      "node_type": "topic",
+      "name": "lens",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_241ad9e2"
+    },
+    {
+      "node_type": "topic",
+      "name": "toolkit",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_c3351784"
+    },
+    {
+      "node_type": "topic",
+      "name": "systematic",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_a98abe6b"
+    },
+    {
+      "node_type": "topic",
+      "name": "analysis",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_3b671c88"
+    },
+    {
+      "node_type": "topic",
+      "name": "open",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_7cef8a73"
+    },
+    {
+      "node_type": "topic",
+      "name": "supports",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_72225dfc"
+    },
+    {
+      "node_type": "topic",
+      "name": "across",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_c5570472"
+    },
+    {
+      "node_type": "topic",
+      "name": "vlm lens",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_9265dfe0"
+    },
+    {
+      "node_type": "topic",
+      "name": "introduce vlm",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_f80befa6"
+    },
+    {
+      "node_type": "topic",
+      "name": "toolkit designed",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_f0eeebb4"
+    },
+    {
+      "node_type": "topic",
+      "name": "enable systematic",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_3656a893"
+    },
+    {
+      "node_type": "topic",
+      "name": "systematic benchmarking",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_7f73259a"
+    },
+    {
+      "node_type": "author",
+      "name": "Hala Sheta",
+      "id": "author_5c090afe"
+    },
+    {
+      "node_type": "author",
+      "name": "Eric Huang",
+      "id": "author_e0c26389"
+    },
+    {
+      "node_type": "author",
+      "name": "Shuyu Wu",
+      "id": "author_147dd080"
+    },
+    {
+      "node_type": "author",
+      "name": "Ilia Alenabi",
+      "id": "author_934da2b6"
+    },
+    {
+      "node_type": "author",
+      "name": "Jiajun Hong",
+      "id": "author_26ee4049"
+    },
+    {
+      "node_type": "author",
+      "name": "Ryker Lin",
+      "id": "author_10786437"
+    },
+    {
+      "node_type": "author",
+      "name": "Ruoxi Ning",
+      "id": "author_c00cd7b8"
+    },
+    {
+      "node_type": "author",
+      "name": "Daniel Wei",
+      "id": "author_5e212c4a"
+    },
+    {
+      "node_type": "author",
+      "name": "Jialin Yang",
+      "id": "author_57a985db"
+    },
+    {
+      "node_type": "author",
+      "name": "Jiawei Zhou",
+      "id": "author_b0b7e623"
+    },
+    {
+      "node_type": "author",
+      "name": "Ziqiao Ma",
+      "id": "author_08c4cafd"
+    },
+    {
+      "node_type": "author",
+      "name": "Freda Shi",
+      "id": "author_84bb5ca9"
+    },
+    {
+      "node_type": "paper",
+      "title": "Large VLM-based Vision-Language-Action Models for Robotic Manipulation: A Survey",
+      "year": 2025,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2508.13073v2"
+    },
+    {
+      "node_type": "topic",
+      "name": "large",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_afacdb0a"
+    },
+    {
+      "node_type": "topic",
+      "name": "based",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_a66db021"
+    },
+    {
+      "node_type": "topic",
+      "name": "vla",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ad518e14"
+    },
+    {
+      "node_type": "topic",
+      "name": "integration",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_776ea3bf"
+    },
+    {
+      "node_type": "topic",
+      "name": "robotic",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_561d4ae9"
+    },
+    {
+      "node_type": "topic",
+      "name": "manipulation",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_d4cb82d6"
+    },
+    {
+      "node_type": "topic",
+      "name": "recent",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_8154f2ab"
+    },
+    {
+      "node_type": "topic",
+      "name": "vla models",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_44338daf"
+    },
+    {
+      "node_type": "topic",
+      "name": "robotic manipulation",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_8683dc49"
+    },
+    {
+      "node_type": "topic",
+      "name": "large vlm",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_9d2b401a"
+    },
+    {
+      "node_type": "topic",
+      "name": "vlm based",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_ceb3aca5"
+    },
+    {
+      "node_type": "topic",
+      "name": "based vla",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_38dc94b9"
+    },
+    {
+      "node_type": "author",
+      "name": "Rui Shao",
+      "id": "author_fe397b92"
+    },
+    {
+      "node_type": "author",
+      "name": "Wei Li",
+      "id": "author_1e3797c1"
+    },
+    {
+      "node_type": "author",
+      "name": "Lingsen Zhang",
+      "id": "author_2a68e67f"
+    },
+    {
+      "node_type": "author",
+      "name": "Renshan Zhang",
+      "id": "author_35abef6d"
+    },
+    {
+      "node_type": "author",
+      "name": "Zhiyang Liu",
+      "id": "author_4c62341a"
+    },
+    {
+      "node_type": "author",
+      "name": "Ran Chen",
+      "id": "author_417c8743"
+    },
+    {
+      "node_type": "author",
+      "name": "Liqiang Nie",
+      "id": "author_6fb56958"
+    },
+    {
+      "node_type": "paper",
+      "title": "VLM-Guided Adaptive Negative Prompting for Creative Generation",
+      "year": 2025,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2510.10715v1"
+    },
+    {
+      "node_type": "topic",
+      "name": "creative",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_828e096f"
+    },
+    {
+      "node_type": "topic",
+      "name": "generation",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_9cb9ce5b"
+    },
+    {
+      "node_type": "topic",
+      "name": "existing",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_f4e0ac58"
+    },
+    {
+      "node_type": "topic",
+      "name": "creativity",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_4f1d1909"
+    },
+    {
+      "node_type": "topic",
+      "name": "outputs",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_25bef4f2"
+    },
+    {
+      "node_type": "topic",
+      "name": "surprising",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_0b6b3c4d"
+    },
+    {
+      "node_type": "topic",
+      "name": "user",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ee11cbb1"
+    },
+    {
+      "node_type": "topic",
+      "name": "concepts",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ff4e01de"
+    },
+    {
+      "node_type": "topic",
+      "name": "visual concepts",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_7973de0a"
+    },
+    {
+      "node_type": "topic",
+      "name": "creative generation",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_a992a8b7"
+    },
+    {
+      "node_type": "topic",
+      "name": "new surprising",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_578ac45e"
+    },
+    {
+      "node_type": "topic",
+      "name": "valuable samples",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_64743bd6"
+    },
+    {
+      "node_type": "topic",
+      "name": "reflect user",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_da0e56d9"
+    },
+    {
+      "node_type": "author",
+      "name": "Shelly Golan",
+      "id": "author_8a6e869d"
+    },
+    {
+      "node_type": "author",
+      "name": "Yotam Nitzan",
+      "id": "author_3dcd0b85"
+    },
+    {
+      "node_type": "author",
+      "name": "Zongze Wu",
+      "id": "author_51165e54"
+    },
+    {
+      "node_type": "author",
+      "name": "Or Patashnik",
+      "id": "author_1dd1c7e9"
+    },
+    {
+      "node_type": "paper",
+      "title": "VLM@school -- Evaluation of AI image understanding on German middle school knowledge",
+      "year": 2025,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2506.11604v2"
+    },
+    {
+      "node_type": "topic",
+      "name": "dataset",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_3c4d09e4"
+    },
+    {
+      "node_type": "topic",
+      "name": "benchmark",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_07978586"
+    },
+    {
+      "node_type": "topic",
+      "name": "evaluate",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_94d2f2aa"
+    },
+    {
+      "node_type": "topic",
+      "name": "capabilities",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_f7b11037"
+    },
+    {
+      "node_type": "topic",
+      "name": "tasks",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_2cb1ad4f"
+    },
+    {
+      "node_type": "topic",
+      "name": "middle school",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_52940aae"
+    },
+    {
+      "node_type": "topic",
+      "name": "paper introduces",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_14cc393a"
+    },
+    {
+      "node_type": "topic",
+      "name": "novel benchmark",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_7250fd5b"
+    },
+    {
+      "node_type": "topic",
+      "name": "benchmark dataset",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_71c74109"
+    },
+    {
+      "node_type": "topic",
+      "name": "dataset designed",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_9e22f0fc"
+    },
+    {
+      "node_type": "dataset",
+      "name": "and",
+      "description": "",
+      "confidence": 0.7,
+      "id": "dataset_be5d5d37"
+    },
+    {
+      "node_type": "dataset",
+      "name": "includes",
+      "description": "",
+      "confidence": 0.7,
+      "id": "dataset_bb2b21ef"
+    },
+    {
+      "node_type": "dataset",
+      "name": "draws",
+      "description": "",
+      "confidence": 0.7,
+      "id": "dataset_950a63e5"
+    },
+    {
+      "node_type": "dataset",
+      "name": "dataset",
+      "description": "",
+      "confidence": 0.7,
+      "id": "dataset_3c4d09e4"
+    },
+    {
+      "node_type": "author",
+      "name": "Ren\u00e9 Peinl",
+      "id": "author_4541b86a"
+    },
+    {
+      "node_type": "author",
+      "name": "Vincent Tischler",
+      "id": "author_cc202ff6"
+    },
+    {
+      "node_type": "paper",
+      "title": "From Filters to VLMs: Benchmarking Defogging Methods through Object Detection and Segmentation Performance",
+      "year": 2025,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2510.03906v2"
+    },
+    {
+      "node_type": "topic",
+      "name": "defogging",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_d1e56370"
+    },
+    {
+      "node_type": "topic",
+      "name": "conditions",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_b5b399ec"
+    },
+    {
+      "node_type": "topic",
+      "name": "perception",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_4596647e"
+    },
+    {
+      "node_type": "topic",
+      "name": "foggy",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_f666a8be"
+    },
+    {
+      "node_type": "topic",
+      "name": "filters",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_2c9885d2"
+    },
+    {
+      "node_type": "topic",
+      "name": "downstream",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_d22a0a80"
+    },
+    {
+      "node_type": "topic",
+      "name": "synthetic",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_5f06b85e"
+    },
+    {
+      "node_type": "topic",
+      "name": "real",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_4bca2430"
+    },
+    {
+      "node_type": "topic",
+      "name": "real world",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_13684532"
+    },
+    {
+      "node_type": "topic",
+      "name": "visual language",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_799b6b77"
+    },
+    {
+      "node_type": "topic",
+      "name": "defogging methods",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_09e80ec0"
+    },
+    {
+      "node_type": "topic",
+      "name": "autonomous driving",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_41858ee9"
+    },
+    {
+      "node_type": "topic",
+      "name": "driving perception",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_d4e64d94"
+    },
+    {
+      "node_type": "dataset",
+      "name": "for",
+      "description": "",
+      "confidence": 0.7,
+      "id": "dataset_d5566982"
+    },
+    {
+      "node_type": "dataset",
+      "name": "with",
+      "description": "",
+      "confidence": 0.7,
+      "id": "dataset_23a58bf9"
+    },
+    {
+      "node_type": "author",
+      "name": "Ardalan Aryashad",
+      "id": "author_a5cf261d"
+    },
+    {
+      "node_type": "author",
+      "name": "Parsa Razmara",
+      "id": "author_a89227c3"
+    },
+    {
+      "node_type": "author",
+      "name": "Amin Mahjoub",
+      "id": "author_61a37204"
+    },
+    {
+      "node_type": "author",
+      "name": "Seyedarmin Azizi",
+      "id": "author_0e4881b0"
+    },
+    {
+      "node_type": "author",
+      "name": "Mahdi Salmani",
+      "id": "author_18d81ad4"
+    },
+    {
+      "node_type": "author",
+      "name": "Arad Firouzkouhi",
+      "id": "author_6a78d250"
+    },
+    {
+      "node_type": "paper",
+      "title": "Spa-VLM: Stealthy Poisoning Attacks on RAG-based VLM",
+      "year": 2025,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2505.23828v1"
+    },
+    {
+      "node_type": "topic",
+      "name": "rag",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_7542dc7e"
+    },
+    {
+      "node_type": "topic",
+      "name": "poisoning",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_7b606a7e"
+    },
+    {
+      "node_type": "topic",
+      "name": "knowledge",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_a542e9b7"
+    },
+    {
+      "node_type": "topic",
+      "name": "attack",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_fc7e987f"
+    },
+    {
+      "node_type": "topic",
+      "name": "modal",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_608ece08"
+    },
+    {
+      "node_type": "topic",
+      "name": "attacks",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_eaf2b1fc"
     },
     {
       "node_type": "topic",
@@ -70,98 +1370,227 @@
     },
     {
       "node_type": "topic",
-      "name": "signal",
-      "description": "",
-      "confidence": 0.8,
-      "id": "topic_521345a9"
-    },
-    {
-      "node_type": "topic",
-      "name": "node",
-      "description": "",
-      "confidence": 0.8,
-      "id": "topic_36c45369"
-    },
-    {
-      "node_type": "topic",
-      "name": "neural signal",
+      "name": "poisoning attacks",
       "description": "",
       "confidence": 0.9,
-      "id": "topic_c321e833"
+      "id": "topic_e8c3c4ab"
     },
     {
       "node_type": "topic",
-      "name": "polynomial chaos",
+      "name": "rag based",
       "description": "",
       "confidence": 0.9,
-      "id": "topic_8e99ef86"
+      "id": "topic_4bdb9dbe"
     },
     {
       "node_type": "topic",
-      "name": "neural signals",
+      "name": "multi modal",
       "description": "",
       "confidence": 0.9,
-      "id": "topic_3b49e4bb"
+      "id": "topic_fbdc0d5b"
     },
     {
       "node_type": "topic",
-      "name": "approaches based",
+      "name": "spa vlm",
       "description": "",
       "confidence": 0.9,
-      "id": "topic_7bdf9814"
+      "id": "topic_b32395cc"
     },
     {
       "node_type": "topic",
-      "name": "neural networks",
+      "name": "modal knowledge",
       "description": "",
       "confidence": 0.9,
-      "id": "topic_7c191876"
+      "id": "topic_300a07e9"
+    },
+    {
+      "node_type": "method",
+      "name": "in large language model",
+      "description": "",
+      "confidence": 0.75,
+      "id": "method_ab3d4fdd"
     },
     {
       "node_type": "author",
-      "name": "Sergey Oladyshkin",
-      "id": "author_aa49878b"
+      "name": "Lei Yu",
+      "id": "author_577e0b8b"
     },
     {
       "node_type": "author",
-      "name": "Timothy Praditia",
-      "id": "author_b3310e05"
+      "name": "Yechao Zhang",
+      "id": "author_561d6a9d"
     },
     {
       "node_type": "author",
-      "name": "Ilja Kr\u00f6ker",
-      "id": "author_aa0c9b79"
+      "name": "Ziqi Zhou",
+      "id": "author_027f5546"
     },
     {
       "node_type": "author",
-      "name": "Farid Mohammadi",
-      "id": "author_6716b691"
+      "name": "Yang Wu",
+      "id": "author_fa59b26e"
     },
     {
       "node_type": "author",
-      "name": "Wolfgang Nowak",
-      "id": "author_98af1f64"
+      "name": "Wei Wan",
+      "id": "author_aed26970"
     },
     {
       "node_type": "author",
-      "name": "Sebastian Otte",
-      "id": "author_b8011429"
+      "name": "Minghui Li",
+      "id": "author_411c51c3"
+    },
+    {
+      "node_type": "author",
+      "name": "Shengshan Hu",
+      "id": "author_8daf4c2d"
+    },
+    {
+      "node_type": "author",
+      "name": "Pei Xiaobing",
+      "id": "author_e1865bb9"
+    },
+    {
+      "node_type": "author",
+      "name": "Jing Wang",
+      "id": "author_e565e565"
     },
     {
       "node_type": "paper",
-      "title": "Learning Active Subspaces and Discovering Important Features with Gaussian Radial Basis Functions Neural Networks",
-      "year": 2023,
+      "title": "A Stitch in Time Saves Nine: Small VLM is a Precise Guidance for Accelerating Large VLMs",
+      "year": 2024,
       "citation_count": 0,
       "source": "arxiv",
       "venue": "arXiv",
-      "id": "2307.05639v2"
+      "id": "2412.03324v2"
     },
     {
       "node_type": "topic",
-      "name": "model",
+      "name": "attention",
       "description": "",
       "confidence": 0.8,
-      "id": "topic_20f35e63"
+      "id": "topic_4c4a9fd7"
+    },
+    {
+      "node_type": "topic",
+      "name": "textbf",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_eda70415"
+    },
+    {
+      "node_type": "topic",
+      "name": "information",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_bb3ccd58"
+    },
+    {
+      "node_type": "topic",
+      "name": "layers",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_aa292f2a"
+    },
+    {
+      "node_type": "topic",
+      "name": "attention map",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_b4802b48"
+    },
+    {
+      "node_type": "topic",
+      "name": "map aggregated",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_14e95c50"
+    },
+    {
+      "node_type": "topic",
+      "name": "small vlm",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_c9d01eb5"
+    },
+    {
+      "node_type": "author",
+      "name": "Wangbo Zhao",
+      "id": "author_100a4445"
+    },
+    {
+      "node_type": "author",
+      "name": "Yizeng Han",
+      "id": "author_c86a32bf"
+    },
+    {
+      "node_type": "author",
+      "name": "Jiasheng Tang",
+      "id": "author_96ab6ebe"
+    },
+    {
+      "node_type": "author",
+      "name": "Zhikai Li",
+      "id": "author_20c98e40"
+    },
+    {
+      "node_type": "author",
+      "name": "Yibing Song",
+      "id": "author_a0d96d3c"
+    },
+    {
+      "node_type": "author",
+      "name": "Kai Wang",
+      "id": "author_55eaefee"
+    },
+    {
+      "node_type": "author",
+      "name": "Yang You",
+      "id": "author_3d3a45de"
+    },
+    {
+      "node_type": "paper",
+      "title": "Multilingual VLM Training: Adapting an English-Trained VLM to French",
+      "year": 2025,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2512.10336v1"
+    },
+    {
+      "node_type": "topic",
+      "name": "english",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_ba0a6ddd"
+    },
+    {
+      "node_type": "topic",
+      "name": "translation",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_18bba495"
+    },
+    {
+      "node_type": "topic",
+      "name": "languages",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_f3e334d4"
+    },
+    {
+      "node_type": "topic",
+      "name": "different",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_29e4b66f"
+    },
+    {
+      "node_type": "topic",
+      "name": "methods",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_a9ac5a6c"
     },
     {
       "node_type": "topic",
@@ -172,364 +1601,2315 @@
     },
     {
       "node_type": "topic",
-      "name": "interpretable",
-      "description": "",
-      "confidence": 0.8,
-      "id": "topic_3cf2521e"
-    },
-    {
-      "node_type": "topic",
-      "name": "machine",
-      "description": "",
-      "confidence": 0.8,
-      "id": "topic_14754f13"
-    },
-    {
-      "node_type": "topic",
-      "name": "precision",
-      "description": "",
-      "confidence": 0.8,
-      "id": "topic_e2794d8f"
-    },
-    {
-      "node_type": "topic",
-      "name": "matrix",
-      "description": "",
-      "confidence": 0.8,
-      "id": "topic_21b72c0b"
-    },
-    {
-      "node_type": "topic",
-      "name": "eigenvectors",
-      "description": "",
-      "confidence": 0.8,
-      "id": "topic_ac71a34d"
-    },
-    {
-      "node_type": "topic",
-      "name": "applications",
-      "description": "",
-      "confidence": 0.8,
-      "id": "topic_b5fba9ff"
-    },
-    {
-      "node_type": "topic",
-      "name": "input",
-      "description": "",
-      "confidence": 0.8,
-      "id": "topic_a43c1b0a"
-    },
-    {
-      "node_type": "topic",
-      "name": "machine learning",
+      "name": "artificial intelligence",
       "description": "",
       "confidence": 0.9,
-      "id": "topic_e04d1bce"
+      "id": "topic_2dd0692c"
     },
     {
       "node_type": "topic",
-      "name": "precision matrix",
+      "name": "made great",
       "description": "",
       "confidence": 0.9,
-      "id": "topic_54285f86"
+      "id": "topic_44552725"
     },
     {
       "node_type": "topic",
-      "name": "feature selection",
+      "name": "great progress",
       "description": "",
       "confidence": 0.9,
-      "id": "topic_f7a79d84"
+      "id": "topic_5e72fcd7"
     },
     {
       "node_type": "topic",
-      "name": "strong predictive",
+      "name": "recent years",
       "description": "",
       "confidence": 0.9,
-      "id": "topic_52bfed09"
+      "id": "topic_dafeba50"
     },
     {
       "node_type": "topic",
-      "name": "predictive performance",
+      "name": "years particularly",
       "description": "",
       "confidence": 0.9,
-      "id": "topic_9221014d"
+      "id": "topic_6ab59e58"
+    },
+    {
+      "node_type": "dataset",
+      "name": "translation",
+      "description": "",
+      "confidence": 0.7,
+      "id": "dataset_18bba495"
+    },
+    {
+      "node_type": "dataset",
+      "name": "collection",
+      "description": "",
+      "confidence": 0.7,
+      "id": "dataset_db6d9b45"
+    },
+    {
+      "node_type": "author",
+      "name": "Jules Lahmi",
+      "id": "author_e28b1729"
+    },
+    {
+      "node_type": "author",
+      "name": "Alexis Roger",
+      "id": "author_e4de8ec1"
+    },
+    {
+      "node_type": "paper",
+      "title": "VLM-Vac: Enhancing Smart Vacuums through VLM Knowledge Distillation and Language-Guided Experience Replay",
+      "year": 2024,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2409.14096v1"
+    },
+    {
+      "node_type": "topic",
+      "name": "model",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_20f35e63"
+    },
+    {
+      "node_type": "topic",
+      "name": "novel",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_d638d193"
+    },
+    {
+      "node_type": "topic",
+      "name": "robot",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_87b7cb79"
+    },
+    {
+      "node_type": "topic",
+      "name": "approach",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_f36acfa3"
+    },
+    {
+      "node_type": "topic",
+      "name": "objects",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_5891da2d"
+    },
+    {
+      "node_type": "topic",
+      "name": "across diverse",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_0b01fc0f"
+    },
+    {
+      "node_type": "topic",
+      "name": "diverse backgrounds",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_15e14a9c"
+    },
+    {
+      "node_type": "topic",
+      "name": "propose vlm",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_5ee3c9b3"
+    },
+    {
+      "node_type": "topic",
+      "name": "vlm vac",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_10361802"
+    },
+    {
+      "node_type": "author",
+      "name": "Reihaneh Mirjalili",
+      "id": "author_3face098"
+    },
+    {
+      "node_type": "author",
+      "name": "Michael Krawez",
+      "id": "author_38e1be32"
+    },
+    {
+      "node_type": "author",
+      "name": "Florian Walter",
+      "id": "author_01680ebd"
+    },
+    {
+      "node_type": "author",
+      "name": "Wolfram Burgard",
+      "id": "author_93974ac4"
+    },
+    {
+      "node_type": "paper",
+      "title": "Small-Large Collaboration: Training-efficient Concept Personalization for Large VLM using a Meta Personalized Small VLM",
+      "year": 2025,
+      "citation_count": 0,
+      "source": "arxiv",
+      "venue": "arXiv",
+      "id": "2508.07260v1"
+    },
+    {
+      "node_type": "topic",
+      "name": "personalized",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_3f1d258f"
+    },
+    {
+      "node_type": "topic",
+      "name": "small",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_eb5c1399"
+    },
+    {
+      "node_type": "topic",
+      "name": "training",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_c185ddac"
+    },
+    {
+      "node_type": "topic",
+      "name": "framework",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_756457dc"
+    },
+    {
+      "node_type": "topic",
+      "name": "slc",
+      "description": "",
+      "confidence": 0.8,
+      "id": "topic_69314f8f"
+    },
+    {
+      "node_type": "topic",
+      "name": "large vlms",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_9f98228c"
+    },
+    {
+      "node_type": "topic",
+      "name": "personalized information",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_909600dd"
+    },
+    {
+      "node_type": "topic",
+      "name": "training efficient",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_8fee764e"
+    },
+    {
+      "node_type": "topic",
+      "name": "personalizing vision",
+      "description": "",
+      "confidence": 0.9,
+      "id": "topic_0d4d6a15"
     },
     {
       "node_type": "method",
-      "name": "of the model",
+      "name": "slc framework",
       "description": "",
       "confidence": 0.75,
-      "id": "method_79435ad9"
+      "id": "method_0805288f"
     },
     {
       "node_type": "method",
-      "name": "a modification of the radial basis function neural network",
+      "name": "a novel collaborative framework",
       "description": "",
       "confidence": 0.75,
-      "id": "method_f02f33bc"
+      "id": "method_a46fd832"
     },
     {
       "node_type": "author",
-      "name": "Danny D'Agostino",
-      "id": "author_bec74062"
+      "name": "Sihan Yang",
+      "id": "author_d5aab939"
     },
     {
       "node_type": "author",
-      "name": "Ilija Ilievski",
-      "id": "author_9c7e3a39"
+      "name": "Huitong Ji",
+      "id": "author_edea7d4e"
     },
     {
       "node_type": "author",
-      "name": "Christine Annette Shoemaker",
-      "id": "author_2e03b2b4"
+      "name": "Shaolin Lu",
+      "id": "author_4b4a4a55"
+    },
+    {
+      "node_type": "author",
+      "name": "Jiayi Chen",
+      "id": "author_1c751a43"
+    },
+    {
+      "node_type": "author",
+      "name": "Binxiao Xu",
+      "id": "author_46a7559f"
+    },
+    {
+      "node_type": "author",
+      "name": "Ming Lu",
+      "id": "author_7c0cda6f"
+    },
+    {
+      "node_type": "author",
+      "name": "Yuanxing Zhang",
+      "id": "author_b8e3337b"
+    },
+    {
+      "node_type": "author",
+      "name": "Wenhui Dong",
+      "id": "author_6032ed13"
+    },
+    {
+      "node_type": "author",
+      "name": "Wentao Zhang",
+      "id": "author_5163a42a"
     }
   ],
   "links": [
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2306.14753v1",
-      "target": "topic_0eb79c26"
+      "source": "2602.18846v1",
+      "target": "topic_5d6db9a1"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2306.14753v1",
-      "target": "topic_292c5e2e"
+      "source": "2602.18846v1",
+      "target": "topic_1dfb6b98"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2306.14753v1",
-      "target": "topic_10e7b30d"
+      "source": "2602.18846v1",
+      "target": "topic_25d7186f"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2306.14753v1",
-      "target": "topic_e9228983"
+      "source": "2602.18846v1",
+      "target": "topic_07f5d2d5"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2306.14753v1",
-      "target": "topic_89693d33"
+      "source": "2602.18846v1",
+      "target": "topic_f4208705"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2306.14753v1",
-      "target": "topic_25a9ac40"
+      "source": "2602.18846v1",
+      "target": "topic_8512ae7d"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2306.14753v1",
-      "target": "topic_6627415e"
+      "source": "2602.18846v1",
+      "target": "topic_94a08da1"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2306.14753v1",
+      "source": "2602.18846v1",
+      "target": "topic_9477e24c"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2602.18846v1",
+      "target": "topic_b8284650"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2602.18846v1",
+      "target": "topic_2836bcec"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2602.18846v1",
+      "target": "topic_a38c1b79"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2602.18846v1",
+      "target": "topic_ba954266"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2602.18846v1",
+      "target": "topic_5e3fc22b"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2602.18846v1",
+      "target": "topic_6ce57948"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2602.18846v1",
+      "target": "topic_54b9c833"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2602.18846v1",
+      "target": "author_9faab003"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2602.18846v1",
+      "target": "author_7f451f44"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2602.18846v1",
+      "target": "author_9ce0225b"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2602.18846v1",
+      "target": "author_144f64f3"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2602.18846v1",
+      "target": "author_86cb263c"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2403.18406v1",
+      "target": "topic_421b47ff"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2403.18406v1",
+      "target": "topic_78805a22"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2403.18406v1",
+      "target": "topic_ff4a0084"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2403.18406v1",
+      "target": "topic_8512ae7d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2403.18406v1",
+      "target": "topic_dd5c0703"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2403.18406v1",
+      "target": "topic_ac5552fd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2403.18406v1",
+      "target": "topic_a54750ca"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2403.18406v1",
+      "target": "topic_c0089e65"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2403.18406v1",
+      "target": "topic_f4208705"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2403.18406v1",
+      "target": "topic_ce495ab8"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2403.18406v1",
+      "target": "topic_661e24e0"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2403.18406v1",
+      "target": "topic_db05b5c6"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2403.18406v1",
+      "target": "topic_a1cbf54e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2403.18406v1",
+      "target": "topic_54b9c833"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2403.18406v1",
+      "target": "topic_67fbfa4e"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "2403.18406v1",
+      "target": "method_38a89f36"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "2403.18406v1",
+      "target": "method_091ddc30"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2403.18406v1",
+      "target": "author_5490f555"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2403.18406v1",
+      "target": "author_d9171400"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2403.18406v1",
+      "target": "author_59e0e15f"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2403.18406v1",
+      "target": "author_c38c9621"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.20279v2",
+      "target": "topic_cdb36c37"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.20279v2",
+      "target": "topic_6ad5b816"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.20279v2",
+      "target": "topic_ac5552fd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.20279v2",
+      "target": "topic_1dfb6b98"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.20279v2",
+      "target": "topic_224daf9b"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.20279v2",
+      "target": "topic_cb9888a3"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.20279v2",
+      "target": "topic_4db0062a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.20279v2",
+      "target": "topic_ef6299c9"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.20279v2",
+      "target": "topic_99e9bae6"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.20279v2",
+      "target": "topic_90b88493"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2505.20279v2",
+      "target": "topic_acea8c51"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2505.20279v2",
+      "target": "topic_261b54d6"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2505.20279v2",
+      "target": "topic_3515fc19"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2505.20279v2",
+      "target": "topic_75d73461"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2505.20279v2",
+      "target": "topic_5421556c"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_7363c308"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_8020855f"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_5d69cb98"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_705a70b9"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_bb4b1a43"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_07d7dae5"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_5b1212e2"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_66927ff5"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_9d902102"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_dc5f6ac2"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_7639e5de"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_b574864f"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_3c733c9b"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_733e376c"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_49f5ebc4"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_31a384ae"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.20279v2",
+      "target": "author_29588794"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2601.05059v1",
+      "target": "topic_421b47ff"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2601.05059v1",
+      "target": "topic_a5ca0b58"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2601.05059v1",
+      "target": "topic_8512ae7d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2601.05059v1",
+      "target": "topic_ac5552fd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2601.05059v1",
+      "target": "topic_f6d8b886"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2601.05059v1",
+      "target": "topic_f4208705"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2601.05059v1",
+      "target": "topic_ddba0eee"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2601.05059v1",
+      "target": "topic_9a0364b9"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2601.05059v1",
+      "target": "topic_4374990d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2601.05059v1",
+      "target": "topic_8d777f38"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2601.05059v1",
+      "target": "topic_db05b5c6"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2601.05059v1",
+      "target": "topic_54b9c833"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2601.05059v1",
+      "target": "topic_5e3c2c02"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2601.05059v1",
+      "target": "topic_0004bc07"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2601.05059v1",
+      "target": "topic_c0de2a7b"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2601.05059v1",
+      "target": "author_e02bf954"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2601.05059v1",
+      "target": "author_51c18323"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2601.05059v1",
+      "target": "author_f2163f20"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2601.05059v1",
+      "target": "author_f99a2bda"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2402.07865v2",
+      "target": "topic_ddba0eee"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2402.07865v2",
+      "target": "topic_ac5552fd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2402.07865v2",
+      "target": "topic_1dfb6b98"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2402.07865v2",
+      "target": "topic_a116c012"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2402.07865v2",
+      "target": "topic_8512ae7d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2402.07865v2",
+      "target": "topic_319495d3"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2402.07865v2",
+      "target": "topic_22af645d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2402.07865v2",
+      "target": "topic_5a4e76b3"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2402.07865v2",
+      "target": "topic_0e871443"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2402.07865v2",
+      "target": "topic_3c6e0b8a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2402.07865v2",
+      "target": "topic_db05b5c6"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2402.07865v2",
+      "target": "topic_76c70352"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2402.07865v2",
+      "target": "topic_d0e0c573"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2402.07865v2",
+      "target": "topic_bed27e94"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2402.07865v2",
+      "target": "topic_5e3c2c02"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2402.07865v2",
+      "target": "author_37937e0c"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2402.07865v2",
+      "target": "author_df100dca"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2402.07865v2",
+      "target": "author_5904122f"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2402.07865v2",
+      "target": "author_fa3f3526"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2402.07865v2",
+      "target": "author_3b6f435e"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2402.07865v2",
+      "target": "author_d6449aad"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.02292v1",
+      "target": "topic_ddba0eee"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.02292v1",
+      "target": "topic_6ad5b816"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.02292v1",
+      "target": "topic_241ad9e2"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.02292v1",
+      "target": "topic_c3351784"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.02292v1",
+      "target": "topic_a98abe6b"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.02292v1",
+      "target": "topic_3b671c88"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.02292v1",
+      "target": "topic_ac5552fd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.02292v1",
+      "target": "topic_7cef8a73"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.02292v1",
+      "target": "topic_72225dfc"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.02292v1",
+      "target": "topic_c5570472"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.02292v1",
+      "target": "topic_9265dfe0"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.02292v1",
+      "target": "topic_f80befa6"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.02292v1",
+      "target": "topic_f0eeebb4"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.02292v1",
+      "target": "topic_3656a893"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.02292v1",
+      "target": "topic_7f73259a"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_5c090afe"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_e0c26389"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_147dd080"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_934da2b6"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_26ee4049"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_10786437"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_c00cd7b8"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_5e212c4a"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_57a985db"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_b0b7e623"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_08c4cafd"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.02292v1",
+      "target": "author_84bb5ca9"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.13073v2",
+      "target": "topic_ac5552fd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.13073v2",
+      "target": "topic_afacdb0a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.13073v2",
+      "target": "topic_a66db021"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.13073v2",
+      "target": "topic_ad518e14"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.13073v2",
+      "target": "topic_776ea3bf"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.13073v2",
+      "target": "topic_561d4ae9"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.13073v2",
+      "target": "topic_d4cb82d6"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.13073v2",
+      "target": "topic_6ad5b816"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.13073v2",
+      "target": "topic_8154f2ab"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.13073v2",
+      "target": "topic_f4208705"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2508.13073v2",
+      "target": "topic_44338daf"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2508.13073v2",
+      "target": "topic_8683dc49"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2508.13073v2",
+      "target": "topic_9d2b401a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2508.13073v2",
+      "target": "topic_ceb3aca5"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2508.13073v2",
+      "target": "topic_38dc94b9"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.13073v2",
+      "target": "author_fe397b92"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.13073v2",
+      "target": "author_1e3797c1"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.13073v2",
+      "target": "author_2a68e67f"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.13073v2",
+      "target": "author_35abef6d"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.13073v2",
+      "target": "author_4c62341a"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.13073v2",
+      "target": "author_417c8743"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.13073v2",
+      "target": "author_6fb56958"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.10715v1",
+      "target": "topic_828e096f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.10715v1",
+      "target": "topic_9cb9ce5b"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.10715v1",
+      "target": "topic_78805a22"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.10715v1",
+      "target": "topic_f4e0ac58"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.10715v1",
+      "target": "topic_4f1d1909"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.10715v1",
+      "target": "topic_25bef4f2"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.10715v1",
+      "target": "topic_0b6b3c4d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.10715v1",
+      "target": "topic_ee11cbb1"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.10715v1",
+      "target": "topic_1dfb6b98"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.10715v1",
+      "target": "topic_ff4e01de"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.10715v1",
+      "target": "topic_7973de0a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.10715v1",
+      "target": "topic_a992a8b7"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.10715v1",
+      "target": "topic_578ac45e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.10715v1",
+      "target": "topic_64743bd6"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.10715v1",
+      "target": "topic_da0e56d9"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.10715v1",
+      "target": "author_8a6e869d"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.10715v1",
+      "target": "author_3dcd0b85"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.10715v1",
+      "target": "author_51165e54"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.10715v1",
+      "target": "author_1dd1c7e9"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2506.11604v2",
+      "target": "topic_3c4d09e4"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2506.11604v2",
+      "target": "topic_8512ae7d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2506.11604v2",
+      "target": "topic_ac5552fd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2506.11604v2",
+      "target": "topic_ddba0eee"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2506.11604v2",
+      "target": "topic_1dfb6b98"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2506.11604v2",
+      "target": "topic_4db0062a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2506.11604v2",
+      "target": "topic_07978586"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2506.11604v2",
+      "target": "topic_94d2f2aa"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2506.11604v2",
+      "target": "topic_f7b11037"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2506.11604v2",
+      "target": "topic_2cb1ad4f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2506.11604v2",
+      "target": "topic_52940aae"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2506.11604v2",
+      "target": "topic_14cc393a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2506.11604v2",
+      "target": "topic_7250fd5b"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2506.11604v2",
+      "target": "topic_71c74109"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2506.11604v2",
+      "target": "topic_9e22f0fc"
+    },
+    {
+      "relation_type": "uses_dataset",
+      "weight": 0.7,
+      "source": "2506.11604v2",
+      "target": "dataset_be5d5d37"
+    },
+    {
+      "relation_type": "uses_dataset",
+      "weight": 0.7,
+      "source": "2506.11604v2",
+      "target": "dataset_bb2b21ef"
+    },
+    {
+      "relation_type": "uses_dataset",
+      "weight": 0.7,
+      "source": "2506.11604v2",
+      "target": "dataset_950a63e5"
+    },
+    {
+      "relation_type": "uses_dataset",
+      "weight": 0.7,
+      "source": "2506.11604v2",
+      "target": "dataset_3c4d09e4"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2506.11604v2",
+      "target": "author_4541b86a"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2506.11604v2",
+      "target": "author_cc202ff6"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.03906v2",
+      "target": "topic_d1e56370"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.03906v2",
+      "target": "topic_ac5552fd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.03906v2",
+      "target": "topic_b5b399ec"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.03906v2",
+      "target": "topic_4596647e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.03906v2",
+      "target": "topic_f666a8be"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.03906v2",
+      "target": "topic_2c9885d2"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.03906v2",
+      "target": "topic_78805a22"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.03906v2",
+      "target": "topic_d22a0a80"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.03906v2",
+      "target": "topic_5f06b85e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2510.03906v2",
+      "target": "topic_4bca2430"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.03906v2",
+      "target": "topic_13684532"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.03906v2",
+      "target": "topic_799b6b77"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.03906v2",
+      "target": "topic_09e80ec0"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.03906v2",
+      "target": "topic_41858ee9"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2510.03906v2",
+      "target": "topic_d4e64d94"
+    },
+    {
+      "relation_type": "uses_dataset",
+      "weight": 0.7,
+      "source": "2510.03906v2",
+      "target": "dataset_d5566982"
+    },
+    {
+      "relation_type": "uses_dataset",
+      "weight": 0.7,
+      "source": "2510.03906v2",
+      "target": "dataset_23a58bf9"
+    },
+    {
+      "relation_type": "uses_dataset",
+      "weight": 0.7,
+      "source": "2510.03906v2",
+      "target": "dataset_be5d5d37"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.03906v2",
+      "target": "author_a5cf261d"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.03906v2",
+      "target": "author_a89227c3"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.03906v2",
+      "target": "author_61a37204"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.03906v2",
+      "target": "author_0e4881b0"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.03906v2",
+      "target": "author_18d81ad4"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2510.03906v2",
+      "target": "author_6a78d250"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.23828v1",
+      "target": "topic_6ad5b816"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.23828v1",
+      "target": "topic_7542dc7e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.23828v1",
+      "target": "topic_7b606a7e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.23828v1",
+      "target": "topic_a542e9b7"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.23828v1",
+      "target": "topic_fc7e987f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.23828v1",
+      "target": "topic_608ece08"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.23828v1",
+      "target": "topic_eaf2b1fc"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.23828v1",
+      "target": "topic_a66db021"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.23828v1",
+      "target": "topic_afacdb0a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2505.23828v1",
       "target": "topic_ea8f243d"
     },
     {
       "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2505.23828v1",
+      "target": "topic_e8c3c4ab"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2505.23828v1",
+      "target": "topic_4bdb9dbe"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2505.23828v1",
+      "target": "topic_fbdc0d5b"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2505.23828v1",
+      "target": "topic_b32395cc"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2505.23828v1",
+      "target": "topic_300a07e9"
+    },
+    {
+      "relation_type": "uses_method",
+      "weight": 0.75,
+      "source": "2505.23828v1",
+      "target": "method_ab3d4fdd"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.23828v1",
+      "target": "author_577e0b8b"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.23828v1",
+      "target": "author_561d6a9d"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.23828v1",
+      "target": "author_027f5546"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.23828v1",
+      "target": "author_fa59b26e"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.23828v1",
+      "target": "author_aed26970"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.23828v1",
+      "target": "author_411c51c3"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.23828v1",
+      "target": "author_8daf4c2d"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.23828v1",
+      "target": "author_e1865bb9"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2505.23828v1",
+      "target": "author_e565e565"
+    },
+    {
+      "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2306.14753v1",
-      "target": "topic_521345a9"
+      "source": "2412.03324v2",
+      "target": "topic_6ad5b816"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2306.14753v1",
-      "target": "topic_36c45369"
-    },
-    {
-      "relation_type": "related_to",
-      "weight": 0.9,
-      "source": "2306.14753v1",
-      "target": "topic_c321e833"
-    },
-    {
-      "relation_type": "related_to",
-      "weight": 0.9,
-      "source": "2306.14753v1",
-      "target": "topic_8e99ef86"
-    },
-    {
-      "relation_type": "related_to",
-      "weight": 0.9,
-      "source": "2306.14753v1",
-      "target": "topic_3b49e4bb"
-    },
-    {
-      "relation_type": "related_to",
-      "weight": 0.9,
-      "source": "2306.14753v1",
-      "target": "topic_7bdf9814"
-    },
-    {
-      "relation_type": "related_to",
-      "weight": 0.9,
-      "source": "2306.14753v1",
-      "target": "topic_7c191876"
-    },
-    {
-      "relation_type": "authored_by",
-      "weight": 1.0,
-      "source": "2306.14753v1",
-      "target": "author_aa49878b"
-    },
-    {
-      "relation_type": "authored_by",
-      "weight": 1.0,
-      "source": "2306.14753v1",
-      "target": "author_b3310e05"
-    },
-    {
-      "relation_type": "authored_by",
-      "weight": 1.0,
-      "source": "2306.14753v1",
-      "target": "author_aa0c9b79"
-    },
-    {
-      "relation_type": "authored_by",
-      "weight": 1.0,
-      "source": "2306.14753v1",
-      "target": "author_6716b691"
-    },
-    {
-      "relation_type": "authored_by",
-      "weight": 1.0,
-      "source": "2306.14753v1",
-      "target": "author_98af1f64"
-    },
-    {
-      "relation_type": "authored_by",
-      "weight": 1.0,
-      "source": "2306.14753v1",
-      "target": "author_b8011429"
+      "source": "2412.03324v2",
+      "target": "topic_4c4a9fd7"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2307.05639v2",
+      "source": "2412.03324v2",
+      "target": "topic_25d7186f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2412.03324v2",
+      "target": "topic_eda70415"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2412.03324v2",
+      "target": "topic_afacdb0a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2412.03324v2",
+      "target": "topic_1dfb6b98"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2412.03324v2",
+      "target": "topic_ddba0eee"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2412.03324v2",
+      "target": "topic_c5570472"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2412.03324v2",
+      "target": "topic_bb3ccd58"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2412.03324v2",
+      "target": "topic_aa292f2a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2412.03324v2",
+      "target": "topic_a38c1b79"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2412.03324v2",
+      "target": "topic_9d2b401a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2412.03324v2",
+      "target": "topic_b4802b48"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2412.03324v2",
+      "target": "topic_14e95c50"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2412.03324v2",
+      "target": "topic_c9d01eb5"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2412.03324v2",
+      "target": "author_100a4445"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2412.03324v2",
+      "target": "author_c86a32bf"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2412.03324v2",
+      "target": "author_96ab6ebe"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2412.03324v2",
+      "target": "author_20c98e40"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2412.03324v2",
+      "target": "author_a0d96d3c"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2412.03324v2",
+      "target": "author_55eaefee"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2412.03324v2",
+      "target": "author_31a384ae"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2412.03324v2",
+      "target": "author_3d3a45de"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2512.10336v1",
+      "target": "topic_8512ae7d"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2512.10336v1",
+      "target": "topic_ba0a6ddd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2512.10336v1",
+      "target": "topic_18bba495"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2512.10336v1",
+      "target": "topic_f4208705"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2512.10336v1",
+      "target": "topic_8d777f38"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2512.10336v1",
+      "target": "topic_f3e334d4"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2512.10336v1",
+      "target": "topic_6ad5b816"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2512.10336v1",
+      "target": "topic_29e4b66f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2512.10336v1",
+      "target": "topic_a9ac5a6c"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2512.10336v1",
+      "target": "topic_c05f6c23"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2512.10336v1",
+      "target": "topic_2dd0692c"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2512.10336v1",
+      "target": "topic_44552725"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2512.10336v1",
+      "target": "topic_5e72fcd7"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2512.10336v1",
+      "target": "topic_dafeba50"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2512.10336v1",
+      "target": "topic_6ab59e58"
+    },
+    {
+      "relation_type": "uses_dataset",
+      "weight": 0.7,
+      "source": "2512.10336v1",
+      "target": "dataset_18bba495"
+    },
+    {
+      "relation_type": "uses_dataset",
+      "weight": 0.7,
+      "source": "2512.10336v1",
+      "target": "dataset_db6d9b45"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2512.10336v1",
+      "target": "author_e28b1729"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2512.10336v1",
+      "target": "author_e4de8ec1"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2409.14096v1",
+      "target": "topic_6ad5b816"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2409.14096v1",
       "target": "topic_20f35e63"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2307.05639v2",
-      "target": "topic_25a9ac40"
+      "source": "2409.14096v1",
+      "target": "topic_d638d193"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2307.05639v2",
-      "target": "topic_c05f6c23"
+      "source": "2409.14096v1",
+      "target": "topic_87b7cb79"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2307.05639v2",
-      "target": "topic_3cf2521e"
+      "source": "2409.14096v1",
+      "target": "topic_f36acfa3"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2307.05639v2",
-      "target": "topic_14754f13"
+      "source": "2409.14096v1",
+      "target": "topic_f4208705"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2307.05639v2",
-      "target": "topic_e2794d8f"
+      "source": "2409.14096v1",
+      "target": "topic_8512ae7d"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2307.05639v2",
-      "target": "topic_21b72c0b"
+      "source": "2409.14096v1",
+      "target": "topic_a542e9b7"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2307.05639v2",
-      "target": "topic_ac71a34d"
+      "source": "2409.14096v1",
+      "target": "topic_5891da2d"
     },
     {
       "relation_type": "related_to",
       "weight": 0.8,
-      "source": "2307.05639v2",
-      "target": "topic_b5fba9ff"
-    },
-    {
-      "relation_type": "related_to",
-      "weight": 0.8,
-      "source": "2307.05639v2",
-      "target": "topic_a43c1b0a"
+      "source": "2409.14096v1",
+      "target": "topic_c5570472"
     },
     {
       "relation_type": "related_to",
       "weight": 0.9,
-      "source": "2307.05639v2",
-      "target": "topic_e04d1bce"
+      "source": "2409.14096v1",
+      "target": "topic_0b01fc0f"
     },
     {
       "relation_type": "related_to",
       "weight": 0.9,
-      "source": "2307.05639v2",
-      "target": "topic_54285f86"
+      "source": "2409.14096v1",
+      "target": "topic_15e14a9c"
     },
     {
       "relation_type": "related_to",
       "weight": 0.9,
-      "source": "2307.05639v2",
-      "target": "topic_f7a79d84"
+      "source": "2409.14096v1",
+      "target": "topic_13684532"
     },
     {
       "relation_type": "related_to",
       "weight": 0.9,
-      "source": "2307.05639v2",
-      "target": "topic_52bfed09"
+      "source": "2409.14096v1",
+      "target": "topic_5ee3c9b3"
     },
     {
       "relation_type": "related_to",
       "weight": 0.9,
-      "source": "2307.05639v2",
-      "target": "topic_9221014d"
+      "source": "2409.14096v1",
+      "target": "topic_10361802"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2409.14096v1",
+      "target": "author_3face098"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2409.14096v1",
+      "target": "author_38e1be32"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2409.14096v1",
+      "target": "author_01680ebd"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2409.14096v1",
+      "target": "author_93974ac4"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.07260v1",
+      "target": "topic_afacdb0a"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.07260v1",
+      "target": "topic_ddba0eee"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.07260v1",
+      "target": "topic_3f1d258f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.07260v1",
+      "target": "topic_eb5c1399"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.07260v1",
+      "target": "topic_6ad5b816"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.07260v1",
+      "target": "topic_c185ddac"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.07260v1",
+      "target": "topic_756457dc"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.07260v1",
+      "target": "topic_69314f8f"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.07260v1",
+      "target": "topic_bb3ccd58"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.8,
+      "source": "2508.07260v1",
+      "target": "topic_20f35e63"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2508.07260v1",
+      "target": "topic_9f98228c"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2508.07260v1",
+      "target": "topic_c9d01eb5"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2508.07260v1",
+      "target": "topic_909600dd"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2508.07260v1",
+      "target": "topic_8fee764e"
+    },
+    {
+      "relation_type": "related_to",
+      "weight": 0.9,
+      "source": "2508.07260v1",
+      "target": "topic_0d4d6a15"
     },
     {
       "relation_type": "uses_method",
       "weight": 0.75,
-      "source": "2307.05639v2",
-      "target": "method_79435ad9"
+      "source": "2508.07260v1",
+      "target": "method_0805288f"
     },
     {
       "relation_type": "uses_method",
       "weight": 0.75,
-      "source": "2307.05639v2",
-      "target": "method_f02f33bc"
+      "source": "2508.07260v1",
+      "target": "method_a46fd832"
     },
     {
       "relation_type": "authored_by",
       "weight": 1.0,
-      "source": "2307.05639v2",
-      "target": "author_bec74062"
+      "source": "2508.07260v1",
+      "target": "author_d5aab939"
     },
     {
       "relation_type": "authored_by",
       "weight": 1.0,
-      "source": "2307.05639v2",
-      "target": "author_9c7e3a39"
+      "source": "2508.07260v1",
+      "target": "author_edea7d4e"
     },
     {
       "relation_type": "authored_by",
       "weight": 1.0,
-      "source": "2307.05639v2",
-      "target": "author_2e03b2b4"
+      "source": "2508.07260v1",
+      "target": "author_4b4a4a55"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.07260v1",
+      "target": "author_1c751a43"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.07260v1",
+      "target": "author_46a7559f"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.07260v1",
+      "target": "author_7c0cda6f"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.07260v1",
+      "target": "author_b8e3337b"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.07260v1",
+      "target": "author_6032ed13"
+    },
+    {
+      "relation_type": "authored_by",
+      "weight": 1.0,
+      "source": "2508.07260v1",
+      "target": "author_5163a42a"
     }
   ]
 }
