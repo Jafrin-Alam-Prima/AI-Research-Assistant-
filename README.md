@@ -6,6 +6,7 @@ colorTo: purple
 sdk: streamlit
 sdk_version: 1.29.0
 app_file: dashboard/app.py
+python_version: "3.10"
 pinned: false
 ---
 
