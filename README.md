@@ -1,5 +1,15 @@
-# 🔬 ResearchAI – Autonomous Multi-Agent Research Assistant
+---
+title: ResearchAI
+emoji: 🔬
+colorFrom: indigo
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.29.0
+app_file: dashboard/app.py
+pinned: false
+---
 
+# 🔬 ResearchAI – Autonomous Multi-Agent Research Assistant
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Free & Open Source](https://img.shields.io/badge/Cost-100%25%20Free-brightgreen.svg)]()
