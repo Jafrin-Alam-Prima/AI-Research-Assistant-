@@ -1,34 +1,20 @@
-# ResearchAI - Python dependencies
-# Install: pip install -r requirements.txt
-
-# Web dashboard
 streamlit>=1.29.0
 streamlit-extras>=0.4.0
-
-# Data & visualization
 pandas>=2.0.0
 plotly>=5.18.0
 pyvis>=0.3.2
 numpy
 matplotlib
-
-# ML & NLP (paper search, summarization, embeddings)
 torch>=2.1.0
 transformers>=4.36.0
 sentence-transformers>=2.2.2
-
-# Vector store & graph
 chromadb>=0.4.22
 networkx>=3.2
 graphviz
-
-# Paper APIs & parsing
 arxiv>=2.1.0
 requests>=2.31.0
 beautifulsoup4>=4.12.0
 PyPDF2>=3.0.0
-
-# Config & data models
 pydantic>=2.5.0
 pydantic-settings>=2.1.0
 python-dotenv>=1.0.0
