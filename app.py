@@ -282,6 +282,10 @@ if "experiments" not in st.session_state:
 if "predictions" not in st.session_state:
     st.session_state.predictions = []
 
+def set_page(page_name):
+    """Safe callback to update navigation state."""
+    st.session_state.nav_radio = page_name
+
 @st.cache_resource
 def get_orchestrator():
     from src.orchestrator.agent_orchestrator import AgentOrchestrator
@@ -371,9 +375,8 @@ if page == "🏠 Home":
                         <p style="font-size: 0.85rem; color: #94a3b8; line-height: 1.5; margin-bottom: 16px;">{desc}</p>
                     </div>
                     """, unsafe_allow_html=True)
-                    if st.button("Open", key=f"card_{idx}", use_container_width=True, help=f"Open {title}"):
-                        st.session_state.nav_radio = nav_val
-                        st.rerun()
+                    if st.button("Open", key=f"card_{idx}", use_container_width=True, help=f"Open {title}", on_click=set_page, args=(nav_val,)):
+                        pass
     
     add_vertical_space(2)
     st.markdown("---")
