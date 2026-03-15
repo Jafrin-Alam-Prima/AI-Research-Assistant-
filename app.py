@@ -357,23 +357,26 @@ if page == "🏠 Home":
         ("📈", "Trend Forecast", "See which research directions are growing and emerging over time.", "📈 Trend Forecast"),
     ]
     
-    for row in range(0, 6, 3):
-        cols = st.columns(3)
-        for i, col in enumerate(cols):
-            idx = row + i
-            if idx < len(modules):
-                icon, title, desc, nav_val = modules[idx]
-                with col:
-                    st.markdown(f"""
-                    <div class="module-card">
-                        <p style="font-size: 2.5rem; margin-bottom: 12px;">{icon}</p>
-                        <p style="font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 1.1rem; margin-bottom: 8px;">{title}</p>
-                        <p style="font-size: 0.85rem; color: #94a3b8; line-height: 1.5; margin-bottom: 16px;">{desc}</p>
-                    </div>
-                    """, unsafe_allow_html=True)
-                    if st.button("Open", key=f"card_{idx}", use_container_width=True, help=f"Open {title}"):
+ for row in range(0, 6, 3):
+    cols = st.columns(3)
+    for i, col in enumerate(cols):
+        idx = row + i
+        if idx < len(modules):
+            icon, title, desc, nav_val = modules[idx]
+            with col:
+                st.markdown(f"""
+                <div class="module-card">
+                    <p style="font-size: 2.5rem; margin-bottom: 12px;">{icon}</p>
+                    <p style="font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 1.1rem; margin-bottom: 8px;">{title}</p>
+                    <p style="font-size: 0.85rem; color: #94a3b8; line-height: 1.5; margin-bottom: 16px;">{desc}</p>
+                </div>
+                """, unsafe_allow_html=True)
+                
+                # Safe navigation
+                if st.button("Open", key=f"card_{idx}", use_container_width=True, help=f"Open {title}"):
+                    if nav_val in NAV_OPTIONS:  # make sure it's valid
                         st.session_state.nav_radio = nav_val
-                        st.rerun()
+                        st.experimental_rerun()
     
     add_vertical_space(2)
     st.markdown("---")
