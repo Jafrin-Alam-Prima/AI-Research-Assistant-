@@ -7,7 +7,12 @@ import sys
 from pathlib import Path
 
 # Add project root to path
-project_root = str(Path(__file__).parent.parent)
+curr_path = Path(__file__).resolve().parent
+if (curr_path / "src").exists() or (curr_path / "data").exists():
+    project_root = str(curr_path)
+else:
+    project_root = str(curr_path.parent)
+
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
@@ -763,12 +768,14 @@ elif page == "📈 Trend Forecast":
             "Topic": p.topic[:30], 
             "Confidence": p.confidence_score, 
             "Growth Rate": p.growth_rate,
-            "Citations": p.citation_velocity
+            "Velocity": p.citation_velocity,
+            "Volume": max(1, p.current_paper_count)  # Ensure positive size
         } for p in preds])
         
         st.markdown('<div class="glass-card">', unsafe_allow_html=True)
-        fig = px.scatter(df, x="Growth Rate", y="Confidence", size="Citations", 
+        fig = px.scatter(df, x="Growth Rate", y="Confidence", size="Volume", 
                          color="Confidence", hover_name="Topic", text="Topic",
+                         hover_data={"Velocity": ":.3f", "Volume": True},
                          color_continuous_scale="Purples", title="Trend Trajectories")
         fig.update_traces(textposition='top center')
         fig.update_layout(
