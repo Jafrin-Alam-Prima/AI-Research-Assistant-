@@ -1,3 +1,4 @@
-libgl1
-libglib2.0-0
 graphviz
+libglib2.0-0t64
+libffi7
+libpcre3
