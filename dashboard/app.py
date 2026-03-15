@@ -470,12 +470,24 @@ elif page == "🔎 Smart Paper Search":
         
         with overview_c1:
             st.markdown(f'<div class="glass-card"><p style="color:#94a3b8; font-size:0.85rem; margin-bottom:8px;">📄 Papers</p><p style="font-size:2rem; font-weight:700; margin:0;">{papers_retrieved}</p><span class="status-badge">Retrieved</span></div>', unsafe_allow_html=True)
+            if st.button("📂 View Library", key="nav_papers"):
+                set_page("📚 Paper Library")
+                st.rerun()
         with overview_c2:
             st.markdown(f'<div class="glass-card"><p style="color:#94a3b8; font-size:0.85rem; margin-bottom:8px;">🎯 Gaps</p><p style="font-size:2rem; font-weight:700; margin:0;">{gaps_found}</p><span class="status-badge">Identified</span></div>', unsafe_allow_html=True)
+            if st.button("🧩 View Gaps", key="nav_gaps"):
+                set_page("🧩 Research Gap Finder")
+                st.rerun()
         with overview_c3:
             st.markdown(f'<div class="glass-card"><p style="color:#94a3b8; font-size:0.85rem; margin-bottom:8px;">🧪 Hypotheses</p><p style="font-size:2rem; font-weight:700; margin:0;">{exps_suggested}</p><span class="status-badge">Suggested</span></div>', unsafe_allow_html=True)
+            if st.button("💡 View Ideas", key="nav_ideas"):
+                set_page("💡 Idea & Hypothesis Generator")
+                st.rerun()
         with overview_c4:
             st.markdown(f'<div class="glass-card"><p style="color:#94a3b8; font-size:0.85rem; margin-bottom:8px;">🔮 Trends</p><p style="font-size:2rem; font-weight:700; margin:0;">{trends_pred}</p><span class="status-badge">Predicted</span></div>', unsafe_allow_html=True)
+            if st.button("📈 View Trends", key="nav_trends"):
+                set_page("📈 Trend Forecast")
+                st.rerun()
         
         add_vertical_space(1)
         st.info("💡 **Tip:** Use the sidebar to explore **Research Knowledge Map**, **Research Gap Finder**, **Idea & Hypothesis Generator**, and **Trend Forecast**.")
