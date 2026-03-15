@@ -21,62 +21,60 @@ except ImportError:
 
 # ── Page Configuration ───────────────────────────────────────────
 st.set_page_config(
-    page_title="ResearchAI | Autonomous Assistant",
-    page_icon="✨",
+    page_title="ResearchAI — AI Powered Research Discovery",
+    page_icon="🔬",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-# ── Custom CSS: Modern Professional Dashboard ───────────────────
+# ── Custom CSS: Futuristic AI Research Dashboard ──────────────────
 st.markdown("""
 <style>
-    /* Google Fonts: Outfit for headings, Inter for body */
     @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
 
-    /* Design System */
     :root {
-        --bg-primary: #0d0d12;
-        --bg-secondary: #14141c;
-        --bg-card: rgba(255, 255, 255, 0.04);
+        --bg-primary: #0a0a0f;
+        --bg-secondary: #0f0f18;
+        --bg-card: rgba(255, 255, 255, 0.03);
         --bg-card-hover: rgba(255, 255, 255, 0.06);
         --border-subtle: rgba(255, 255, 255, 0.06);
-        --border-accent: rgba(99, 102, 241, 0.4);
+        --border-accent: rgba(99, 102, 241, 0.5);
         --accent: #6366f1;
         --accent-hover: #818cf8;
-        --accent-glow: rgba(99, 102, 241, 0.35);
-        --accent-muted: rgba(99, 102, 241, 0.2);
+        --accent-glow: rgba(99, 102, 241, 0.4);
+        --neon-cyan: rgba(34, 211, 238, 0.6);
+        --neon-purple: rgba(168, 85, 247, 0.5);
         --text-primary: #f8fafc;
         --text-secondary: #94a3b8;
         --text-muted: #64748b;
-        --success: #22c55e;
-        --warning: #f59e0b;
         --radius-sm: 8px;
         --radius-md: 12px;
         --radius-lg: 16px;
         --radius-xl: 20px;
-        --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.3);
-        --shadow-hover: 0 12px 40px rgba(99, 102, 241, 0.2);
+        --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+        --shadow-hover: 0 12px 40px rgba(99, 102, 241, 0.25);
     }
 
-    /* Core */
+    @keyframes floatGlow {
+        0%, 100% { box-shadow: 0 0 20px var(--accent-glow), 0 0 40px rgba(99, 102, 241, 0.1); }
+        50% { box-shadow: 0 0 30px var(--accent-glow), 0 0 60px rgba(99, 102, 241, 0.15); }
+    }
+    @keyframes subtleFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-4px); }
+    }
+
     html, body, [data-testid="stAppViewContainer"], .stApp {
         font-family: 'Inter', -apple-system, sans-serif !important;
         background: var(--bg-primary) !important;
         color: var(--text-primary) !important;
     }
 
-    /* Gradient background */
     .stApp {
-        background: linear-gradient(165deg, var(--bg-primary) 0%, #0f0f1a 40%, var(--bg-primary) 100%) !important;
+        background: linear-gradient(180deg, #0a0a0f 0%, #0f0f1a 50%, #0a0a0f 100%) !important;
         background-attachment: fixed !important;
     }
 
-    /* Main content area padding */
-    [data-testid="stVerticalBlock"] > [data-testid="stVerticalBlock"] {
-        padding: 0.5rem 0 !important;
-    }
-
-    /* Glass cards */
     .glass-card {
         background: var(--bg-card);
         border: 1px solid var(--border-subtle);
@@ -84,59 +82,83 @@ st.markdown("""
         padding: 24px;
         backdrop-filter: blur(16px);
         box-shadow: var(--shadow-card);
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
         margin-bottom: 20px;
     }
     .glass-card:hover {
         background: var(--bg-card-hover);
         border-color: var(--border-accent);
         box-shadow: var(--shadow-hover);
-        transform: translateY(-2px);
+        transform: translateY(-3px) scale(1.01);
+        animation: floatGlow 3s ease-in-out infinite;
     }
 
-    /* Hero typography */
+    .module-card {
+        background: linear-gradient(145deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: var(--radius-xl);
+        padding: 24px;
+        text-align: center;
+        transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+    }
+    .module-card::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, var(--accent), transparent);
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    .module-card:hover {
+        border-color: var(--accent);
+        box-shadow: 0 0 25px var(--accent-glow), 0 8px 32px rgba(0,0,0,0.3);
+        transform: translateY(-6px);
+        animation: subtleFloat 2.5s ease-in-out infinite;
+    }
+    .module-card:hover::before { opacity: 1; }
+
     .hero-title {
         font-family: 'Outfit', sans-serif !important;
-        font-size: 3.5rem;
+        font-size: 3rem;
         font-weight: 700;
         letter-spacing: -0.04em;
         line-height: 1.1;
-        background: linear-gradient(135deg, #ffffff 0%, #a5b4fc 50%, #c7d2fe 100%);
+        background: linear-gradient(135deg, #fff 0%, #a5b4fc 50%, #c7d2fe 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-bottom: 0.75rem;
+        margin-bottom: 0.5rem;
         text-align: center;
     }
     .hero-subtitle {
         font-family: 'Inter', sans-serif !important;
-        font-size: 1.15rem;
+        font-size: 1.1rem;
         font-weight: 400;
         color: var(--text-secondary) !important;
         text-align: center;
         max-width: 640px;
-        margin: 0 auto 2.5rem auto;
+        margin: 0 auto 2rem auto;
         line-height: 1.7;
     }
 
-    /* Section headers */
     .section-title {
         font-family: 'Outfit', sans-serif !important;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         font-weight: 600;
         letter-spacing: -0.02em;
-        margin-bottom: 1.25rem;
+        margin-bottom: 0.5rem;
         color: var(--text-primary) !important;
         border-bottom: 1px solid var(--border-subtle);
-        padding-bottom: 12px;
+        padding-bottom: 10px;
     }
 
-    /* Search input */
     .stTextInput > div > div > input {
         background: rgba(255, 255, 255, 0.05) !important;
         border: 1px solid var(--border-subtle) !important;
         border-radius: var(--radius-md) !important;
         color: var(--text-primary) !important;
-        font-size: 1.05rem !important;
         padding: 14px 18px !important;
     }
     .stTextInput > div > div > input:focus {
@@ -144,9 +166,6 @@ st.markdown("""
         box-shadow: 0 0 0 3px var(--accent-glow) !important;
     }
 
-    /* Primary buttons */
-    div[data-testid="stHorizontalBlock"] div.stButton > button,
-    div.stButton > button[kind="primary"],
     .stButton > button {
         background: linear-gradient(135deg, var(--accent) 0%, #4f46e5 100%) !important;
         color: white !important;
@@ -162,42 +181,21 @@ st.markdown("""
         box-shadow: 0 8px 24px var(--accent-glow);
     }
 
-    /* Sidebar */
     section[data-testid="stSidebar"] {
-        background: rgba(13, 13, 18, 0.95) !important;
+        background: rgba(10, 10, 15, 0.97) !important;
         border-right: 1px solid var(--border-subtle) !important;
     }
-    section[data-testid="stSidebar"] .stRadio > label {
-        font-weight: 500 !important;
-    }
 
-    /* Expanders */
     div[data-testid="stExpander"] {
         background: var(--bg-card) !important;
         border: 1px solid var(--border-subtle) !important;
         border-radius: var(--radius-md) !important;
         margin-bottom: 12px !important;
     }
-    div[data-testid="stExpander"] > summary {
-        font-weight: 600 !important;
-        padding: 12px 16px !important;
-    }
 
-    /* Metrics */
-    [data-testid="stMetricValue"] {
-        font-family: 'Outfit', sans-serif !important;
-        font-size: 1.9rem !important;
-        font-weight: 700 !important;
-        color: var(--text-primary) !important;
-    }
-    [data-testid="stMetricLabel"] {
-        font-size: 0.8rem !important;
-        color: var(--text-muted) !important;
-        text-transform: uppercase;
-        letter-spacing: 1.2px;
-    }
+    [data-testid="stMetricValue"] { font-family: 'Outfit', sans-serif !important; font-size: 1.9rem !important; font-weight: 700 !important; color: var(--text-primary) !important; }
+    [data-testid="stMetricLabel"] { font-size: 0.8rem !important; color: var(--text-muted) !important; text-transform: uppercase; letter-spacing: 1.2px; }
 
-    /* Badges */
     .status-badge {
         display: inline-flex;
         align-items: center;
@@ -207,18 +205,11 @@ st.markdown("""
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.5px;
-        background: var(--accent-muted);
+        background: rgba(99, 102, 241, 0.2);
         color: #a5b4fc;
         border: 1px solid var(--border-accent);
     }
 
-    /* Info box */
-    .stAlert {
-        border-radius: var(--radius-md) !important;
-        border: 1px solid var(--border-subtle) !important;
-    }
-
-    /* Demo card */
     .demo-card {
         background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(79, 70, 229, 0.05) 100%);
         border: 1px dashed var(--border-accent);
@@ -228,7 +219,6 @@ st.markdown("""
         margin: 24px 0;
     }
 
-    /* Empty state */
     .empty-state {
         text-align: center;
         padding: 48px 24px;
@@ -238,7 +228,28 @@ st.markdown("""
         border: 1px dashed var(--border-subtle);
     }
 
-    /* Footer */
+    .workflow-steps {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 2rem;
+        padding: 24px;
+        background: var(--bg-card);
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--border-subtle);
+    }
+    .workflow-step {
+        text-align: center;
+        padding: 12px 20px;
+        border-radius: var(--radius-md);
+        background: rgba(255,255,255,0.03);
+        border: 1px solid var(--border-subtle);
+        min-width: 140px;
+        transition: all 0.3s ease;
+    }
+    .workflow-step:hover { border-color: var(--accent); box-shadow: 0 0 15px var(--accent-glow); }
+
     .footer {
         text-align: center;
         font-size: 0.8rem;
@@ -248,15 +259,8 @@ st.markdown("""
         border-top: 1px solid var(--border-subtle);
     }
 
-    hr {
-        border-color: var(--border-subtle) !important;
-        margin: 2rem 0 !important;
-    }
-
-    /* Progress bar styling */
-    .stProgress > div > div > div {
-        background: linear-gradient(90deg, var(--accent), var(--accent-hover)) !important;
-    }
+    hr { border-color: var(--border-subtle) !important; margin: 2rem 0 !important; }
+    .stProgress > div > div > div { background: linear-gradient(90deg, var(--accent), var(--accent-hover)) !important; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -285,20 +289,32 @@ def get_orchestrator():
 
 
 # ── Sidebar Navigation ──────────────────────────────────────────
+NAV_OPTIONS = [
+    "🏠 Home",
+    "🔎 Smart Paper Search",
+    "📚 Paper Library",
+    "🧠 Research Knowledge Map",
+    "🧩 Research Gap Finder",
+    "💡 Idea & Hypothesis Generator",
+    "📈 Trend Forecast",
+]
+if "nav_radio" not in st.session_state:
+    st.session_state.nav_radio = NAV_OPTIONS[0]
+
 with st.sidebar:
     st.markdown("""
     <div style="padding: 8px 0 20px 0; border-bottom: 1px solid rgba(255,255,255,0.06);">
-        <span style="font-size: 1.5rem;">🔬</span>
-        <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 1.2rem; margin-left: 8px;">ResearchAI</span>
-        <p style="font-size: 0.75rem; color: #64748b; margin: 4px 0 0 0;">Autonomous Multi-Agent Assistant</p>
+        <span style="font-size: 1.5rem;">🤖</span>
+        <span style="font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 1.2rem; margin-left: 8px;">AI Research Assistant</span>
+        <p style="font-size: 0.75rem; color: #64748b; margin: 4px 0 0 0;">Searches, analyzes, and organizes research papers so you can explore any topic faster.</p>
     </div>
     """, unsafe_allow_html=True)
     add_vertical_space(1)
     
     page = st.radio(
         "NAVIGATION",
-        ["🔍 Deep Search", "📖 Corpus Explorer", "🕸️ Knowledge Graph",
-         "🎯 Gap Analysis", "🧪 Hypotheses Lab", "🔮 Trend Matrix"],
+        NAV_OPTIONS,
+        key="nav_radio",
         label_visibility="collapsed",
     )
     
@@ -308,7 +324,7 @@ with st.sidebar:
     orchestrator = get_orchestrator()
     stats = orchestrator.get_graph_stats()
     
-    st.markdown("#### 📊 Knowledge Graph")
+    st.markdown("#### 📊 Knowledge Map")
     col1, col2 = st.columns(2)
     with col1:
         st.metric("Nodes", stats.get('total_nodes', 0))
@@ -316,41 +332,89 @@ with st.sidebar:
         st.metric("Edges", stats.get('total_edges', 0))
         
     add_vertical_space(2)
-    st.caption("Powered by 6 intelligent agents • 100% free")
+    st.caption("Powered by 6 AI agents • 100% free")
 
 
 # ── Page Routing ─────────────────────────────────────────────────
 
-if page == "🔍 Deep Search":
-    # ── Hero Section ─────────────────────────────────────────────
-    add_vertical_space(2)
-    st.markdown('<div class="hero-title">ResearchAI</div>', unsafe_allow_html=True)
+if page == "🏠 Home":
+    # Hero
+    add_vertical_space(1)
+    st.markdown('<div class="hero-title">🔬 ResearchAI — AI Powered Research Discovery</div>', unsafe_allow_html=True)
     st.markdown(
-        '<div class="hero-subtitle">Enter a research topic. Our autonomous agents retrieve papers, build knowledge graphs, detect literature gaps, and forecast emerging trends—all in one pipeline.</div>',
+        '<div class="hero-subtitle">Explore papers, discover insights, and generate research ideas using autonomous AI agents.</div>',
         unsafe_allow_html=True,
     )
+    add_vertical_space(2)
     
-    # ── Search Input (Centered Container) ────────────────────────
+    # Module cards in 3 columns
+    modules = [
+        ("🔎", "Smart Paper Search", "Search academic papers and research sources using AI-powered deep search.", "🔎 Smart Paper Search"),
+        ("📚", "Paper Library", "Browse and explore all collected research papers and documents in one place.", "📚 Paper Library"),
+        ("🧠", "Research Knowledge Map", "Visualize connections between concepts, papers, and research ideas.", "🧠 Research Knowledge Map"),
+        ("🧩", "Research Gap Finder", "Identify missing research areas and unexplored opportunities in the literature.", "🧩 Research Gap Finder"),
+        ("💡", "Idea & Hypothesis Generator", "Generate new research ideas and hypotheses based on existing knowledge.", "💡 Idea & Hypothesis Generator"),
+        ("📈", "Trend Forecast", "See which research directions are growing and emerging over time.", "📈 Trend Forecast"),
+    ]
+    
+    for row in range(0, 6, 3):
+        cols = st.columns(3)
+        for i, col in enumerate(cols):
+            idx = row + i
+            if idx < len(modules):
+                icon, title, desc, nav_val = modules[idx]
+                with col:
+                    st.markdown(f"""
+                    <div class="module-card">
+                        <p style="font-size: 2.5rem; margin-bottom: 12px;">{icon}</p>
+                        <p style="font-family: 'Outfit', sans-serif; font-weight: 600; font-size: 1.1rem; margin-bottom: 8px;">{title}</p>
+                        <p style="font-size: 0.85rem; color: #94a3b8; line-height: 1.5; margin-bottom: 16px;">{desc}</p>
+                    </div>
+                    """, unsafe_allow_html=True)
+                    if st.button("Open", key=f"card_{idx}", use_container_width=True, help=f"Open {title}"):
+                        st.session_state.nav_radio = nav_val
+                        st.rerun()
+    
+    add_vertical_space(2)
+    st.markdown("---")
+    st.markdown("#### How it works")
+    st.markdown("""
+    <div class="workflow-steps">
+        <div class="workflow-step"><strong>Step 1</strong><br/>Search papers</div>
+        <div class="workflow-step"><strong>Step 2</strong><br/>Explore papers</div>
+        <div class="workflow-step"><strong>Step 3</strong><br/>See knowledge connections</div>
+        <div class="workflow-step"><strong>Step 4</strong><br/>Detect research gaps</div>
+        <div class="workflow-step"><strong>Step 5</strong><br/>Generate research ideas</div>
+    </div>
+    """, unsafe_allow_html=True)
+
+elif page == "🔎 Smart Paper Search":
+    st.markdown('<div class="section-title">🔎 Smart Paper Search</div>', unsafe_allow_html=True)
+    st.caption("Search academic papers and research sources using AI-powered deep search.")
+    
+    add_vertical_space(1)
+    
     with st.container():
         col1, col2, col3 = st.columns([1, 4, 1])
         with col2:
             query = st.text_input(
                 "Topic",
                 placeholder="e.g., Graph Neural Networks, Transformers in NLP, Federated Learning...",
-                label_visibility="collapsed"
+                label_visibility="collapsed",
+                help="Enter any research topic to find relevant papers from arXiv and other sources.",
             )
             
             with st.expander("⚙️ Search Parameters", expanded=False):
                 sc1, sc2, sc3 = st.columns(3)
                 with sc1:
-                    max_papers = st.slider("Papers to retrieve", 5, 50, 15, help="Number of papers per source")
+                    max_papers = st.slider("Papers to retrieve", 5, 50, 15, help="Number of papers to fetch per source")
                 with sc2:
-                    year_from = st.number_input("From year", 2010, 2026, 2020)
+                    year_from = st.number_input("From year", 2010, 2026, 2020, help="Only include papers from this year onward")
                 with sc3:
-                    year_to = st.number_input("To year", 2010, 2026, 2026)
+                    year_to = st.number_input("To year", 2010, 2026, 2026, help="Only include papers up to this year")
             
             add_vertical_space(1)
-            submit = st.button("🚀 Synthesize Knowledge", use_container_width=True, type="primary")
+            submit = st.button("🚀 Synthesize Knowledge", use_container_width=True, type="primary", help="Run the full pipeline: fetch papers, build knowledge map, find gaps, and predict trends")
         
         add_vertical_space(2)
 
@@ -376,7 +440,7 @@ if page == "🔍 Deep Search":
                     st.session_state.experiments = results["stages"].get("experiment_suggestion", {}).get("result", [])
                     st.session_state.predictions = results["stages"].get("trend_prediction", {}).get("result", [])
                     status.update(label="✅ Synthesis complete! Explore the sidebar for results.", state="complete", expanded=False)
-                    st.toast("Analysis finished! Check Knowledge Graph, Gaps & Trends.", icon="✅")
+                    st.toast("Analysis finished! Check Research Knowledge Map, Gap Finder & Trend Forecast.", icon="✅")
                 except Exception as e:
                     progress_bar.empty()
                     status.update(label=f"❌ Synthesis failed: {str(e)[:80]}...", state="error")
@@ -406,7 +470,7 @@ if page == "🔍 Deep Search":
             st.markdown(f'<div class="glass-card"><p style="color:#94a3b8; font-size:0.85rem; margin-bottom:8px;">🔮 Trends</p><p style="font-size:2rem; font-weight:700; margin:0;">{trends_pred}</p><span class="status-badge">Predicted</span></div>', unsafe_allow_html=True)
         
         add_vertical_space(1)
-        st.info("💡 **Tip:** Use the sidebar to explore **Knowledge Graph**, **Gap Analysis**, **Hypotheses Lab**, and **Trend Matrix**.")
+        st.info("💡 **Tip:** Use the sidebar to explore **Research Knowledge Map**, **Research Gap Finder**, **Idea & Hypothesis Generator**, and **Trend Forecast**.")
 
     # ── Demo Mode ────────────────────────────────────────────────
     st.markdown("<hr/>", unsafe_allow_html=True)
@@ -419,7 +483,7 @@ if page == "🔍 Deep Search":
         """, unsafe_allow_html=True)
         colA, colB, colC = st.columns([1, 2, 1])
         with colB:
-            if st.button("📦 Load Demo Dataset", use_container_width=True):
+            if st.button("📦 Load Demo Dataset", use_container_width=True, help="Load sample papers and pre-built knowledge map—no API or model download required"):
                 import json
                 data_dir = Path(project_root) / "data"
                 with open(data_dir / "sample_papers.json", "r") as f:
@@ -455,12 +519,12 @@ if page == "🔍 Deep Search":
                 with st.spinner("🔮 Predicting trends..."):
                     predictions = orchestrator.trend_agent.process(time_horizon="5_years", top_n=8)
                     st.session_state.predictions = predictions
-                st.success("✅ Demo loaded! Explore **Knowledge Graph**, **Gap Analysis**, **Hypotheses Lab**, and **Trend Matrix** in the sidebar.")
+                st.success("✅ Demo loaded! Explore **Research Knowledge Map**, **Research Gap Finder**, **Idea & Hypothesis Generator**, and **Trend Forecast** in the sidebar.")
 
 
-elif page == "📖 Corpus Explorer":
-    st.markdown('<div class="section-title">📖 Corpus Explorer</div>', unsafe_allow_html=True)
-    st.markdown("<p style='color:#94a3b8; font-size:0.95rem; margin-bottom:1.5rem;'>Search, filter, and summarize academic papers from your active session.</p>", unsafe_allow_html=True)
+elif page == "📚 Paper Library":
+    st.markdown('<div class="section-title">📚 Paper Library</div>', unsafe_allow_html=True)
+    st.caption("Browse and explore all collected research papers and documents in one place.")
     
     papers = st.session_state.get("papers", [])
     if not papers and st.session_state.get("results"):
@@ -471,12 +535,11 @@ elif page == "📖 Corpus Explorer":
         <div class="empty-state">
             <p style="font-size:2.5rem; margin-bottom:12px;">📄</p>
             <p style="font-weight:600; font-size:1.1rem; margin-bottom:8px;">No papers in context</p>
-            <p>Run a <strong>Deep Search</strong> or load the <strong>Demo Dataset</strong> to get started.</p>
+            <p>Run <strong>Smart Paper Search</strong> or load the <strong>Demo Dataset</strong> to get started.</p>
         </div>
         """, unsafe_allow_html=True)
     else:
-        # Toolbar
-        search_query = st.text_input("Local Search:", placeholder="Filter by title or abstract keywords...")
+        search_query = st.text_input("Search papers", placeholder="Filter by title or abstract keywords...", help="Type to filter the list of papers by title or abstract.")
         
         # Display papers
         search_lower = search_query.lower().strip() if search_query else ""
@@ -505,7 +568,7 @@ elif page == "📖 Corpus Explorer":
                     st.success(st.session_state.paper_summaries[paper.paper_id])
                 bt_col1, bt_col2 = st.columns([1, 4])
                 with bt_col1:
-                    if st.button("📝 Summarize", key=f"sum_{paper.paper_id}"):
+                    if st.button("📝 Summarize", key=f"sum_{paper.paper_id}", help="Generate an AI summary of this paper"):
                         with st.spinner("Abstracting..."):
                             orchestrator = get_orchestrator()
                             summaries = orchestrator.summary_agent.process(papers=[paper])
@@ -514,9 +577,9 @@ elif page == "📖 Corpus Explorer":
                                 st.rerun()
 
 
-elif page == "🕸️ Knowledge Graph":
-    st.markdown('<div class="section-title">🕸️ Knowledge Graph</div>', unsafe_allow_html=True)
-    st.markdown("<p style='color:#94a3b8; font-size:0.95rem; margin-bottom:1.5rem;'>Visualize papers, topics, methods, datasets, and authors as an interactive network.</p>", unsafe_allow_html=True)
+elif page == "🧠 Research Knowledge Map":
+    st.markdown('<div class="section-title">🧠 Research Knowledge Map</div>', unsafe_allow_html=True)
+    st.caption("Visualize connections between concepts, papers, and research ideas.")
     
     orchestrator = get_orchestrator()
     stats = orchestrator.get_graph_stats()
@@ -525,10 +588,10 @@ elif page == "🕸️ Knowledge Graph":
         col1, col2 = st.columns([1, 3])
         with col1:
             st.markdown('<div class="glass-card">', unsafe_allow_html=True)
-            st.markdown("#### 📊 Topology")
-            filter_type = st.selectbox("Focus Entity", ["All", "paper", "topic", "method", "dataset", "author"])
+            st.markdown("#### Map options")
+            filter_type = st.selectbox("Show by type", ["All", "paper", "topic", "method", "dataset", "author"], help="Filter the map to show only one type (papers, topics, methods, etc.)")
             st.markdown("---")
-            st.markdown("#### ⭐ Top Central Nodes")
+            st.markdown("#### Most connected nodes")
             top_nodes = orchestrator.kg.get_centrality(top_n=5)
             for rank, (nid, score) in enumerate(top_nodes, 1):
                 node = orchestrator.kg.get_node(nid)
@@ -576,27 +639,27 @@ elif page == "🕸️ Knowledge Graph":
         <div class="empty-state">
             <p style="font-size:2.5rem; margin-bottom:12px;">🕸️</p>
             <p style="font-weight:600; font-size:1.1rem; margin-bottom:8px;">Knowledge graph is empty</p>
-            <p>Run a <strong>Deep Search</strong> or load the <strong>Demo Dataset</strong> to build the graph.</p>
+            <p>Run <strong>Smart Paper Search</strong> or load the <strong>Demo Dataset</strong> to build the map.</p>
         </div>
         """, unsafe_allow_html=True)
 
 
-elif page == "🎯 Gap Analysis":
-    st.markdown('<div class="section-title">🎯 Research Gap Detection</div>', unsafe_allow_html=True)
-    st.markdown("<p style='color:#94a3b8; font-size:0.95rem; margin-bottom:1.5rem;'>Algorithmic identification of underexplored areas, contradictions, and missing method-dataset combinations.</p>", unsafe_allow_html=True)
+elif page == "🧩 Research Gap Finder":
+    st.markdown('<div class="section-title">🧩 Research Gap Finder</div>', unsafe_allow_html=True)
+    st.caption("Identify missing research areas and unexplored opportunities in the literature.")
 
     orchestrator = get_orchestrator()
     gaps = st.session_state.get("gaps", [])
     
     c1, c2 = st.columns([1, 4])
     with c1:
-        if st.button("🔄 Recalculate Gaps", use_container_width=True):
+        if st.button("🔄 Recalculate Gaps", use_container_width=True, help="Re-analyze the knowledge map to find new research gaps"):
             if orchestrator.kg.graph.number_of_nodes() > 0:
                 with st.spinner("🎯 Analyzing graph topology..."):
                     gaps = orchestrator.gap_agent.process(top_n=10)
                     st.session_state.gaps = gaps
             else:
-                st.error("Knowledge graph is empty. Run Deep Search or load Demo first.")
+                st.error("Knowledge map is empty. Run Smart Paper Search or load Demo first.")
     
     if gaps:
         add_vertical_space(1)
@@ -613,14 +676,14 @@ elif page == "🎯 Gap Analysis":
         <div class="empty-state">
             <p style="font-size:2.5rem; margin-bottom:12px;">🎯</p>
             <p style="font-weight:600; font-size:1.1rem; margin-bottom:8px;">No gaps detected yet</p>
-            <p>Run a <strong>Deep Search</strong>, load the <strong>Demo Dataset</strong>, or click <strong>Recalculate Gaps</strong> if the graph has data.</p>
+            <p>Run <strong>Smart Paper Search</strong>, load the <strong>Demo Dataset</strong>, or click <strong>Recalculate Gaps</strong> if the map has data.</p>
         </div>
         """, unsafe_allow_html=True)
 
 
-elif page == "🧪 Hypotheses Lab":
-    st.markdown('<div class="section-title">🧪 Hypotheses Lab</div>', unsafe_allow_html=True)
-    st.markdown("<p style='color:#94a3b8; font-size:0.95rem; margin-bottom:1.5rem;'>Generate experiment proposals with hypotheses, methodology, and recommended datasets from detected gaps.</p>", unsafe_allow_html=True)
+elif page == "💡 Idea & Hypothesis Generator":
+    st.markdown('<div class="section-title">💡 Idea & Hypothesis Generator</div>', unsafe_allow_html=True)
+    st.caption("Generate new research ideas and hypotheses based on existing knowledge.")
     
     orchestrator = get_orchestrator()
     gaps = st.session_state.get("gaps", [])
@@ -631,13 +694,13 @@ elif page == "🧪 Hypotheses Lab":
         <div class="empty-state">
             <p style="font-size:2.5rem; margin-bottom:12px;">🧪</p>
             <p style="font-weight:600; font-size:1.1rem; margin-bottom:8px;">No experiments yet</p>
-            <p>Detect <strong>Research Gaps</strong> first (run Deep Search or load Demo), then generate methodology.</p>
+            <p>Find <strong>Research Gaps</strong> first (run Smart Paper Search or load Demo), then generate ideas.</p>
         </div>
         """, unsafe_allow_html=True)
     else:
         if gaps:
-            selected_gap = st.selectbox("Select Target Gap", [g.topic for g in gaps], key="gap_select")
-            if st.button("🧪 Generate Methodology", use_container_width=True):
+            selected_gap = st.selectbox("Select Target Gap", [g.topic for g in gaps], key="gap_select", help="Choose a research gap to generate hypotheses and methodology for")
+            if st.button("💡 Generate Ideas", use_container_width=True, help="Generate research ideas and methodology for the selected gap"):
                 target = next((g for g in gaps if g.topic == selected_gap), None)
                 if target:
                     with st.spinner("Using LLM to formulate hypothesis..."):
@@ -665,27 +728,27 @@ elif page == "🧪 Hypotheses Lab":
                 st.markdown('</div>', unsafe_allow_html=True)
 
 
-elif page == "🔮 Trend Matrix":
-    st.markdown('<div class="section-title">🔮 Trend Matrix</div>', unsafe_allow_html=True)
-    st.markdown("<p style='color:#94a3b8; font-size:0.95rem; margin-bottom:1.5rem;'>Predict emerging research topics using citation network analysis and exponential smoothing.</p>", unsafe_allow_html=True)
+elif page == "📈 Trend Forecast":
+    st.markdown('<div class="section-title">📈 Trend Forecast</div>', unsafe_allow_html=True)
+    st.caption("See which research directions are growing and emerging over time.")
     
     orchestrator = get_orchestrator()
     preds = st.session_state.get("predictions", [])
     
-    if st.button("🔮 Run Trend Prediction", use_container_width=True):
+    if st.button("📈 Run Trend Prediction", use_container_width=True, help="Analyze citation data to predict emerging research topics"):
         if orchestrator.kg.graph.number_of_nodes() > 0:
             with st.spinner("Computing citation trajectories..."):
                 preds = orchestrator.trend_agent.process(time_horizon="5_years", top_n=8)
                 st.session_state.predictions = preds
         else:
-            st.error("Knowledge graph needs citation data. Run Deep Search or load Demo first.")
+            st.error("Knowledge map needs citation data. Run Smart Paper Search or load Demo first.")
     
     if not preds:
         st.markdown("""
         <div class="empty-state">
             <p style="font-size:2.5rem; margin-bottom:12px;">🔮</p>
             <p style="font-weight:600; font-size:1.1rem; margin-bottom:8px;">No predictions yet</p>
-            <p>Click <strong>Run Trend Prediction</strong> after loading data (Deep Search or Demo).</p>
+            <p>Click <strong>Run Trend Prediction</strong> after loading data (Smart Paper Search or Demo).</p>
         </div>
         """, unsafe_allow_html=True)
     elif preds:
@@ -718,7 +781,7 @@ elif page == "🔮 Trend Matrix":
 # ── Global Footer ────────────────────────────────────────────────
 st.markdown("""
 <div class="footer">
-    <strong>ResearchAI</strong> — Autonomous Multi-Agent Research Assistant<br>
-    Powered by Streamlit • Plotly • PyVis • 100% Free & Open Source
+    <strong>Created by Jafrin Alam Prima.</strong><br>
+    <a href="https://japrima.com" target="_blank" rel="noopener noreferrer">Learn more about the creator</a>
 </div>
 """, unsafe_allow_html=True)
